@@ -1,0 +1,32 @@
+# Multi-AI Council RAW 記録
+最終更新: 2026-09-12
+
+## Round 1
+- CLAUDE_R1_RAW.md
+- GEMINI_R1_RAW.md
+
+## Round 2
+- CHATGPT_R2_RAW.md
+- CHATGPT_R2_SUPPLEMENT_RAW.md
+- CLAUDE_R2_RAW.md
+- CLAUDE_R2_SUPPLEMENT_RAW.md
+- GEMINI_R2_RAW.md
+- GEMINI_R2_SUPPLEMENT_RAW.md
+
+## Round 3
+- CHATGPT_R3_RAW.md
+- CLAUDE_R3_RAW.md
+- GEMINI_R3_RAW.md
+
+## Round 3-2
+- CHATGPT_R3-2_RAW.md
+- CLAUDE_R3-2_RAW.md
+- GEMINI_R3-2_RAW.md
+
+## 設問・進行表
+- ROUND3_QUESTIONS_RAW.md
+- ROUND3-2_QUESTIONS_RAW.md
+
+## その他
+- Claudetest.txt
+- Julestest.txt
