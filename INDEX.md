@@ -26,6 +26,8 @@
 ## 設問・進行表
 - ROUND3_QUESTIONS_RAW.md
 - ROUND3-2_QUESTIONS_RAW.md
+- COUNCIL_PRINCIPLES_RAW.md
+- ROUND4-5_PLAN_RAW.md
 
 ## その他
 - Claudetest.txt
