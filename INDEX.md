@@ -29,6 +29,10 @@
 - COUNCIL_PRINCIPLES_RAW.md
 - ROUND4-5_PLAN_RAW.md
 
+## 引き継ぎ
+- HANDOVER_CHECKLIST_RAW.md
+- CLAUDE_HANDOVER_RAW.md
+
 ## その他
 - Claudetest.txt
 - Julestest.txt
