@@ -2,7 +2,7 @@
 
 最終更新: 2026年9月12日
 
-このファイルは、ChatGPT会話「Gemini GitHub参照問題検証」から、Gemini関連の検証に関する実際のユーザー発言・画面確認報告・それに対する応答を、検証順に記録したRAWである。ここにない事実は補わない。要約・推測・公式仕様との解釈は別ファイルに分ける。
+このファイルは、ChatGPT会話「Gemini GitHub参照問題検証」から、Gemini関連の検証に関する実際のユーザー発言・画面確認報告・それに対する応答を抜粋し、検証順に整理した原文抜粋記録である。会話全文そのものではなく、全文RAWと誤解させないための編集済み記録である。ここにない事実は補わない。要約・推測・公式仕様との解釈は別ファイルに分ける。
 
 参照元会話: Gemini GitHub参照問題検証
 対象リポジトリ: kamiyusense/multi-ai-council-raw-records
@@ -53,7 +53,17 @@ URLから内容を取得できなかった場合は、取得できなかった�
 「2.5もうなくね？　ちょっと調べてきて」
 「これさ、AIStudio上で使えるモデルに完全無料のものはないの？」
 
-Gemini 2.5 Flash の最初の画面確認:
+Gemini 3 Flash Preview の画面確認:
+「GitHub RAW取得に成功」
+「URL Context経由でちゃんと回答が返っています。」
+「回答下部に raw.githubusercontent.com がソースとして表示されています。」
+
+Gemini 3.1 Pro Preview の画面確認:
+「GitHub RAW取得に成功」
+「URL Context経由でちゃんと回答が返っています。」
+「回答下部に raw.githubusercontent.com がソースとして表示されています。」
+
+Gemini 2.5 Flash の画面確認:
 「URLから内容を取得できませんでした。」
 「今回は 2.5 Flash + URL Context ONでもGitHub RAW取得に失敗」
 「右側の設定を見ると今回はちゃんと Thinking mode ON / URL context ON」

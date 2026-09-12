@@ -9,9 +9,11 @@
 
 GitHubのblob/raw URLを一般チャットから直接取得する経路は、今回の会話では失敗した。一方、既存Notebookに登録済みのGitHub由来資料を一般Geminiチャットから参照することは成功した。
 
-## 2. Google AI Studio
+## 2. Google AI Studio（実機確認）
 
 URL Contextを有効にしたAI Studioで、GitHubのRAW URLからINDEX.mdを取得し、更新日・Round 3-2の3ファイル・設問・進行表の4ファイルを回答できた。Gemini 3.1 Pro Previewでは成功画面を確認した。Gemini 2.5 FlashはURL ContextがOFFの状態で失敗し、ONにした後も今回のGitHub RAW取得では失敗を確認した。
+
+Gemini 3 Flash Preview + URL Contextでは、GitHub RAW URLの取得成功を実機で確認した。Gemini 3.1 Pro Preview + URL Contextでも成功を確認した。Gemini 2.5 Flash + URL Context ONでは同じ取得に失敗した。
 
 ## 3. Gemini Notebook
 
@@ -36,18 +38,20 @@ GitHubのblob URLをWebソースとして追加できた。INDEX.mdの内容に�
 ・「直接GitHub取得の成功」「Notebook経由のソース追加・参照」「公式資料上の対応」は別々の主張として扱う。
 ・無料枠、料金、提供状況などは変わり得るため、必要時は公式資料と実機で再確認する。
 
-## 8. 参照したGoogle公式URL
+## 8. 公式仕様の確認（[調]）
 
-・Gemini Notebook / Geminiアプリ連携: https://support.google.com/gemini/answer/16972047?hl=ja
-・Gemini Notebookの基本仕様: https://support.google.com/gemininotebook/answer/16206563?hl=ja
-・Gemini in Chrome: https://support.google.com/gemini/answer/16283624?hl=ja-JP
-・Gemini in Chromeの利用可否・提供: https://support.google.com/gemini/answer/17140089?hl=ja
-・Gemini API URL Context: https://ai.google.dev/gemini-api/docs/url-context
-・Gemini API Thinking: https://ai.google.dev/gemini-api/docs/thinking
-・Gemini API料金: https://ai.google.dev/gemini-api/docs/pricing?hl=ja
-・Gemini APIデータ利用条件: https://ai.google.dev/gemini-api/terms?hl=ja
-・Gemini APIモデル一覧: https://ai.google.dev/gemini-api/docs/models?hl=ja
-・Gemini APIモデル廃止情報: https://ai.google.dev/gemini-api/docs/deprecations?hl=ja
+以下は公式ページを実際に開いて確認した項目である。実機確認の結果とは分けて扱う。
+
+- [調] Gemini APIのURL Context仕様: https://ai.google.dev/gemini-api/docs/url-context
+- [調] Gemini APIのThinking仕様: https://ai.google.dev/gemini-api/docs/thinking
+- [調] Gemini APIの料金: https://ai.google.dev/gemini-api/docs/pricing?hl=ja
+- [調] Gemini APIのデータ利用条件: https://ai.google.dev/gemini-api/terms?hl=ja
+- [調] Gemini APIのモデル一覧: https://ai.google.dev/gemini-api/docs/models?hl=ja
+- [調] Gemini APIのモデル廃止情報: https://ai.google.dev/gemini-api/docs/deprecations?hl=ja
+- [調] GeminiアプリとNotebookの連携: https://support.google.com/gemini/answer/16972047?hl=ja
+- [調] Gemini Notebookのソース仕様: https://support.google.com/gemininotebook/answer/16215270?hl=ja
+- [調] Gemini in Chromeの仕様: https://support.google.com/gemini/answer/16283624?hl=ja-JP
+- [調] Gemini in Chromeの提供状況・要件: https://support.google.com/gemini/answer/17140089?hl=ja
 
 ============================================================
 END
