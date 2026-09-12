@@ -28,6 +28,7 @@
 - ROUND3_QUESTIONS_RAW.md
 - ROUND3-2_QUESTIONS_RAW.md
 - COUNCIL_PRINCIPLES_RAW.md
+- COUNCIL_PRINCIPLES_11-13_DISCUSSION_RAW.md
 - ROUND4-5_PLAN_RAW.md
 
 ## 実験・検証
@@ -41,3 +42,7 @@
 ## その他
 - Claudetest.txt
 - Julestest.txt
+
+## 同期補助/生成物
+- GEMINI_NOTEBOOK_BUNDLE.md（派生生成物。INDEX記載のRAWを原文連結。正本ではない）
+- NOTEBOOK_SYNC_MANIFEST.md（派生生成物。同期状態と対象RAWのハッシュを記録。正本ではない）

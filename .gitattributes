@@ -1,0 +1,4 @@
+GEMINI_NOTEBOOK_BUNDLE.md -text
+NOTEBOOK_SYNC_MANIFEST.md text eol=lf
+scripts/generate_gemini_notebook_bundle.py text eol=lf
+.github/workflows/generate-gemini-notebook-bundle.yml text eol=lf
