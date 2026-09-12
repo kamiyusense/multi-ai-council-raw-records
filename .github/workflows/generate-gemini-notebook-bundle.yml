@@ -31,6 +31,21 @@ jobs:
           GEMINI_BUNDLE_SOURCE_COMMIT: ${{ github.sha }}
         run: python3 scripts/generate_gemini_notebook_bundle.py --verify
 
+      - name: Sync bundle to Google Drive
+        if: ${{ secrets.GEMINI_DRIVE_SYNC_URL != '' && secrets.GEMINI_DRIVE_SYNC_TOKEN != '' }}
+        env:
+          GEMINI_DRIVE_SYNC_URL: ${{ secrets.GEMINI_DRIVE_SYNC_URL }}
+          GEMINI_DRIVE_SYNC_TOKEN: ${{ secrets.GEMINI_DRIVE_SYNC_TOKEN }}
+        run: |
+          response_file="$(mktemp)"
+          trap 'rm -f "$response_file"' EXIT
+          curl --fail --silent --show-error --location \
+            --request POST \
+            --data-binary @GEMINI_NOTEBOOK_BUNDLE.md \
+            "${GEMINI_DRIVE_SYNC_URL}?token=${GEMINI_DRIVE_SYNC_TOKEN}" \
+            --output "$response_file"
+          jq --exit-status '.ok == true' "$response_file" >/dev/null
+
       - name: Commit generated files
         run: |
           git config user.name "github-actions[bot]"
