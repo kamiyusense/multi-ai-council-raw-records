@@ -1,0 +1,44 @@
+name: Generate Gemini Notebook Bundle
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "*_RAW.md"
+      - "scripts/generate_gemini_notebook_bundle.py"
+      - "INDEX.md"
+      - ".github/workflows/generate-gemini-notebook-bundle.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate bundle and manifest
+        env:
+          GEMINI_BUNDLE_SOURCE_COMMIT: ${{ github.sha }}
+        run: python3 scripts/generate_gemini_notebook_bundle.py
+
+      - name: Verify verbatim content and ordering
+        env:
+          GEMINI_BUNDLE_SOURCE_COMMIT: ${{ github.sha }}
+        run: python3 scripts/generate_gemini_notebook_bundle.py --verify
+
+      - name: Commit generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add GEMINI_NOTEBOOK_BUNDLE.md NOTEBOOK_SYNC_MANIFEST.md
+          if git diff --cached --quiet; then
+            echo "Generated files are already up to date."
+            exit 0
+          fi
+          git commit -m "chore: update Gemini Notebook bundle"
+          git push

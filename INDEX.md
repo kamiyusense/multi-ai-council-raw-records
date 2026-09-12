@@ -41,3 +41,7 @@
 ## その他
 - Claudetest.txt
 - Julestest.txt
+
+## 同期補助/生成物
+- GEMINI_NOTEBOOK_BUNDLE.md（派生生成物。INDEX記載のRAWを原文連結。正本ではない）
+- NOTEBOOK_SYNC_MANIFEST.md（派生生成物。同期状態と対象RAWのハッシュを記録。正本ではない）
