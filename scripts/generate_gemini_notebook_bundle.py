@@ -63,7 +63,7 @@ def build_bundle(files: list[Path], commit: str) -> tuple[bytes, list[tuple[Path
     raw_data: list[tuple[Path, bytes]] = []
     output = "".join(parts).encode("utf-8")
     for path in files:
-        data = path.read_bytes()
+        data = subprocess.check_output(["git", "show", f":{path.name}"], cwd=ROOT)
         raw_data.append((path, data))
         header = (
             f"===== FILE: {path.name} =====\n"
