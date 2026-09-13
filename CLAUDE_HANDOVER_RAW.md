@@ -4,7 +4,7 @@ Multi-AI Council
 ============================================================
 
 作成: Claude(Opus 5)
-最終更新: 2026年9月13日
+最終更新: 2026年9月14日
 対象: 新しいチャットで作業を引き継ぐ Claude
 
 【この文書は要約ではありません】
@@ -37,7 +37,7 @@ https://github.com/kamiyusense/multi-ai-council-raw-records/blob/main/INDEX.md
 CLAUDE_R2_SUPPLEMENT_RAW.md / CLAUDE_R3_RAW.md / CLAUDE_R3-2_RAW.md
 にあります。
 
-※ 読み取り方法(2026年9月13日に Claude 自身が実際に試した結果)
+※ 読み取り方法(2026年9月13〜14日に Claude 自身が実際に試した結果)
  ・blob 形式の URL は読める
  ・raw.githubusercontent.com の URL も読める
  ・ファイル一覧ページ(/tree/)は robots.txt で拒否され、読めない
@@ -45,6 +45,10 @@ CLAUDE_R2_SUPPLEMENT_RAW.md / CLAUDE_R3_RAW.md / CLAUDE_R3-2_RAW.md
  ・シェルが使える環境では git clone で全文を取得できる
  ・同じ環境でも curl での直接取得は遮断される場合がある
    (読めない=存在しない、ではない。経路を変えて確かめること)
+ ・同じ URL でも、更新前の古い内容が返ることがある。
+   重要な判断の前と、RAW 同士が食い違って見えるときは、
+   1回の取得で断定せず別経路でも確認する
+   (詳細は ROUND4_PRESTART_STATUS_RAW.md)
 
 
 ============================================================
