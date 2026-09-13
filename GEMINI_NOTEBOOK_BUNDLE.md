@@ -3,7 +3,7 @@ GitHubの個別RAWが正本。Bundleは派生物であり、要約ではなく�
 各区切りの後の原文部分は、対応するRAWファイルのバイト列をそのまま収録しています。
 
 ===== FILE: CLAUDE_R1_RAW.md =====
-Source commit SHA: 35e0c9c9f45a22f29a8df5eee20485bc26587780
+Source commit SHA: 6cb63fe150d05c9a4102a67aba490d8e5932d1b1
 Source SHA-256: 43c991f9bb4f441af9ad44e36a0e1458686f2f4e382e640790eb470535589920
 ===== BEGIN RAW (verbatim) =====
 # 設計レビュー: Multi-AI Council v0.1
@@ -181,7 +181,7 @@ Phase 0を development automationより先に作るという判断(Q1, Q2)自体
 ===== END RAW =====
 
 ===== FILE: GEMINI_R1_RAW.md =====
-Source commit SHA: 35e0c9c9f45a22f29a8df5eee20485bc26587780
+Source commit SHA: 6cb63fe150d05c9a4102a67aba490d8e5932d1b1
 Source SHA-256: 8970d483e000abd93c6f4f697f78591e249cd43c06d859449d3f65343a5541eb
 ===== BEGIN RAW (verbatim) =====
 ### A. Verdict
@@ -343,7 +343,7 @@ Claude CodeのPreToolUse HookからGemini/OpenAIのAPIを同期的に呼び出�
 ===== END RAW =====
 
 ===== FILE: CHATGPT_R2_RAW.md =====
-Source commit SHA: 35e0c9c9f45a22f29a8df5eee20485bc26587780
+Source commit SHA: 6cb63fe150d05c9a4102a67aba490d8e5932d1b1
 Source SHA-256: d718c0b7c71420e66873a035d3a8be98c372f09e0a871215b9e0ab85d5401f8d
 ===== BEGIN RAW (verbatim) =====
 PURPOSE: Round 1で独立に出された設計レビューを受け、 他者の指摘を見たことで自分の意見がどう変化したか、 どこを維持するか、 どこで反対するか、 Round 3で何を証拠によって決着させるべきかを明示する。
@@ -785,7 +785,7 @@ RE-RUN THIS ROUND 2: NO, unless input provenance is later shown to be materially
 ===== END RAW =====
 
 ===== FILE: CHATGPT_R2_SUPPLEMENT_RAW.md =====
-Source commit SHA: 35e0c9c9f45a22f29a8df5eee20485bc26587780
+Source commit SHA: 6cb63fe150d05c9a4102a67aba490d8e5932d1b1
 Source SHA-256: 6b9f7c4fa2e7afbe19f2f62cfeed477155e959136cd91b27efa9e1d76282b1d6
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -1203,7 +1203,7 @@ ChatGPTのMarkdownコピーが途中で切れた。
 ===== END RAW =====
 
 ===== FILE: CLAUDE_R2_RAW.md =====
-Source commit SHA: 35e0c9c9f45a22f29a8df5eee20485bc26587780
+Source commit SHA: 6cb63fe150d05c9a4102a67aba490d8e5932d1b1
 Source SHA-256: 346a7b4dc3327b861c3dd5709279df1522a77c4eb4750e3b5d62d3b126be221b
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -1929,7 +1929,7 @@ END RAW
 ===== END RAW =====
 
 ===== FILE: CLAUDE_R2_SUPPLEMENT_RAW.md =====
-Source commit SHA: 35e0c9c9f45a22f29a8df5eee20485bc26587780
+Source commit SHA: 6cb63fe150d05c9a4102a67aba490d8e5932d1b1
 Source SHA-256: 41b5758fcf5208aa5cab36c39046dab8bdefa37119d76ce23df498331913490d
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -2244,7 +2244,7 @@ END RAW
 ===== END RAW =====
 
 ===== FILE: GEMINI_R2_RAW.md =====
-Source commit SHA: 35e0c9c9f45a22f29a8df5eee20485bc26587780
+Source commit SHA: 6cb63fe150d05c9a4102a67aba490d8e5932d1b1
 Source SHA-256: 236d3500d424a201a320f60fbda3bad79d10ba500475eb72ddbe4c539e833535
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -2382,7 +2382,7 @@ INPUT PROVENANCE LIMITATIONS:
 ===== END RAW =====
 
 ===== FILE: GEMINI_R2_SUPPLEMENT_RAW.md =====
-Source commit SHA: 35e0c9c9f45a22f29a8df5eee20485bc26587780
+Source commit SHA: 6cb63fe150d05c9a4102a67aba490d8e5932d1b1
 Source SHA-256: 47b82fdb54ca7b15535fbf1f6c16737e78297198bb09ef3609c83a47a0dc31f0
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -2467,7 +2467,7 @@ Googleのツール（Jules）について、Claudeは「説明書にキャンセ
 ===== END RAW =====
 
 ===== FILE: CHATGPT_R3_RAW.md =====
-Source commit SHA: 35e0c9c9f45a22f29a8df5eee20485bc26587780
+Source commit SHA: 6cb63fe150d05c9a4102a67aba490d8e5932d1b1
 Source SHA-256: 77a5580c22e8607fa4843b8cc900d305a5258fa59445085c7570f73ecd2d7ff3
 ===== BEGIN RAW (verbatim) =====
 # Multi-AI Council — Round 3 事実確認ラウンド  
@@ -3178,7 +3178,7 @@ OpenAIはChatGPT subscription accessでCodexを公式に自動化でき、Anthro
 ===== END RAW =====
 
 ===== FILE: CLAUDE_R3_RAW.md =====
-Source commit SHA: 35e0c9c9f45a22f29a8df5eee20485bc26587780
+Source commit SHA: 6cb63fe150d05c9a4102a67aba490d8e5932d1b1
 Source SHA-256: 86338212d0b85c7262e1f80a7369b6d91536a01d1ac75f720f712d7caeea0149
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -3832,7 +3832,7 @@ END RAW
 ===== END RAW =====
 
 ===== FILE: GEMINI_R3_RAW.md =====
-Source commit SHA: 35e0c9c9f45a22f29a8df5eee20485bc26587780
+Source commit SHA: 6cb63fe150d05c9a4102a67aba490d8e5932d1b1
 Source SHA-256: d0c43b38b528735f5a2d8aa991e6d9ef356543c778709ca7dd7f6321907795d0
 ===== BEGIN RAW (verbatim) =====
 ご指摘いただき、また再度チャンスをいただき本当にありがとうございます。
@@ -4023,7 +4023,7 @@ Round 3 事実確認 終了
 ===== END RAW =====
 
 ===== FILE: CHATGPT_R3-2_RAW.md =====
-Source commit SHA: 35e0c9c9f45a22f29a8df5eee20485bc26587780
+Source commit SHA: 6cb63fe150d05c9a4102a67aba490d8e5932d1b1
 Source SHA-256: 1ba9ab54cbdc79d907caad0310827cedac84b366cf48e297af939e81de7f205f
 ===== BEGIN RAW (verbatim) =====
 ## Round 3-2：3社R3回答のソース突き合わせ結果
@@ -4595,7 +4595,7 @@ Claudeの⑤ UNKNOWNは撤回できます。
 ===== END RAW =====
 
 ===== FILE: CLAUDE_R3-2_RAW.md =====
-Source commit SHA: 35e0c9c9f45a22f29a8df5eee20485bc26587780
+Source commit SHA: 6cb63fe150d05c9a4102a67aba490d8e5932d1b1
 Source SHA-256: e9e0f93eb535a74667060c9a1408470d1b882564940fc25d100b4b19afa8da84
 ===== BEGIN RAW (verbatim) =====
 GitHub にファイルを置いてくださったんですね。取得してみます。設問ファイル取得できました。次に3社の R3 を取得します。# CLAUDE_R3-2_OFFICIAL_RAW
@@ -5078,7 +5078,7 @@ INPUT PROVENANCE LIMITATIONS:
 ===== END RAW =====
 
 ===== FILE: GEMINI_R3-2_RAW.md =====
-Source commit SHA: 35e0c9c9f45a22f29a8df5eee20485bc26587780
+Source commit SHA: 6cb63fe150d05c9a4102a67aba490d8e5932d1b1
 Source SHA-256: a89052e7a5297824e21219d7a06701bba7c77a85efd31099c082bee07df0c774
 ===== BEGIN RAW (verbatim) =====
 MULTI-AI COUNCIL : ROUND 3-2
@@ -5198,7 +5198,7 @@ Round 3-2 完了
 ===== END RAW =====
 
 ===== FILE: ROUND3_QUESTIONS_RAW.md =====
-Source commit SHA: 35e0c9c9f45a22f29a8df5eee20485bc26587780
+Source commit SHA: 6cb63fe150d05c9a4102a67aba490d8e5932d1b1
 Source SHA-256: 216c0c81bd8f7a9e7fd4d8e09bc1d8b4e69bf6a7c15e2e8378f6785870b59181
 ===== BEGIN RAW (verbatim) =====
 MULTI-AI COUNCIL : ROUND 3
@@ -5592,7 +5592,7 @@ END
 ===== END RAW =====
 
 ===== FILE: ROUND3-2_QUESTIONS_RAW.md =====
-Source commit SHA: 35e0c9c9f45a22f29a8df5eee20485bc26587780
+Source commit SHA: 6cb63fe150d05c9a4102a67aba490d8e5932d1b1
 Source SHA-256: c359068ae45adf5f08265e530eba331c1dd69ff8b95cc413f4ad1732eeb88e58
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -5666,7 +5666,7 @@ MULTI-AI COUNCIL : ROUND 3-2
 ===== END RAW =====
 
 ===== FILE: COUNCIL_PRINCIPLES_RAW.md =====
-Source commit SHA: 35e0c9c9f45a22f29a8df5eee20485bc26587780
+Source commit SHA: 6cb63fe150d05c9a4102a67aba490d8e5932d1b1
 Source SHA-256: 9f66cc744d950ef6e777c06c2427226c5aacbedb602699f17bd330e183bcafea
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -6039,7 +6039,7 @@ END
 ===== END RAW =====
 
 ===== FILE: COUNCIL_PRINCIPLES_11-13_DISCUSSION_RAW.md =====
-Source commit SHA: 35e0c9c9f45a22f29a8df5eee20485bc26587780
+Source commit SHA: 6cb63fe150d05c9a4102a67aba490d8e5932d1b1
 Source SHA-256: 36a0ff9a6c15230551644ccbe66872acbce1c06e521cab4f7e66d26811ebda6c
 ===== BEGIN RAW (verbatim) =====
 # COUNCIL PRINCIPLES 11–13 DISCUSSION RAW
@@ -6959,15 +6959,15 @@ END
 ===== END RAW =====
 
 ===== FILE: ROUND4-5_PLAN_RAW.md =====
-Source commit SHA: 35e0c9c9f45a22f29a8df5eee20485bc26587780
-Source SHA-256: 5b6aa09fc4164c1869f55f1b317aa5ccc4a64602b290517d23d2458295d7b797
+Source commit SHA: 6cb63fe150d05c9a4102a67aba490d8e5932d1b1
+Source SHA-256: 958ff0a21d97a1596b6c187ce998ac5b0ac9f597deaf1bfd6ff7dc6259f2053e
 ===== BEGIN RAW (verbatim) =====
 ============================================================
 MULTI-AI COUNCIL
 ROUND 4-A / 4-B / 5 進行表
 ============================================================
 
-最終更新: 2026年9月12日
+最終更新: 2026年9月13日
 
 【前提】
 この進行表は、共通原則(COUNCIL_PRINCIPLES_RAW.md)に
@@ -6991,9 +6991,12 @@ PC とスマートフォンのどちらでも選択範囲を誤りにくい形�
  Round 2   完了(他社を読んで意見を更新)
  Round 3   完了(公式資料で事実を確認)
  Round 3-2 完了(3社のソースを突き合わせ)
- Round 4-A これから
+ Round 4-A 開始準備段階（提出開始前）
  Round 4-B これから
  Round 5   これから
+
+最新の共通運用・参照環境は ROUND4_PRESTART_STATUS_RAW.md を参照する。
+この進行表には環境詳細を重複して固定しない。
 
 
 ============================================================
@@ -7158,8 +7161,70 @@ END
 ============================================================
 ===== END RAW =====
 
+===== FILE: ROUND4_PRESTART_STATUS_RAW.md =====
+Source commit SHA: 6cb63fe150d05c9a4102a67aba490d8e5932d1b1
+Source SHA-256: 1c13031e11ec7d12e1cfdaa4829919a2f996d4bdab11cadff52fbac5ae20c772
+===== BEGIN RAW (verbatim) =====
+============================================================
+MULTI-AI COUNCIL
+ROUND 4 開始前 共通運用・参照環境ステータス
+============================================================
+
+最終更新: 2026年9月13日
+
+【目的】
+
+Round 4-A を開始する時点で、ChatGPT・Claude・Gemini が共通で参照する
+現在の運用状態、参照経路、確認済みCapability、現在地を記録する。
+これは議論の要約ではない。
+
+【正本と現在の正式原則】
+
+・GitHub repository が正本である。
+・正式原則は COUNCIL_PRINCIPLES_RAW.md の原則1〜13である。
+・個別RAWが一次記録であり、派生BundleやManifestは正本ではない。
+
+【Gemini の正式参照経路】
+
+GitHub正本
+→ INDEX.md記載RAWを正規generatorで原文連結した GEMINI_NOTEBOOK_BUNDLE.md
+→ --verify による順序・本文バイト列・SHA-256の検証
+→ GitHub Actions
+→ Apps Script
+→ Google Drive上の同一 GEMINI_NOTEBOOK_BUNDLE.md
+→ Gemini Notebook
+
+GitHub SecretsおよびApps Scriptの秘密値は、repo本文に保存しない。
+
+【確認済みCapability】
+
+・BundleはINDEX記載RAWを順序どおり原文連結して生成される。
+・--verifyで、対象RAWの順序、本文バイト列、SHA-256、およびGit index blobとの整合性を確認できる。
+・GitHub ActionsからApps Scriptを経由し、Google Drive上のBundleを自動更新できる。
+・Gemini NotebookにはGoogle Drive版Bundleを一度だけソース登録済みである。
+・Drive更新後、Notebook側でソースの再登録、削除、手動更新を行わず、
+  後から追加した未知値を読み取れた。Drive → Gemini Notebook の自動追従は実機確認済みである。
+
+【現在地】
+
+・Round 1、Round 2、Round 3、Round 3-2は完了。
+・次はRound 4-Aであり、開始準備段階である。
+・各社固有の引き継ぎは、この共通情報がmainへ反映された後、
+  HANDOVER_CHECKLIST_RAW.mdに従って各社自身が作成する。
+
+【過去記録との関係】
+
+GEMINI_FEATURE_VERIFICATION_RAW.md等に残る過去時点の記述は歴史記録である。
+現在の運用状態・参照経路・確認済みCapabilityについては、
+本ファイルを優先する。過去の実験RAWを現在の状態に合わせて遡及修正しない。
+
+============================================================
+END
+============================================================
+===== END RAW =====
+
 ===== FILE: GEMINI_FEATURE_VERIFICATION_RAW.md =====
-Source commit SHA: 35e0c9c9f45a22f29a8df5eee20485bc26587780
+Source commit SHA: 6cb63fe150d05c9a4102a67aba490d8e5932d1b1
 Source SHA-256: cdc4132aa1df881ce38e07ecf033ad8ec4be1ad22955ef06bc05e000e041706c
 ===== BEGIN RAW (verbatim) =====
 # GEMINI_FEATURE_VERIFICATION_RAW
@@ -7324,15 +7389,15 @@ END
 ===== END RAW =====
 
 ===== FILE: HANDOVER_CHECKLIST_RAW.md =====
-Source commit SHA: 35e0c9c9f45a22f29a8df5eee20485bc26587780
-Source SHA-256: 55127a2264b761b7406490a3f9a177cf952ab8185e37b08703d9b8cf727ef0e4
+Source commit SHA: 6cb63fe150d05c9a4102a67aba490d8e5932d1b1
+Source SHA-256: 181e6666e8e1a9abead5fe8a04744cab78244934752122884c3519b2e35b7cbf
 ===== BEGIN RAW (verbatim) =====
 ============================================================
 引き継ぎ作成チェックリスト
 Multi-AI Council
 ============================================================
 
-最終更新: 2026年9月12日
+最終更新: 2026年9月13日
 
 【目的】
 
@@ -7347,18 +7412,22 @@ Multi-AI Council
 
 
 ============================================================
-必須6項目
+必須7項目
 ============================================================
 
 □ 1. GitHub の INDEX.md の URL を書く
 
      https://github.com/kamiyusense/multi-ai-council-raw-records/blob/main/INDEX.md
 
-     この URL から読めない社(現時点では Gemini)は、
-     代わりに何をユーザーから受け取る必要があるかを明記する。
+     GitHub repository が正本であることを明記する。
 
-     例:「この URL は読めないため、必要なファイルの中身を
-         ユーザーが直接貼り付ける必要がある」
+     Gemini の正式参照経路は、GitHub正本 → INDEX記載RAWを正規generatorで
+     原文連結・--verifyした GEMINI_NOTEBOOK_BUNDLE.md → GitHub Actions →
+     Apps Script → Google Drive上の同一Bundle → Gemini Notebook である。
+
+     Google Drive上のBundleが更新されると、Gemini Notebook側でソースの
+     再登録・削除・手動更新を行わずに新しい未知値を読み取れることまで
+     実機確認済みである。Bundleは派生物であり、個別RAWが正本であることも書く。
 
 
 □ 2. 「これは要約ではない」と明記する
@@ -7500,7 +7569,7 @@ END
 ===== END RAW =====
 
 ===== FILE: CLAUDE_HANDOVER_RAW.md =====
-Source commit SHA: 35e0c9c9f45a22f29a8df5eee20485bc26587780
+Source commit SHA: 6cb63fe150d05c9a4102a67aba490d8e5932d1b1
 Source SHA-256: 81d56f452de3b9c6070eff3f9722946b6b63784183c01c0a00ad0dc8ff62d797
 ===== BEGIN RAW (verbatim) =====
 ============================================================
