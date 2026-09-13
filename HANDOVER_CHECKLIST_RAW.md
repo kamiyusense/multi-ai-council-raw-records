@@ -3,7 +3,7 @@
 Multi-AI Council
 ============================================================
 
-最終更新: 2026年9月12日
+最終更新: 2026年9月13日
 
 【目的】
 
@@ -18,18 +18,22 @@ Multi-AI Council
 
 
 ============================================================
-必須6項目
+必須7項目
 ============================================================
 
 □ 1. GitHub の INDEX.md の URL を書く
 
      https://github.com/kamiyusense/multi-ai-council-raw-records/blob/main/INDEX.md
 
-     この URL から読めない社(現時点では Gemini)は、
-     代わりに何をユーザーから受け取る必要があるかを明記する。
+     GitHub repository が正本であることを明記する。
 
-     例:「この URL は読めないため、必要なファイルの中身を
-         ユーザーが直接貼り付ける必要がある」
+     Gemini の正式参照経路は、GitHub正本 → INDEX記載RAWを正規generatorで
+     原文連結・--verifyした GEMINI_NOTEBOOK_BUNDLE.md → GitHub Actions →
+     Apps Script → Google Drive上の同一Bundle → Gemini Notebook である。
+
+     Google Drive上のBundleが更新されると、Gemini Notebook側でソースの
+     再登録・削除・手動更新を行わずに新しい未知値を読み取れることまで
+     実機確認済みである。Bundleは派生物であり、個別RAWが正本であることも書く。
 
 
 □ 2. 「これは要約ではない」と明記する
