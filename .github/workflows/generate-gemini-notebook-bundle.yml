@@ -1,5 +1,4 @@
 name: Generate Gemini Notebook Bundle
-
 on:
   workflow_dispatch:
   push:
@@ -16,6 +15,9 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    env:
+      GEMINI_DRIVE_SYNC_URL: ${{ secrets.GEMINI_DRIVE_SYNC_URL }}
+      GEMINI_DRIVE_SYNC_TOKEN: ${{ secrets.GEMINI_DRIVE_SYNC_TOKEN }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -30,6 +32,21 @@ jobs:
         env:
           GEMINI_BUNDLE_SOURCE_COMMIT: ${{ github.sha }}
         run: python3 scripts/generate_gemini_notebook_bundle.py --verify
+
+      - name: Sync bundle to Google Drive
+        if: ${{ env.GEMINI_DRIVE_SYNC_URL != '' && env.GEMINI_DRIVE_SYNC_TOKEN != '' }}
+        run: |
+          response_file="$(mktemp)"
+          trap 'rm -f "$response_file"' EXIT
+          curl --fail --silent --show-error --location \
+            --data-binary @GEMINI_NOTEBOOK_BUNDLE.md \
+            "${GEMINI_DRIVE_SYNC_URL}?token=${GEMINI_DRIVE_SYNC_TOKEN}" \
+            --output "$response_file"
+          if ! jq --exit-status '.ok == true' "$response_file" >/dev/null; then
+            echo "Google Drive sync endpoint rejected the request."
+            jq -r '.error // "No error message returned."' "$response_file"
+            exit 1
+          fi
 
       - name: Commit generated files
         run: |
