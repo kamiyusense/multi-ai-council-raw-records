@@ -39,6 +39,7 @@
 ## 引き継ぎ
 - HANDOVER_CHECKLIST_RAW.md
 - CLAUDE_HANDOVER_RAW.md
+- CHATGPT_HANDOVER_RAW.md
 
 ## その他
 - Claudetest.txt
