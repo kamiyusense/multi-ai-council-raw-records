@@ -29,6 +29,9 @@
 - CLAUDE_R4-A_RAW.md
 - GEMINI_R4-A_RAW.md
 
+## Round 4-B
+- GEMINI_R4-B_RAW.md
+
 ## 設問・進行表
 - ROUND3_QUESTIONS_RAW.md
 - ROUND3-2_QUESTIONS_RAW.md
