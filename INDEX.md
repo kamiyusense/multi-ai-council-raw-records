@@ -1,6 +1,6 @@
 # Multi-AI Council RAW 記録
 
-最終更新: 2026-09-13
+最終更新: 2026-09-15
 
 ## Round 1
 - CLAUDE_R1_RAW.md
@@ -23,6 +23,11 @@
 - CHATGPT_R3-2_RAW.md
 - CLAUDE_R3-2_RAW.md
 - GEMINI_R3-2_RAW.md
+
+## Round 4-A
+- CHATGPT_R4-A_RAW.md
+- CLAUDE_R4-A_RAW.md
+- GEMINI_R4-A_RAW.md
 
 ## 設問・進行表
 - ROUND3_QUESTIONS_RAW.md
