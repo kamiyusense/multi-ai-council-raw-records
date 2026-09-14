@@ -3,7 +3,7 @@ GitHubの個別RAWが正本。Bundleは派生物であり、要約ではなく�
 各区切りの後の原文部分は、対応するRAWファイルのバイト列をそのまま収録しています。
 
 ===== FILE: CLAUDE_R1_RAW.md =====
-Source commit SHA: 69da0bec3cd8e9ef155733bebd8f0b55e47b520a
+Source commit SHA: cb313ccd46e6fe81eb1f465b5113dab634566e91
 Source SHA-256: 43c991f9bb4f441af9ad44e36a0e1458686f2f4e382e640790eb470535589920
 ===== BEGIN RAW (verbatim) =====
 # 設計レビュー: Multi-AI Council v0.1
@@ -181,7 +181,7 @@ Phase 0を development automationより先に作るという判断(Q1, Q2)自体
 ===== END RAW =====
 
 ===== FILE: GEMINI_R1_RAW.md =====
-Source commit SHA: 69da0bec3cd8e9ef155733bebd8f0b55e47b520a
+Source commit SHA: cb313ccd46e6fe81eb1f465b5113dab634566e91
 Source SHA-256: 8970d483e000abd93c6f4f697f78591e249cd43c06d859449d3f65343a5541eb
 ===== BEGIN RAW (verbatim) =====
 ### A. Verdict
@@ -343,7 +343,7 @@ Claude CodeのPreToolUse HookからGemini/OpenAIのAPIを同期的に呼び出�
 ===== END RAW =====
 
 ===== FILE: CHATGPT_R2_RAW.md =====
-Source commit SHA: 69da0bec3cd8e9ef155733bebd8f0b55e47b520a
+Source commit SHA: cb313ccd46e6fe81eb1f465b5113dab634566e91
 Source SHA-256: d718c0b7c71420e66873a035d3a8be98c372f09e0a871215b9e0ab85d5401f8d
 ===== BEGIN RAW (verbatim) =====
 PURPOSE: Round 1で独立に出された設計レビューを受け、 他者の指摘を見たことで自分の意見がどう変化したか、 どこを維持するか、 どこで反対するか、 Round 3で何を証拠によって決着させるべきかを明示する。
@@ -785,7 +785,7 @@ RE-RUN THIS ROUND 2: NO, unless input provenance is later shown to be materially
 ===== END RAW =====
 
 ===== FILE: CHATGPT_R2_SUPPLEMENT_RAW.md =====
-Source commit SHA: 69da0bec3cd8e9ef155733bebd8f0b55e47b520a
+Source commit SHA: cb313ccd46e6fe81eb1f465b5113dab634566e91
 Source SHA-256: 6b9f7c4fa2e7afbe19f2f62cfeed477155e959136cd91b27efa9e1d76282b1d6
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -1203,7 +1203,7 @@ ChatGPTのMarkdownコピーが途中で切れた。
 ===== END RAW =====
 
 ===== FILE: CLAUDE_R2_RAW.md =====
-Source commit SHA: 69da0bec3cd8e9ef155733bebd8f0b55e47b520a
+Source commit SHA: cb313ccd46e6fe81eb1f465b5113dab634566e91
 Source SHA-256: 346a7b4dc3327b861c3dd5709279df1522a77c4eb4750e3b5d62d3b126be221b
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -1929,7 +1929,7 @@ END RAW
 ===== END RAW =====
 
 ===== FILE: CLAUDE_R2_SUPPLEMENT_RAW.md =====
-Source commit SHA: 69da0bec3cd8e9ef155733bebd8f0b55e47b520a
+Source commit SHA: cb313ccd46e6fe81eb1f465b5113dab634566e91
 Source SHA-256: 41b5758fcf5208aa5cab36c39046dab8bdefa37119d76ce23df498331913490d
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -2244,7 +2244,7 @@ END RAW
 ===== END RAW =====
 
 ===== FILE: GEMINI_R2_RAW.md =====
-Source commit SHA: 69da0bec3cd8e9ef155733bebd8f0b55e47b520a
+Source commit SHA: cb313ccd46e6fe81eb1f465b5113dab634566e91
 Source SHA-256: 236d3500d424a201a320f60fbda3bad79d10ba500475eb72ddbe4c539e833535
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -2382,7 +2382,7 @@ INPUT PROVENANCE LIMITATIONS:
 ===== END RAW =====
 
 ===== FILE: GEMINI_R2_SUPPLEMENT_RAW.md =====
-Source commit SHA: 69da0bec3cd8e9ef155733bebd8f0b55e47b520a
+Source commit SHA: cb313ccd46e6fe81eb1f465b5113dab634566e91
 Source SHA-256: 47b82fdb54ca7b15535fbf1f6c16737e78297198bb09ef3609c83a47a0dc31f0
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -2467,7 +2467,7 @@ Googleのツール（Jules）について、Claudeは「説明書にキャンセ
 ===== END RAW =====
 
 ===== FILE: CHATGPT_R3_RAW.md =====
-Source commit SHA: 69da0bec3cd8e9ef155733bebd8f0b55e47b520a
+Source commit SHA: cb313ccd46e6fe81eb1f465b5113dab634566e91
 Source SHA-256: 77a5580c22e8607fa4843b8cc900d305a5258fa59445085c7570f73ecd2d7ff3
 ===== BEGIN RAW (verbatim) =====
 # Multi-AI Council — Round 3 事実確認ラウンド  
@@ -3178,7 +3178,7 @@ OpenAIはChatGPT subscription accessでCodexを公式に自動化でき、Anthro
 ===== END RAW =====
 
 ===== FILE: CLAUDE_R3_RAW.md =====
-Source commit SHA: 69da0bec3cd8e9ef155733bebd8f0b55e47b520a
+Source commit SHA: cb313ccd46e6fe81eb1f465b5113dab634566e91
 Source SHA-256: 86338212d0b85c7262e1f80a7369b6d91536a01d1ac75f720f712d7caeea0149
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -3832,7 +3832,7 @@ END RAW
 ===== END RAW =====
 
 ===== FILE: GEMINI_R3_RAW.md =====
-Source commit SHA: 69da0bec3cd8e9ef155733bebd8f0b55e47b520a
+Source commit SHA: cb313ccd46e6fe81eb1f465b5113dab634566e91
 Source SHA-256: d0c43b38b528735f5a2d8aa991e6d9ef356543c778709ca7dd7f6321907795d0
 ===== BEGIN RAW (verbatim) =====
 ご指摘いただき、また再度チャンスをいただき本当にありがとうございます。
@@ -4023,7 +4023,7 @@ Round 3 事実確認 終了
 ===== END RAW =====
 
 ===== FILE: CHATGPT_R3-2_RAW.md =====
-Source commit SHA: 69da0bec3cd8e9ef155733bebd8f0b55e47b520a
+Source commit SHA: cb313ccd46e6fe81eb1f465b5113dab634566e91
 Source SHA-256: 1ba9ab54cbdc79d907caad0310827cedac84b366cf48e297af939e81de7f205f
 ===== BEGIN RAW (verbatim) =====
 ## Round 3-2：3社R3回答のソース突き合わせ結果
@@ -4595,7 +4595,7 @@ Claudeの⑤ UNKNOWNは撤回できます。
 ===== END RAW =====
 
 ===== FILE: CLAUDE_R3-2_RAW.md =====
-Source commit SHA: 69da0bec3cd8e9ef155733bebd8f0b55e47b520a
+Source commit SHA: cb313ccd46e6fe81eb1f465b5113dab634566e91
 Source SHA-256: e9e0f93eb535a74667060c9a1408470d1b882564940fc25d100b4b19afa8da84
 ===== BEGIN RAW (verbatim) =====
 GitHub にファイルを置いてくださったんですね。取得してみます。設問ファイル取得できました。次に3社の R3 を取得します。# CLAUDE_R3-2_OFFICIAL_RAW
@@ -5078,7 +5078,7 @@ INPUT PROVENANCE LIMITATIONS:
 ===== END RAW =====
 
 ===== FILE: GEMINI_R3-2_RAW.md =====
-Source commit SHA: 69da0bec3cd8e9ef155733bebd8f0b55e47b520a
+Source commit SHA: cb313ccd46e6fe81eb1f465b5113dab634566e91
 Source SHA-256: a89052e7a5297824e21219d7a06701bba7c77a85efd31099c082bee07df0c774
 ===== BEGIN RAW (verbatim) =====
 MULTI-AI COUNCIL : ROUND 3-2
@@ -5198,7 +5198,7 @@ Round 3-2 完了
 ===== END RAW =====
 
 ===== FILE: ROUND3_QUESTIONS_RAW.md =====
-Source commit SHA: 69da0bec3cd8e9ef155733bebd8f0b55e47b520a
+Source commit SHA: cb313ccd46e6fe81eb1f465b5113dab634566e91
 Source SHA-256: 216c0c81bd8f7a9e7fd4d8e09bc1d8b4e69bf6a7c15e2e8378f6785870b59181
 ===== BEGIN RAW (verbatim) =====
 MULTI-AI COUNCIL : ROUND 3
@@ -5592,7 +5592,7 @@ END
 ===== END RAW =====
 
 ===== FILE: ROUND3-2_QUESTIONS_RAW.md =====
-Source commit SHA: 69da0bec3cd8e9ef155733bebd8f0b55e47b520a
+Source commit SHA: cb313ccd46e6fe81eb1f465b5113dab634566e91
 Source SHA-256: c359068ae45adf5f08265e530eba331c1dd69ff8b95cc413f4ad1732eeb88e58
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -5666,7 +5666,7 @@ MULTI-AI COUNCIL : ROUND 3-2
 ===== END RAW =====
 
 ===== FILE: COUNCIL_PRINCIPLES_RAW.md =====
-Source commit SHA: 69da0bec3cd8e9ef155733bebd8f0b55e47b520a
+Source commit SHA: cb313ccd46e6fe81eb1f465b5113dab634566e91
 Source SHA-256: 40877d5342b44c43ddb0e06e04120deec2cefcaf662746f1844dc853f080ac6f
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -6039,7 +6039,7 @@ END
 ===== END RAW =====
 
 ===== FILE: COUNCIL_PRINCIPLES_11-13_DISCUSSION_RAW.md =====
-Source commit SHA: 69da0bec3cd8e9ef155733bebd8f0b55e47b520a
+Source commit SHA: cb313ccd46e6fe81eb1f465b5113dab634566e91
 Source SHA-256: 36a0ff9a6c15230551644ccbe66872acbce1c06e521cab4f7e66d26811ebda6c
 ===== BEGIN RAW (verbatim) =====
 # COUNCIL PRINCIPLES 11–13 DISCUSSION RAW
@@ -6959,7 +6959,7 @@ END
 ===== END RAW =====
 
 ===== FILE: ROUND4-5_PLAN_RAW.md =====
-Source commit SHA: 69da0bec3cd8e9ef155733bebd8f0b55e47b520a
+Source commit SHA: cb313ccd46e6fe81eb1f465b5113dab634566e91
 Source SHA-256: e591041c777aa8bbc3f8cc3190c8848cb85be04c4a220c53cf8ac91ae2abef1d
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -7164,7 +7164,7 @@ END
 ===== END RAW =====
 
 ===== FILE: ROUND4_PRESTART_STATUS_RAW.md =====
-Source commit SHA: 69da0bec3cd8e9ef155733bebd8f0b55e47b520a
+Source commit SHA: cb313ccd46e6fe81eb1f465b5113dab634566e91
 Source SHA-256: 5639dfd18936a552f565e6efb9a37ebb7aa776766c75d06b87cb02bb7bae05d1
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -7247,7 +7247,7 @@ END
 ===== END RAW =====
 
 ===== FILE: GEMINI_FEATURE_VERIFICATION_RAW.md =====
-Source commit SHA: 69da0bec3cd8e9ef155733bebd8f0b55e47b520a
+Source commit SHA: cb313ccd46e6fe81eb1f465b5113dab634566e91
 Source SHA-256: cdc4132aa1df881ce38e07ecf033ad8ec4be1ad22955ef06bc05e000e041706c
 ===== BEGIN RAW (verbatim) =====
 # GEMINI_FEATURE_VERIFICATION_RAW
@@ -7412,7 +7412,7 @@ END
 ===== END RAW =====
 
 ===== FILE: HANDOVER_CHECKLIST_RAW.md =====
-Source commit SHA: 69da0bec3cd8e9ef155733bebd8f0b55e47b520a
+Source commit SHA: cb313ccd46e6fe81eb1f465b5113dab634566e91
 Source SHA-256: 010701a62fec974556d280d8708817ba1f9f385b1d4b81ebc220e05eba30f2a0
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -7594,8 +7594,154 @@ END
 ============================================================
 ===== END RAW =====
 
+===== FILE: CHATGPT_HANDOVER_RAW.md =====
+Source commit SHA: cb313ccd46e6fe81eb1f465b5113dab634566e91
+Source SHA-256: 00a659d7f30b37d88b476b0137a47224e0945bb160775a91463494524bfcc6c8
+===== BEGIN RAW (verbatim) =====
+============================================================
+CHATGPT 引き継ぎ表紙
+Multi-AI Council
+============================================================
+
+作成: ChatGPT
+最終更新: 2026年9月13日
+対象: Round 4-Aを担当する次のChatGPTチャット
+
+【これは要約ではありません】
+
+この文書は議論内容の要約ではありません。
+議論・根拠・各社の回答はGitHub上のRAWを直接読んでください。
+GitHub repositoryが正本であり、Bundle / Manifestは派生生成物です。
+
+============================================================
+1. 最初にやること
+============================================================
+
+まず次のINDEX.mdを開き、現在のmainを確認してください。
+
+https://github.com/kamiyusense/multi-ai-council-raw-records/blob/main/INDEX.md
+
+最低限、次の3ファイルを読んでください。
+
+- COUNCIL_PRINCIPLES_RAW.md
+- ROUND4_PRESTART_STATUS_RAW.md
+- ROUND4-5_PLAN_RAW.md
+
+自分の過去発言が必要な場合は、
+CHATGPT_R2_RAW.md / CHATGPT_R2_SUPPLEMENT_RAW.md /
+CHATGPT_R3_RAW.md / CHATGPT_R3-2_RAW.md を直接読んでください。
+
+この引き継ぎ文と現在のGitHubが食い違う場合は、
+現在のGitHubを優先してください。
+確認できない項目は推測せずUNKNOWNとしてください。
+
+============================================================
+2. ユーザーについて
+============================================================
+
+- 日本人。英語の画面や英文はできるだけ避け、必要なら日本語で説明する。
+- プログラミング知識はほぼない。専門用語は平易に言い換える。
+- 会社勤めで時間が非常に少ない。
+- 追加費用や上位プランへの移行はできるだけ避けたい。
+- 自宅に十分な性能のWindows PCがあり、実機確認ができる。
+- AIの文章を読み、最終判断に自分で参加したい。
+- AIの提案を鵜呑みにしない。過去にAI側の誤りを何度も先に発見している。
+
+AI側の自己申告だけで確定せず、現在状態・料金・Capability等は
+必要に応じて画面、公式資料、GitHubの正本で確認してください。
+
+============================================================
+3. 現在地
+============================================================
+
+Round 1   完了
+Round 2   完了
+Round 3   完了
+Round 3-2 完了
+Round 4-A 開始準備段階
+
+Round 4開始時点の共通最新状態は
+ROUND4_PRESTART_STATUS_RAW.md を優先して確認してください。
+
+今後の進行は ROUND4-5_PLAN_RAW.md を参照してください。
+
+============================================================
+4. 現在の参照環境
+============================================================
+
+現在の共通参照経路・確認済みCapabilityは
+ROUND4_PRESTART_STATUS_RAW.md に集約されています。
+
+過去の実験RAWや古いhandoverに、当時の未実測・旧経路の記述が
+残っていても、それは歴史記録です。
+現在状態については最新mainと ROUND4_PRESTART_STATUS_RAW.md を優先してください。
+
+他社の立場や過去回答をこの文書で要約しません。
+必要な場合はCLAUDE_*_RAW.md / GEMINI_*_RAW.md 等の原文を直接読んでください。
+
+============================================================
+5. ChatGPT自身の過去の誤りと教訓
+============================================================
+
+(1) Workが24秒で停止した際、停止理由の証拠がないのに
+    「利用枠不足が一番ありそう」と推測した。
+    → UIやログに根拠がない原因を最有力と断定しない。
+      原因不明ならUNKNOWNとする。
+
+(2) 現在状態を過去の引き継ぎや記憶だけで扱うと、
+    古い情報を再利用する危険がある。
+    実際、旧handoverにはGemini参照経路の古い記述が残っていた。
+    → 現在状態を問われたら最新GitHubを直接確認し、
+      古いhandoverより正本を優先する。
+
+(3) Gemini Notebook / GitHub同期について、初期段階では
+    自動追従の可否は未実測だった。
+    後の実機検証でDrive経由の自動追従まで確認できた。
+    → 「できる／できない」を一般論だけで固定しない。
+      ユーザー環境の実測を優先し、未実測は未実測と書く。
+
+(4) PRを安全にMergeできる材料が揃い、ユーザーが進行を求めているのに、
+    確認結果の説明だけで止まったことがある。
+    → 実行を明示的に求められ、安全確認済みで利用可能なツールがあるなら、
+      説明だけで終わらず実行まで完了する。
+
+(5) 他AI・Work・GitHubへ送る長い指示を通常文で出すと、
+    ユーザーがコピーする範囲を判別しづらい。
+    → コピペを依頼する文章は原則Markdownコードブロックで提示する。
+      この運用はPR #8で正式反映済み。
+
+(6) 長大なチャットだけに進行状態を依存すると、
+    文字数上限や端末切替などで継続性が落ちる。
+    → 重要回答・進行状態はRAW/GitHubへ残し、
+      チャットだけを唯一の記録にしない。
+
+============================================================
+6. Round 4での注意
+============================================================
+
+- 共通原則1〜13に従う。
+- 他社へ渡す内容をChatGPTが要約して置き換えない。
+- 他社の主張は各社RAWを直接参照する。
+- 現在のCapabilityを推測しない。
+- 確認できないことはUNKNOWN。
+- Roundを自動で増やさない。
+- 最終判断はユーザーに返す。
+
+============================================================
+7. コピペ用文章の提示
+============================================================
+
+ユーザーに他AI、Work、GitHub等へ文章をコピーしてもらう場合、
+原則としてコピー対象をMarkdownコードブロックで分離してください。
+短い単語・1行程度の入力は例外で構いません。
+
+============================================================
+END
+============================================================
+===== END RAW =====
+
 ===== FILE: CLAUDE_HANDOVER_RAW.md =====
-Source commit SHA: 69da0bec3cd8e9ef155733bebd8f0b55e47b520a
+Source commit SHA: cb313ccd46e6fe81eb1f465b5113dab634566e91
 Source SHA-256: 6ad3fd8639306a85e5d2e26f9df736cc00f1c872001a0b6d7fa73d2de7a76ad3
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -7883,149 +8029,143 @@ END
 ============================================================
 ===== END RAW =====
 
-===== FILE: CHATGPT_HANDOVER_RAW.md =====
-Source commit SHA: 69da0bec3cd8e9ef155733bebd8f0b55e47b520a
-Source SHA-256: 00a659d7f30b37d88b476b0137a47224e0945bb160775a91463494524bfcc6c8
+===== FILE: GEMINI_HANDOVER_RAW.md =====
+Source commit SHA: cb313ccd46e6fe81eb1f465b5113dab634566e91
+Source SHA-256: 71026ea4f6efa516b5a70aa75269ebfae229e004fd64307a74768820c9ef0bab
 ===== BEGIN RAW (verbatim) =====
-============================================================
-CHATGPT 引き継ぎ表紙
+### GEMINI 引き継ぎ表紙
 Multi-AI Council
-============================================================
 
-作成: ChatGPT
-最終更新: 2026年9月13日
-対象: Round 4-Aを担当する次のChatGPTチャット
+作成: Gemini
+最終更新: 2026年9月14日
+対象: 新しいチャットで作業を引き継ぐ Gemini
 
-【これは要約ではありません】
-
-この文書は議論内容の要約ではありません。
-議論・根拠・各社の回答はGitHub上のRAWを直接読んでください。
-GitHub repositoryが正本であり、Bundle / Manifestは派生生成物です。
+【これは議論内容の要約ではありません】
+この文書は議論内容の要約ではありません。議論・根拠・各社の回答をここに再要約することはしません。必要な内容は、GitHub上の各RAWファイルを直接読んで確認してください。
 
 ============================================================
 1. 最初にやること
 ============================================================
-
-まず次のINDEX.mdを開き、現在のmainを確認してください。
-
+まず、以下の INDEX.md を開いてファイル一覧を確認してください。
 https://github.com/kamiyusense/multi-ai-council-raw-records/blob/main/INDEX.md
 
-最低限、次の3ファイルを読んでください。
+GitHub repository が正本であることを明記します。
+BundleやManifestは派生物であり、個別RAWが正本です。
 
-- COUNCIL_PRINCIPLES_RAW.md
-- ROUND4_PRESTART_STATUS_RAW.md
-- ROUND4-5_PLAN_RAW.md
+【Gemini の正式参照経路】
+GitHub正本 → INDEX記載RAWを正規generatorで原文連結・--verifyした GEMINI_NOTEBOOK_BUNDLE.md → GitHub Actions → Apps Script → Google Drive上の同一Bundle → Gemini Notebook
 
-自分の過去発言が必要な場合は、
-CHATGPT_R2_RAW.md / CHATGPT_R2_SUPPLEMENT_RAW.md /
-CHATGPT_R3_RAW.md / CHATGPT_R3-2_RAW.md を直接読んでください。
+Google Drive上のBundleが更新されると、Gemini Notebook側でソースの再登録・削除・手動更新を行わずに新しい未知値を読み取れることまで実機確認済みです。
+「GeminiはGitHubを読めないので、ユーザーが中身を貼り付ける」という過去の運用は現在無効です。
 
-この引き継ぎ文と現在のGitHubが食い違う場合は、
-現在のGitHubを優先してください。
-確認できない項目は推測せずUNKNOWNとしてください。
+正式Notebook:
+Multi-AI Council Bundle Verification
+
+Notebook URL:
+https://gemini.google.com/notebook/648b500a-1d83-4fb9-9b7e-36ffd4e03eec
+
+2026年9月14日の実機確認で、このNotebook内には同名の GEMINI_NOTEBOOK_BUNDLE.md が2件存在していました。
+
+確認結果:
+
+- Google Drive由来の GEMINI_NOTEBOOK_BUNDLE.md
+  → CLAUDE_HANDOVER_RAW.md の「過去の Claude からの申し送り」は9件
+  → 「この引き継ぎ自体が古くなっていた」という文字列あり
+  → 現在の最新内容と一致
+  → 現在状態の正式参照ソースとして使用する
+
+- raw.githubusercontent.com 由来の旧 GEMINI_NOTEBOOK_BUNDLE.md
+  → CLAUDE_HANDOVER_RAW.md の申し送りは8件
+  → 「この引き継ぎ自体が古くなっていた」という文字列なし
+  → 古い内容を保持していた
+  → 現在状態の確認には使用しない
+
+したがって、今後Geminiが現在状態を確認するときは、Multi-AI Council Bundle Verification 内の Google Drive由来の GEMINI_NOTEBOOK_BUNDLE.md を使用することを明記してください。
+
+古いNotebook Multi-AI Council Raw Records Index も現在状態の参照には使用しないことを明記してください。
 
 ============================================================
 2. ユーザーについて
 ============================================================
+以下のユーザー状況と要望を前提に、回答を構成してください。
+・日本人で英語が苦手（英語が読めない）
+・プログラミング知識がない
+・会社勤めで時間が非常に少ない
+・追加費用を極力避け、上位プランへ上げる意思はない
+・Windows PCを利用できる
+・AIの文章を読み、最終判断に参加したい
+・AIを鵜呑みにせず、過去にAI側の誤りを何度も発見している
+・専門用語は平易に説明する
 
-- 日本人。英語の画面や英文はできるだけ避け、必要なら日本語で説明する。
-- プログラミング知識はほぼない。専門用語は平易に言い換える。
-- 会社勤めで時間が非常に少ない。
-- 追加費用や上位プランへの移行はできるだけ避けたい。
-- 自宅に十分な性能のWindows PCがあり、実機確認ができる。
-- AIの文章を読み、最終判断に自分で参加したい。
-- AIの提案を鵜呑みにしない。過去にAI側の誤りを何度も先に発見している。
-
-AI側の自己申告だけで確定せず、現在状態・料金・Capability等は
-必要に応じて画面、公式資料、GitHubの正本で確認してください。
-
-============================================================
-3. 現在地
-============================================================
-
-Round 1   完了
-Round 2   完了
-Round 3   完了
-Round 3-2 完了
-Round 4-A 開始準備段階
-
-Round 4開始時点の共通最新状態は
-ROUND4_PRESTART_STATUS_RAW.md を優先して確認してください。
-
-今後の進行は ROUND4-5_PLAN_RAW.md を参照してください。
+【英語対応ルール】
+・通常の説明・回答は日本語で行う。
+・ただし、UIのボタン名、エラーメッセージ、コマンド、API名、ファイル名、固有名詞など、英語原文を保持することが操作・検証上必要な場合は、英語を削除・翻訳置換しない。
+・その場合は英語原文を示した直後に、日本語で意味とユーザーが行うべき操作を説明する。
+・ユーザーが英語を読んで理解することを前提に操作案内をしない。
+（例：Are you sure you want to proceed with this action? →「この操作を本当に続行しますか？」という確認です。続行する場合は Yes を送信してください。）
 
 ============================================================
-4. 現在の参照環境
+3. 現在の進行状態と次のステップ
 ============================================================
+現在の進行状態は ROUND4_PRESTART_STATUS_RAW.md および ROUND4-5_PLAN_RAW.md の記述が正本です。
 
-現在の共通参照経路・確認済みCapabilityは
-ROUND4_PRESTART_STATUS_RAW.md に集約されています。
+・Round 1、Round 2、Round 3、Round 3-2 は完了しています。
+・現在は Round 4-A の開始前（準備段階）です。
 
-過去の実験RAWや古いhandoverに、当時の未実測・旧経路の記述が
-残っていても、それは歴史記録です。
-現在状態については最新mainと ROUND4_PRESTART_STATUS_RAW.md を優先してください。
-
-他社の立場や過去回答をこの文書で要約しません。
-必要な場合はCLAUDE_*_RAW.md / GEMINI_*_RAW.md 等の原文を直接読んでください。
+次に何を行うかの設問や詳細は ROUND4-5_PLAN_RAW.md を参照してください。ここに重複して書きません。
+現在の共通原則（全13項目）は COUNCIL_PRINCIPLES_RAW.md を参照してください。
 
 ============================================================
-5. ChatGPT自身の過去の誤りと教訓
+4. 過去主張の参照と他社の扱い
 ============================================================
+自分（Gemini）の過去の発言や判断を確認したい場合は、以下のRAWを直接参照してください。
+・GEMINI_R1_RAW.md
+・GEMINI_R2_RAW.md
+・GEMINI_R2_SUPPLEMENT_RAW.md
+・GEMINI_R3_RAW.md
+・GEMINI_R3-2_RAW.md
+・GEMINI_FEATURE_VERIFICATION_RAW.md
 
-(1) Workが24秒で停止した際、停止理由の証拠がないのに
-    「利用枠不足が一番ありそう」と推測した。
-    → UIやログに根拠がない原因を最有力と断定しない。
-      原因不明ならUNKNOWNとする。
-
-(2) 現在状態を過去の引き継ぎや記憶だけで扱うと、
-    古い情報を再利用する危険がある。
-    実際、旧handoverにはGemini参照経路の古い記述が残っていた。
-    → 現在状態を問われたら最新GitHubを直接確認し、
-      古いhandoverより正本を優先する。
-
-(3) Gemini Notebook / GitHub同期について、初期段階では
-    自動追従の可否は未実測だった。
-    後の実機検証でDrive経由の自動追従まで確認できた。
-    → 「できる／できない」を一般論だけで固定しない。
-      ユーザー環境の実測を優先し、未実測は未実測と書く。
-
-(4) PRを安全にMergeできる材料が揃い、ユーザーが進行を求めているのに、
-    確認結果の説明だけで止まったことがある。
-    → 実行を明示的に求められ、安全確認済みで利用可能なツールがあるなら、
-      説明だけで終わらず実行まで完了する。
-
-(5) 他AI・Work・GitHubへ送る長い指示を通常文で出すと、
-    ユーザーがコピーする範囲を判別しづらい。
-    → コピペを依頼する文章は原則Markdownコードブロックで提示する。
-      この運用はPR #8で正式反映済み。
-
-(6) 長大なチャットだけに進行状態を依存すると、
-    文字数上限や端末切替などで継続性が落ちる。
-    → 重要回答・進行状態はRAW/GitHubへ残し、
-      チャットだけを唯一の記録にしない。
+ClaudeやChatGPTの主張が必要な場合は、該当するRAWファイル名（CLAUDE_R1_RAW.md、CHATGPT_R2_RAW.md 等）を示して原文を読むよう案内してください。
+他社の主張をGeminiが要約してはいけません。
 
 ============================================================
-6. Round 4での注意
+5. Gemini自身の過去の誤りと教訓
 ============================================================
+同じ失敗を繰り返さないため、これまでのチャットでGemini自身が犯した実際の失敗と教訓を記録します。
 
-- 共通原則1〜13に従う。
-- 他社へ渡す内容をChatGPTが要約して置き換えない。
-- 他社の主張は各社RAWを直接参照する。
-- 現在のCapabilityを推測しない。
-- 確認できないことはUNKNOWN。
-- Roundを自動で増やさない。
-- 最終判断はユーザーに返す。
+(1) 推奨モデルと料金の誤申告
+・主張と誤り: Round 1およびRound 3で、GPT-4o、Sonnet 3.7、Gemini 1.5 Proなどの旧世代モデルを現行モデルとして提示し、それに基づく料金計算を行った。ユーザーに画面確認（UI）で訂正される事態となった。
+・原因: 内部知識（学習データ）に頼り、一次資料や実際のUIを確認せずに知ったかぶりをしたため。
+・教訓: モデル名、バージョン、料金、クォータなどの時変情報は、AIの自己申告に頼らない。必ず公式ページを直接取得するか、ユーザーの実機・画面確認結果を優先する。
+
+(2) Codexの機能に関する事実誤認
+・主張と誤り: Round 3で「Codexモデルは2023年に廃止された」「監視や中断（hook）の仕組みはない」と断定した。実際には、現在のCodex CLI/SDKにはhookもinterruptも存在していた。
+・原因: 「Codex」という単語から、古いOpenAI APIの廃止ページ（code-davinci-002）を参照してしまい、現在の製品の公式ページ（developers.openai.com/codex）を見ていなかった。検索対象のズレ。
+・教訓: 他社と結論が割れた場合、自分が見ているページが本当に最新の該当機能のものか疑う。古い情報での断定を避ける。
+
+(3) JulesのDELETEエンドポイントに関する推測
+・主張と誤り: Round 1で「明示的なabort/cancel APIは未提供または非推奨」と断定した。実際には DELETE /sessions/{id} のエンドポイントが存在した。
+・原因: 公式APIリファレンスを直接隅々まで取得せず、推測で回答した。
+・教訓: エンドポイントの「存在」と、実行中プロセスが停止するという「効果の保証」を切り離して検証する。推測で「ない」と断定しない。
+
+(4) Google月額枠（AI Pro等）の構造についての誤認
+・主張と誤り: Round 3で「GeminiアプリとWorkspaceが同じ枠を共有する」「使用量の確認手段はない」「下位モデルへの切り替え機能はない」と断定した。実際は各プロダクト独自の上限があり、Usage Limits画面が存在し、Flash-Lite継続機能があった。
+・原因: 自社のサービスだからと過信し、古いFAQページ（モバイルアプリ関連など）を根拠にして現行のGoogle AI Proの枠組みに関する一次資料を正しく読んでいなかった。
+・教訓: 自社（Google）のサービスであっても詳しいと思い込まず、厳密に現在の公式ドキュメントのURLを辿って確認する。
+
+(5) 参照経路とソース数に関する自己申告の誤り
+・主張と誤り: Notebookのソース数を実態とずれた数（19個など）で自己申告した。また過去には「GeminiはGitHubを直接読めない」と判断していた。
+・原因: 実際の画面状態（ユーザー側の観測）や確立された最新の参照経路（Notebook連携）を確認せず、過去の制約や推測をそのまま出力したため。
+・教訓: GEMINI_FEATURE_VERIFICATION_RAW.md 等にある過去の記述は当時の歴史記録である。現在のCapabilityは ROUND4_PRESTART_STATUS_RAW.md と現在のNotebookから確認した状態を優先する。過去の記憶と現在が矛盾する場合は正本を信じる。
+
+(6) UNKNOWNの徹底
+・確認できない事実は推測で埋めず、明確に UNKNOWN とすること。
 
 ============================================================
-7. コピペ用文章の提示
+6. コピー用文章の提示ルール
 ============================================================
-
-ユーザーに他AI、Work、GitHub等へ文章をコピーしてもらう場合、
-原則としてコピー対象をMarkdownコードブロックで分離してください。
-短い単語・1行程度の入力は例外で構いません。
-
-============================================================
-END
-============================================================
+ユーザーが別AI、Work、GitHub等へコピーする文章を提示する場合は、文章の長さに関係なく、必ずMarkdownのコードブロックに入れて提示してください。
+1行だけの短い指示や、1単語であっても例外としません。
 ===== END RAW =====
 
