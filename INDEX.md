@@ -30,8 +30,8 @@
 - GEMINI_R4-A_RAW.md
 
 ## Round 4-B
-- CLAUDE_R4-B_RAW.md
-- CHATGPT_R4-B_RAW.md
+  - CLAUDE_R4-B_RAW.md
+  - CHATGPT_R4-B_RAW.md
 
 ## 設問・進行表
 - ROUND3_QUESTIONS_RAW.md
