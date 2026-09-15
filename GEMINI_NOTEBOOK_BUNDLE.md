@@ -3,7 +3,7 @@ GitHubの個別RAWが正本。Bundleは派生物であり、要約ではなく�
 各区切りの後の原文部分は、対応するRAWファイルのバイト列をそのまま収録しています。
 
 ===== FILE: CLAUDE_R1_RAW.md =====
-Source commit SHA: bcb1b156f0fb16b80ddcc27c0167c7d224aabcd2
+Source commit SHA: fad8e2596eab747092e8920fdf9a14a0dc7e4cad
 Source SHA-256: 43c991f9bb4f441af9ad44e36a0e1458686f2f4e382e640790eb470535589920
 ===== BEGIN RAW (verbatim) =====
 # 設計レビュー: Multi-AI Council v0.1
@@ -181,7 +181,7 @@ Phase 0を development automationより先に作るという判断(Q1, Q2)自体
 ===== END RAW =====
 
 ===== FILE: GEMINI_R1_RAW.md =====
-Source commit SHA: bcb1b156f0fb16b80ddcc27c0167c7d224aabcd2
+Source commit SHA: fad8e2596eab747092e8920fdf9a14a0dc7e4cad
 Source SHA-256: 8970d483e000abd93c6f4f697f78591e249cd43c06d859449d3f65343a5541eb
 ===== BEGIN RAW (verbatim) =====
 ### A. Verdict
@@ -343,7 +343,7 @@ Claude CodeのPreToolUse HookからGemini/OpenAIのAPIを同期的に呼び出�
 ===== END RAW =====
 
 ===== FILE: CHATGPT_R2_RAW.md =====
-Source commit SHA: bcb1b156f0fb16b80ddcc27c0167c7d224aabcd2
+Source commit SHA: fad8e2596eab747092e8920fdf9a14a0dc7e4cad
 Source SHA-256: d718c0b7c71420e66873a035d3a8be98c372f09e0a871215b9e0ab85d5401f8d
 ===== BEGIN RAW (verbatim) =====
 PURPOSE: Round 1で独立に出された設計レビューを受け、 他者の指摘を見たことで自分の意見がどう変化したか、 どこを維持するか、 どこで反対するか、 Round 3で何を証拠によって決着させるべきかを明示する。
@@ -785,7 +785,7 @@ RE-RUN THIS ROUND 2: NO, unless input provenance is later shown to be materially
 ===== END RAW =====
 
 ===== FILE: CHATGPT_R2_SUPPLEMENT_RAW.md =====
-Source commit SHA: bcb1b156f0fb16b80ddcc27c0167c7d224aabcd2
+Source commit SHA: fad8e2596eab747092e8920fdf9a14a0dc7e4cad
 Source SHA-256: 6b9f7c4fa2e7afbe19f2f62cfeed477155e959136cd91b27efa9e1d76282b1d6
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -1203,7 +1203,7 @@ ChatGPTのMarkdownコピーが途中で切れた。
 ===== END RAW =====
 
 ===== FILE: CLAUDE_R2_RAW.md =====
-Source commit SHA: bcb1b156f0fb16b80ddcc27c0167c7d224aabcd2
+Source commit SHA: fad8e2596eab747092e8920fdf9a14a0dc7e4cad
 Source SHA-256: 346a7b4dc3327b861c3dd5709279df1522a77c4eb4750e3b5d62d3b126be221b
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -1929,7 +1929,7 @@ END RAW
 ===== END RAW =====
 
 ===== FILE: CLAUDE_R2_SUPPLEMENT_RAW.md =====
-Source commit SHA: bcb1b156f0fb16b80ddcc27c0167c7d224aabcd2
+Source commit SHA: fad8e2596eab747092e8920fdf9a14a0dc7e4cad
 Source SHA-256: 41b5758fcf5208aa5cab36c39046dab8bdefa37119d76ce23df498331913490d
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -2244,7 +2244,7 @@ END RAW
 ===== END RAW =====
 
 ===== FILE: GEMINI_R2_RAW.md =====
-Source commit SHA: bcb1b156f0fb16b80ddcc27c0167c7d224aabcd2
+Source commit SHA: fad8e2596eab747092e8920fdf9a14a0dc7e4cad
 Source SHA-256: 236d3500d424a201a320f60fbda3bad79d10ba500475eb72ddbe4c539e833535
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -2382,7 +2382,7 @@ INPUT PROVENANCE LIMITATIONS:
 ===== END RAW =====
 
 ===== FILE: GEMINI_R2_SUPPLEMENT_RAW.md =====
-Source commit SHA: bcb1b156f0fb16b80ddcc27c0167c7d224aabcd2
+Source commit SHA: fad8e2596eab747092e8920fdf9a14a0dc7e4cad
 Source SHA-256: 47b82fdb54ca7b15535fbf1f6c16737e78297198bb09ef3609c83a47a0dc31f0
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -2467,7 +2467,7 @@ Googleのツール（Jules）について、Claudeは「説明書にキャンセ
 ===== END RAW =====
 
 ===== FILE: CHATGPT_R3_RAW.md =====
-Source commit SHA: bcb1b156f0fb16b80ddcc27c0167c7d224aabcd2
+Source commit SHA: fad8e2596eab747092e8920fdf9a14a0dc7e4cad
 Source SHA-256: 77a5580c22e8607fa4843b8cc900d305a5258fa59445085c7570f73ecd2d7ff3
 ===== BEGIN RAW (verbatim) =====
 # Multi-AI Council — Round 3 事実確認ラウンド  
@@ -3178,7 +3178,7 @@ OpenAIはChatGPT subscription accessでCodexを公式に自動化でき、Anthro
 ===== END RAW =====
 
 ===== FILE: CLAUDE_R3_RAW.md =====
-Source commit SHA: bcb1b156f0fb16b80ddcc27c0167c7d224aabcd2
+Source commit SHA: fad8e2596eab747092e8920fdf9a14a0dc7e4cad
 Source SHA-256: 86338212d0b85c7262e1f80a7369b6d91536a01d1ac75f720f712d7caeea0149
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -3832,7 +3832,7 @@ END RAW
 ===== END RAW =====
 
 ===== FILE: GEMINI_R3_RAW.md =====
-Source commit SHA: bcb1b156f0fb16b80ddcc27c0167c7d224aabcd2
+Source commit SHA: fad8e2596eab747092e8920fdf9a14a0dc7e4cad
 Source SHA-256: d0c43b38b528735f5a2d8aa991e6d9ef356543c778709ca7dd7f6321907795d0
 ===== BEGIN RAW (verbatim) =====
 ご指摘いただき、また再度チャンスをいただき本当にありがとうございます。
@@ -4023,7 +4023,7 @@ Round 3 事実確認 終了
 ===== END RAW =====
 
 ===== FILE: CHATGPT_R3-2_RAW.md =====
-Source commit SHA: bcb1b156f0fb16b80ddcc27c0167c7d224aabcd2
+Source commit SHA: fad8e2596eab747092e8920fdf9a14a0dc7e4cad
 Source SHA-256: 1ba9ab54cbdc79d907caad0310827cedac84b366cf48e297af939e81de7f205f
 ===== BEGIN RAW (verbatim) =====
 ## Round 3-2：3社R3回答のソース突き合わせ結果
@@ -4595,7 +4595,7 @@ Claudeの⑤ UNKNOWNは撤回できます。
 ===== END RAW =====
 
 ===== FILE: CLAUDE_R3-2_RAW.md =====
-Source commit SHA: bcb1b156f0fb16b80ddcc27c0167c7d224aabcd2
+Source commit SHA: fad8e2596eab747092e8920fdf9a14a0dc7e4cad
 Source SHA-256: e9e0f93eb535a74667060c9a1408470d1b882564940fc25d100b4b19afa8da84
 ===== BEGIN RAW (verbatim) =====
 GitHub にファイルを置いてくださったんですね。取得してみます。設問ファイル取得できました。次に3社の R3 を取得します。# CLAUDE_R3-2_OFFICIAL_RAW
@@ -5078,7 +5078,7 @@ INPUT PROVENANCE LIMITATIONS:
 ===== END RAW =====
 
 ===== FILE: GEMINI_R3-2_RAW.md =====
-Source commit SHA: bcb1b156f0fb16b80ddcc27c0167c7d224aabcd2
+Source commit SHA: fad8e2596eab747092e8920fdf9a14a0dc7e4cad
 Source SHA-256: a89052e7a5297824e21219d7a06701bba7c77a85efd31099c082bee07df0c774
 ===== BEGIN RAW (verbatim) =====
 MULTI-AI COUNCIL : ROUND 3-2
@@ -5198,7 +5198,7 @@ Round 3-2 完了
 ===== END RAW =====
 
 ===== FILE: CHATGPT_R4-A_RAW.md =====
-Source commit SHA: bcb1b156f0fb16b80ddcc27c0167c7d224aabcd2
+Source commit SHA: fad8e2596eab747092e8920fdf9a14a0dc7e4cad
 Source SHA-256: 6ee989d845031654e1ed8aa4d5ee87a63fb8343a9ecd42d6ab6a25600ad8e562
 ===== BEGIN RAW (verbatim) =====
 # 1. AI開発司令塔案のプレゼン
@@ -5628,7 +5628,7 @@ Codexでは公式のinterrupt等が確認されていますが、JulesのDELETE�
 ===== END RAW =====
 
 ===== FILE: CLAUDE_R4-A_RAW.md =====
-Source commit SHA: bcb1b156f0fb16b80ddcc27c0167c7d224aabcd2
+Source commit SHA: fad8e2596eab747092e8920fdf9a14a0dc7e4cad
 Source SHA-256: b6ee5558bd2b54d0b25f7cc2d275021017f2aa4235bb6d706c3c909e6ed1f726
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -5928,7 +5928,7 @@ L0は現在すでに動いている運用そのものである。
 ===== END RAW =====
 
 ===== FILE: GEMINI_R4-A_RAW.md =====
-Source commit SHA: bcb1b156f0fb16b80ddcc27c0167c7d224aabcd2
+Source commit SHA: fad8e2596eab747092e8920fdf9a14a0dc7e4cad
 Source SHA-256: 45b538b168c9d79d43e4c9ee35e2d5e3426806a1aeb4e8cd16e87a09b7eb75d8
 ===== BEGIN RAW (verbatim) =====
 Gemini案
@@ -5973,7 +5973,7 @@ Claude Agent SDKの利用が月額サブスク枠の消費ではなく、強制�
 ===== END RAW =====
 
 ===== FILE: ROUND3_QUESTIONS_RAW.md =====
-Source commit SHA: bcb1b156f0fb16b80ddcc27c0167c7d224aabcd2
+Source commit SHA: fad8e2596eab747092e8920fdf9a14a0dc7e4cad
 Source SHA-256: 216c0c81bd8f7a9e7fd4d8e09bc1d8b4e69bf6a7c15e2e8378f6785870b59181
 ===== BEGIN RAW (verbatim) =====
 MULTI-AI COUNCIL : ROUND 3
@@ -6367,7 +6367,7 @@ END
 ===== END RAW =====
 
 ===== FILE: ROUND3-2_QUESTIONS_RAW.md =====
-Source commit SHA: bcb1b156f0fb16b80ddcc27c0167c7d224aabcd2
+Source commit SHA: fad8e2596eab747092e8920fdf9a14a0dc7e4cad
 Source SHA-256: c359068ae45adf5f08265e530eba331c1dd69ff8b95cc413f4ad1732eeb88e58
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -6441,7 +6441,7 @@ MULTI-AI COUNCIL : ROUND 3-2
 ===== END RAW =====
 
 ===== FILE: COUNCIL_PRINCIPLES_RAW.md =====
-Source commit SHA: bcb1b156f0fb16b80ddcc27c0167c7d224aabcd2
+Source commit SHA: fad8e2596eab747092e8920fdf9a14a0dc7e4cad
 Source SHA-256: 40877d5342b44c43ddb0e06e04120deec2cefcaf662746f1844dc853f080ac6f
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -6814,7 +6814,7 @@ END
 ===== END RAW =====
 
 ===== FILE: COUNCIL_PRINCIPLES_11-13_DISCUSSION_RAW.md =====
-Source commit SHA: bcb1b156f0fb16b80ddcc27c0167c7d224aabcd2
+Source commit SHA: fad8e2596eab747092e8920fdf9a14a0dc7e4cad
 Source SHA-256: 36a0ff9a6c15230551644ccbe66872acbce1c06e521cab4f7e66d26811ebda6c
 ===== BEGIN RAW (verbatim) =====
 # COUNCIL PRINCIPLES 11–13 DISCUSSION RAW
@@ -7734,7 +7734,7 @@ END
 ===== END RAW =====
 
 ===== FILE: ROUND4-5_PLAN_RAW.md =====
-Source commit SHA: bcb1b156f0fb16b80ddcc27c0167c7d224aabcd2
+Source commit SHA: fad8e2596eab747092e8920fdf9a14a0dc7e4cad
 Source SHA-256: e591041c777aa8bbc3f8cc3190c8848cb85be04c4a220c53cf8ac91ae2abef1d
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -7939,7 +7939,7 @@ END
 ===== END RAW =====
 
 ===== FILE: ROUND4_PRESTART_STATUS_RAW.md =====
-Source commit SHA: bcb1b156f0fb16b80ddcc27c0167c7d224aabcd2
+Source commit SHA: fad8e2596eab747092e8920fdf9a14a0dc7e4cad
 Source SHA-256: 5639dfd18936a552f565e6efb9a37ebb7aa776766c75d06b87cb02bb7bae05d1
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -8022,7 +8022,7 @@ END
 ===== END RAW =====
 
 ===== FILE: ROUND4-A_QUESTIONS_RAW.md =====
-Source commit SHA: bcb1b156f0fb16b80ddcc27c0167c7d224aabcd2
+Source commit SHA: fad8e2596eab747092e8920fdf9a14a0dc7e4cad
 Source SHA-256: 810668a02d3cad66d7fed4f725f04bc3278198535f48132375ad1fed970802f4
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -8232,7 +8232,7 @@ END
 ===== END RAW =====
 
 ===== FILE: ROUND4-B_QUESTIONS_RAW.md =====
-Source commit SHA: bcb1b156f0fb16b80ddcc27c0167c7d224aabcd2
+Source commit SHA: fad8e2596eab747092e8920fdf9a14a0dc7e4cad
 Source SHA-256: ff0942b5394ce614bef5ea73e3d891d0bcce50edbe28b0b0a5f131c0e23cdd21
 ===== BEGIN RAW (verbatim) =====
 # Multi-AI Council Round 4-B 設問
@@ -8502,7 +8502,7 @@ Round 5には自動で進まないでください。
 ===== END RAW =====
 
 ===== FILE: GEMINI_FEATURE_VERIFICATION_RAW.md =====
-Source commit SHA: bcb1b156f0fb16b80ddcc27c0167c7d224aabcd2
+Source commit SHA: fad8e2596eab747092e8920fdf9a14a0dc7e4cad
 Source SHA-256: cdc4132aa1df881ce38e07ecf033ad8ec4be1ad22955ef06bc05e000e041706c
 ===== BEGIN RAW (verbatim) =====
 # GEMINI_FEATURE_VERIFICATION_RAW
@@ -8667,7 +8667,7 @@ END
 ===== END RAW =====
 
 ===== FILE: HANDOVER_CHECKLIST_RAW.md =====
-Source commit SHA: bcb1b156f0fb16b80ddcc27c0167c7d224aabcd2
+Source commit SHA: fad8e2596eab747092e8920fdf9a14a0dc7e4cad
 Source SHA-256: 010701a62fec974556d280d8708817ba1f9f385b1d4b81ebc220e05eba30f2a0
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -8850,7 +8850,7 @@ END
 ===== END RAW =====
 
 ===== FILE: CHATGPT_HANDOVER_RAW.md =====
-Source commit SHA: bcb1b156f0fb16b80ddcc27c0167c7d224aabcd2
+Source commit SHA: fad8e2596eab747092e8920fdf9a14a0dc7e4cad
 Source SHA-256: 00a659d7f30b37d88b476b0137a47224e0945bb160775a91463494524bfcc6c8
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -8996,7 +8996,7 @@ END
 ===== END RAW =====
 
 ===== FILE: CLAUDE_HANDOVER_RAW.md =====
-Source commit SHA: bcb1b156f0fb16b80ddcc27c0167c7d224aabcd2
+Source commit SHA: fad8e2596eab747092e8920fdf9a14a0dc7e4cad
 Source SHA-256: 6ad3fd8639306a85e5d2e26f9df736cc00f1c872001a0b6d7fa73d2de7a76ad3
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -9285,7 +9285,7 @@ END
 ===== END RAW =====
 
 ===== FILE: GEMINI_HANDOVER_RAW.md =====
-Source commit SHA: bcb1b156f0fb16b80ddcc27c0167c7d224aabcd2
+Source commit SHA: fad8e2596eab747092e8920fdf9a14a0dc7e4cad
 Source SHA-256: 71026ea4f6efa516b5a70aa75269ebfae229e004fd64307a74768820c9ef0bab
 ===== BEGIN RAW (verbatim) =====
 ### GEMINI 引き継ぎ表紙
