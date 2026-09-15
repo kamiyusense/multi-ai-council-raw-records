@@ -30,9 +30,9 @@
 - GEMINI_R4-A_RAW.md
 
 ## Round 4-B
-  - CLAUDE_R4-B_RAW.md
-  - CHATGPT_R4-B_RAW.md
-    - GEMINI_R4-B_RAW.md
+- CLAUDE_R4-B_RAW.md
+- CHATGPT_R4-B_RAW.md
+- GEMINI_R4-B_RAW.md
 
 ## Round 4-B 匿名質問・答え合わせ
 - CHATGPT_R4-B_ANONYMITY_CHECK_RAW.md
