@@ -3,7 +3,7 @@ GitHubの個別RAWが正本。Bundleは派生物であり、要約ではなく�
 各区切りの後の原文部分は、対応するRAWファイルのバイト列をそのまま収録しています。
 
 ===== FILE: CLAUDE_R1_RAW.md =====
-Source commit SHA: 071f5832f3b40a87ecc8728bf71b726cfe807e8f
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
 Source SHA-256: 43c991f9bb4f441af9ad44e36a0e1458686f2f4e382e640790eb470535589920
 ===== BEGIN RAW (verbatim) =====
 # 設計レビュー: Multi-AI Council v0.1
@@ -181,7 +181,7 @@ Phase 0を development automationより先に作るという判断(Q1, Q2)自体
 ===== END RAW =====
 
 ===== FILE: GEMINI_R1_RAW.md =====
-Source commit SHA: 071f5832f3b40a87ecc8728bf71b726cfe807e8f
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
 Source SHA-256: 8970d483e000abd93c6f4f697f78591e249cd43c06d859449d3f65343a5541eb
 ===== BEGIN RAW (verbatim) =====
 ### A. Verdict
@@ -343,7 +343,7 @@ Claude CodeのPreToolUse HookからGemini/OpenAIのAPIを同期的に呼び出�
 ===== END RAW =====
 
 ===== FILE: CHATGPT_R2_RAW.md =====
-Source commit SHA: 071f5832f3b40a87ecc8728bf71b726cfe807e8f
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
 Source SHA-256: d718c0b7c71420e66873a035d3a8be98c372f09e0a871215b9e0ab85d5401f8d
 ===== BEGIN RAW (verbatim) =====
 PURPOSE: Round 1で独立に出された設計レビューを受け、 他者の指摘を見たことで自分の意見がどう変化したか、 どこを維持するか、 どこで反対するか、 Round 3で何を証拠によって決着させるべきかを明示する。
@@ -785,7 +785,7 @@ RE-RUN THIS ROUND 2: NO, unless input provenance is later shown to be materially
 ===== END RAW =====
 
 ===== FILE: CHATGPT_R2_SUPPLEMENT_RAW.md =====
-Source commit SHA: 071f5832f3b40a87ecc8728bf71b726cfe807e8f
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
 Source SHA-256: 6b9f7c4fa2e7afbe19f2f62cfeed477155e959136cd91b27efa9e1d76282b1d6
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -1203,7 +1203,7 @@ ChatGPTのMarkdownコピーが途中で切れた。
 ===== END RAW =====
 
 ===== FILE: CLAUDE_R2_RAW.md =====
-Source commit SHA: 071f5832f3b40a87ecc8728bf71b726cfe807e8f
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
 Source SHA-256: 346a7b4dc3327b861c3dd5709279df1522a77c4eb4750e3b5d62d3b126be221b
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -1929,7 +1929,7 @@ END RAW
 ===== END RAW =====
 
 ===== FILE: CLAUDE_R2_SUPPLEMENT_RAW.md =====
-Source commit SHA: 071f5832f3b40a87ecc8728bf71b726cfe807e8f
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
 Source SHA-256: 41b5758fcf5208aa5cab36c39046dab8bdefa37119d76ce23df498331913490d
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -2244,7 +2244,7 @@ END RAW
 ===== END RAW =====
 
 ===== FILE: GEMINI_R2_RAW.md =====
-Source commit SHA: 071f5832f3b40a87ecc8728bf71b726cfe807e8f
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
 Source SHA-256: 236d3500d424a201a320f60fbda3bad79d10ba500475eb72ddbe4c539e833535
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -2382,7 +2382,7 @@ INPUT PROVENANCE LIMITATIONS:
 ===== END RAW =====
 
 ===== FILE: GEMINI_R2_SUPPLEMENT_RAW.md =====
-Source commit SHA: 071f5832f3b40a87ecc8728bf71b726cfe807e8f
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
 Source SHA-256: 47b82fdb54ca7b15535fbf1f6c16737e78297198bb09ef3609c83a47a0dc31f0
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -2467,7 +2467,7 @@ Googleのツール（Jules）について、Claudeは「説明書にキャンセ
 ===== END RAW =====
 
 ===== FILE: CHATGPT_R3_RAW.md =====
-Source commit SHA: 071f5832f3b40a87ecc8728bf71b726cfe807e8f
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
 Source SHA-256: 77a5580c22e8607fa4843b8cc900d305a5258fa59445085c7570f73ecd2d7ff3
 ===== BEGIN RAW (verbatim) =====
 # Multi-AI Council — Round 3 事実確認ラウンド  
@@ -3178,7 +3178,7 @@ OpenAIはChatGPT subscription accessでCodexを公式に自動化でき、Anthro
 ===== END RAW =====
 
 ===== FILE: CLAUDE_R3_RAW.md =====
-Source commit SHA: 071f5832f3b40a87ecc8728bf71b726cfe807e8f
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
 Source SHA-256: 86338212d0b85c7262e1f80a7369b6d91536a01d1ac75f720f712d7caeea0149
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -3832,7 +3832,7 @@ END RAW
 ===== END RAW =====
 
 ===== FILE: GEMINI_R3_RAW.md =====
-Source commit SHA: 071f5832f3b40a87ecc8728bf71b726cfe807e8f
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
 Source SHA-256: d0c43b38b528735f5a2d8aa991e6d9ef356543c778709ca7dd7f6321907795d0
 ===== BEGIN RAW (verbatim) =====
 ご指摘いただき、また再度チャンスをいただき本当にありがとうございます。
@@ -4023,7 +4023,7 @@ Round 3 事実確認 終了
 ===== END RAW =====
 
 ===== FILE: CHATGPT_R3-2_RAW.md =====
-Source commit SHA: 071f5832f3b40a87ecc8728bf71b726cfe807e8f
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
 Source SHA-256: 1ba9ab54cbdc79d907caad0310827cedac84b366cf48e297af939e81de7f205f
 ===== BEGIN RAW (verbatim) =====
 ## Round 3-2：3社R3回答のソース突き合わせ結果
@@ -4595,7 +4595,7 @@ Claudeの⑤ UNKNOWNは撤回できます。
 ===== END RAW =====
 
 ===== FILE: CLAUDE_R3-2_RAW.md =====
-Source commit SHA: 071f5832f3b40a87ecc8728bf71b726cfe807e8f
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
 Source SHA-256: e9e0f93eb535a74667060c9a1408470d1b882564940fc25d100b4b19afa8da84
 ===== BEGIN RAW (verbatim) =====
 GitHub にファイルを置いてくださったんですね。取得してみます。設問ファイル取得できました。次に3社の R3 を取得します。# CLAUDE_R3-2_OFFICIAL_RAW
@@ -5078,7 +5078,7 @@ INPUT PROVENANCE LIMITATIONS:
 ===== END RAW =====
 
 ===== FILE: GEMINI_R3-2_RAW.md =====
-Source commit SHA: 071f5832f3b40a87ecc8728bf71b726cfe807e8f
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
 Source SHA-256: a89052e7a5297824e21219d7a06701bba7c77a85efd31099c082bee07df0c774
 ===== BEGIN RAW (verbatim) =====
 MULTI-AI COUNCIL : ROUND 3-2
@@ -5198,7 +5198,7 @@ Round 3-2 完了
 ===== END RAW =====
 
 ===== FILE: CHATGPT_R4-A_RAW.md =====
-Source commit SHA: 071f5832f3b40a87ecc8728bf71b726cfe807e8f
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
 Source SHA-256: 6ee989d845031654e1ed8aa4d5ee87a63fb8343a9ecd42d6ab6a25600ad8e562
 ===== BEGIN RAW (verbatim) =====
 # 1. AI開発司令塔案のプレゼン
@@ -5628,7 +5628,7 @@ Codexでは公式のinterrupt等が確認されていますが、JulesのDELETE�
 ===== END RAW =====
 
 ===== FILE: CLAUDE_R4-A_RAW.md =====
-Source commit SHA: 071f5832f3b40a87ecc8728bf71b726cfe807e8f
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
 Source SHA-256: b6ee5558bd2b54d0b25f7cc2d275021017f2aa4235bb6d706c3c909e6ed1f726
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -5928,7 +5928,7 @@ L0は現在すでに動いている運用そのものである。
 ===== END RAW =====
 
 ===== FILE: GEMINI_R4-A_RAW.md =====
-Source commit SHA: 071f5832f3b40a87ecc8728bf71b726cfe807e8f
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
 Source SHA-256: 992050b73563f9d5b03cec867cc2ab005e0fd7c678cd07cfd0c0d845595f0abd
 ===== BEGIN RAW (verbatim) =====
 Round 4-A を開始します。
@@ -6013,7 +6013,7 @@ Round 4-A の規定された4項目の提示を完了しました。
 ===== END RAW =====
 
 ===== FILE: CLAUDE_R4-B_RAW.md =====
-Source commit SHA: 071f5832f3b40a87ecc8728bf71b726cfe807e8f
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
 Source SHA-256: a0a60b4a4ade9df1a936a8d46a8fdc38ca31329ac59054cfa5ff9cf36c545287
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -6772,7 +6772,7 @@ END
 ===== END RAW =====
 
 ===== FILE: CHATGPT_R4-B_RAW.md =====
-Source commit SHA: 071f5832f3b40a87ecc8728bf71b726cfe807e8f
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
 Source SHA-256: 351c1b169e3941a1531f8caadb7690025ca6e217684e8a9fe948e964d34c9599
 ===== BEGIN RAW (verbatim) =====
 現在のGitHub `main` を正本として、`INDEX.md`、`ROUND4-B_QUESTIONS_RAW.md`、3社の `*_R4-A_RAW.md`、`COUNCIL_PRINCIPLES_RAW.md`、`ROUND4-5_PLAN_RAW.md` を直接確認しました。
@@ -7313,7 +7313,7 @@ Julesへ機密コードを送る場合、その経路の利用規約・データ
 ===== END RAW =====
 
 ===== FILE: GEMINI_R4-B_RAW.md =====
-Source commit SHA: 071f5832f3b40a87ecc8728bf71b726cfe807e8f
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
 Source SHA-256: 752502a268a4c4fa7da29d7075bfa84eca4026db36a158b6f5e6593452e869b6
 ===== BEGIN RAW (verbatim) =====
 Round 4-B の回答を提示します。
@@ -7450,7 +7450,7 @@ Round 4-Aのプレゼンで「約1.5〜3円程度（3社合計）」としたコ
 ===== END RAW =====
 
 ===== FILE: CHATGPT_R4-B_ANONYMITY_CHECK_RAW.md =====
-Source commit SHA: 071f5832f3b40a87ecc8728bf71b726cfe807e8f
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
 Source SHA-256: df0548eca89af41170b49a232ed304357c661dd2db50969bc184cda508d85a0b
 ===== BEGIN RAW (verbatim) =====
 現在のGitHub main の INDEX.md と ROUND4-B_ANONYMITY_ANSWER_CHECK_RAW.md を直接確認しました。他社の今回の答え合わせ回答は見ていません。
@@ -7659,7 +7659,7 @@ Round 5には進みません。
 ===== END RAW =====
 
 ===== FILE: CLAUDE_R4-B_ANONYMITY_CHECK_RAW.md =====
-Source commit SHA: 071f5832f3b40a87ecc8728bf71b726cfe807e8f
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
 Source SHA-256: 7dacb30af5cc7bd2b05cf90fe9c8ff728f1c3928e520e0a445be9421299e85c5
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -7924,7 +7924,7 @@ END
 ===== END RAW =====
 
 ===== FILE: GEMINI_R4-B_ANONYMITY_CHECK_RAW.md =====
-Source commit SHA: 071f5832f3b40a87ecc8728bf71b726cfe807e8f
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
 Source SHA-256: b5a500d09092dd05488dd8f5a056d89dd2e3d13bdd34947d81ca7ef0c2b725c9
 ===== BEGIN RAW (verbatim) =====
 指定された正式参照経路であるNotebook「Multi-AI Council Bundle Verification」の最新ソース `GEMINI_NOTEBOOK_BUNDLE.md` から、対象の `ROUND4-B_ANONYMITY_ANSWER_CHECK_RAW.md` の内容を確認しました。
@@ -7934,8 +7934,2686 @@ Source SHA-256: b5a500d09092dd05488dd8f5a056d89dd2e3d13bdd34947d81ca7ef0c2b725c9
 指示通り、Round 4-Bの答え合わせに関する回答のみを完了いたしました。Round 5へは進まず、次のご指示をお待ちしております。
 ===== END RAW =====
 
+===== FILE: CHATGPT_R5-A_RAW.md =====
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
+Source SHA-256: 5bf190eaa197bd4651d1169ece3e7f55c70d34cab09187432495fc2e048adef7
+===== BEGIN RAW (verbatim) =====
+# Multi-AI Council Round 5-A
+# ChatGPT 正式運用候補・独立提出
+
+ROUND5-A_BASE_COMMIT: `0a492405dafa14590232bc1dc297b43291d41d4b`
+
+提出者: ChatGPT
+Round: 5-A
+外部調査: 今回は実施していない
+独立性: 他社のRound 5-A回答・branch・Pull Request・diffは参照していない
+
+============================================================
+0. 参照状態と今回の第一候補
+============================================================
+
+[調][確定事実]
+指定された基準コミットを直接参照した。
+Round 5-A開始時点のmainは基準コミットより1コミット先にあるが、
+差分は派生生成物 `GEMINI_NOTEBOOK_BUNDLE.md` と
+`NOTEBOOK_SYNC_MANIFEST.md` の更新のみだった。
+Round 5-Aの判断は、指示どおり上記BASE_COMMITに固定して行った。
+
+[調] 主な参照RAW:
+- https://github.com/kamiyusense/multi-ai-council-raw-records/blob/0a492405dafa14590232bc1dc297b43291d41d4b/INDEX.md
+- https://github.com/kamiyusense/multi-ai-council-raw-records/blob/0a492405dafa14590232bc1dc297b43291d41d4b/ROUND5-A_QUESTIONS_RAW.md
+- https://github.com/kamiyusense/multi-ai-council-raw-records/blob/0a492405dafa14590232bc1dc297b43291d41d4b/COUNCIL_PRINCIPLES_RAW.md
+- https://github.com/kamiyusense/multi-ai-council-raw-records/blob/0a492405dafa14590232bc1dc297b43291d41d4b/CHATGPT_R3_RAW.md
+- https://github.com/kamiyusense/multi-ai-council-raw-records/blob/0a492405dafa14590232bc1dc297b43291d41d4b/CLAUDE_R3_RAW.md
+- https://github.com/kamiyusense/multi-ai-council-raw-records/blob/0a492405dafa14590232bc1dc297b43291d41d4b/GEMINI_R3_RAW.md
+- https://github.com/kamiyusense/multi-ai-council-raw-records/blob/0a492405dafa14590232bc1dc297b43291d41d4b/CHATGPT_R3-2_RAW.md
+- https://github.com/kamiyusense/multi-ai-council-raw-records/blob/0a492405dafa14590232bc1dc297b43291d41d4b/CLAUDE_R3-2_RAW.md
+- https://github.com/kamiyusense/multi-ai-council-raw-records/blob/0a492405dafa14590232bc1dc297b43291d41d4b/GEMINI_R3-2_RAW.md
+- https://github.com/kamiyusense/multi-ai-council-raw-records/blob/0a492405dafa14590232bc1dc297b43291d41d4b/ROUND4-A_QUESTIONS_RAW.md
+- https://github.com/kamiyusense/multi-ai-council-raw-records/blob/0a492405dafa14590232bc1dc297b43291d41d4b/CHATGPT_R4-A_RAW.md
+- https://github.com/kamiyusense/multi-ai-council-raw-records/blob/0a492405dafa14590232bc1dc297b43291d41d4b/CLAUDE_R4-A_RAW.md
+- https://github.com/kamiyusense/multi-ai-council-raw-records/blob/0a492405dafa14590232bc1dc297b43291d41d4b/GEMINI_R4-A_RAW.md
+- https://github.com/kamiyusense/multi-ai-council-raw-records/blob/0a492405dafa14590232bc1dc297b43291d41d4b/ROUND4-B_QUESTIONS_RAW.md
+- https://github.com/kamiyusense/multi-ai-council-raw-records/blob/0a492405dafa14590232bc1dc297b43291d41d4b/CHATGPT_R4-B_RAW.md
+- https://github.com/kamiyusense/multi-ai-council-raw-records/blob/0a492405dafa14590232bc1dc297b43291d41d4b/CLAUDE_R4-B_RAW.md
+- https://github.com/kamiyusense/multi-ai-council-raw-records/blob/0a492405dafa14590232bc1dc297b43291d41d4b/GEMINI_R4-B_RAW.md
+- https://github.com/kamiyusense/multi-ai-council-raw-records/blob/0a492405dafa14590232bc1dc297b43291d41d4b/ROUND4-B_ANONYMITY_ANSWER_CHECK_RAW.md
+- https://github.com/kamiyusense/multi-ai-council-raw-records/blob/0a492405dafa14590232bc1dc297b43291d41d4b/CHATGPT_R4-B_ANONYMITY_CHECK_RAW.md
+- https://github.com/kamiyusense/multi-ai-council-raw-records/blob/0a492405dafa14590232bc1dc297b43291d41d4b/CLAUDE_R4-B_ANONYMITY_CHECK_RAW.md
+- https://github.com/kamiyusense/multi-ai-council-raw-records/blob/0a492405dafa14590232bc1dc297b43291d41d4b/GEMINI_R4-B_ANONYMITY_CHECK_RAW.md
+- https://github.com/kamiyusense/multi-ai-council-raw-records/blob/0a492405dafa14590232bc1dc297b43291d41d4b/CHATGPT_R2_RAW.md
+- https://github.com/kamiyusense/multi-ai-council-raw-records/blob/0a492405dafa14590232bc1dc297b43291d41d4b/CHATGPT_R2_SUPPLEMENT_RAW.md
+
+[知][設計判断]
+今回の第一候補を、
+**「ローカル・サブスク優先・GitHub正本・段階縮退型 Council Runner」**
+とする。
+
+要点は次の7つ。
+
+1. AIを司令官にせず、ローカルの小さなOrchestratorを交通整理役にする。
+2. GitHubのRAWを正本とし、ローカルでは先に消えない形でRAWを保存する。
+3. 追加従量課金へ自動移行しない。月額契約側の公式経路を優先する。
+4. 利用枠残量は予測せず、確認できたエラーを受けて状態を変える。
+5. L2自動 / L1半自動 / L0手動へ縮退できる。
+6. Phase 0はread-onlyで始め、危険な書き込み・Merge・最終判断は人間へ返す。
+7. 「賢い自動合意装置」ではなく、配布・保存・比較・事故検知でユーザー時間を減らす。
+
+============================================================
+1. 設問1：考えの変遷・3社案の取捨・UNKNOWN
+============================================================
+
+------------------------------------------------------------
+A. 維持した考え
+------------------------------------------------------------
+
+[調][確定事実]
+ChatGPTのRound 2以降、以下は一貫して維持している。
+
+- RAWを要約より優先する。
+- 3社多数決だけで真偽を決めない。
+- UNKNOWNを正式な結果として残す。
+- vendor-neutralな外部Orchestratorにする。
+- Phase 0はread-onlyで始める。
+- 最終判断は人間へ返す。
+- Roundを自動で無限に増やさない。
+
+参照:
+CHATGPT_R2_RAW.md / COUNCIL_PRINCIPLES_RAW.md
+
+[知][設計判断]
+これらは今回も維持する。
+特に「AIが答える、機械が集計する、人間が決める」という境界は変更しない。
+
+------------------------------------------------------------
+B. 修正・縮小した考え
+------------------------------------------------------------
+
+[調][確定事実]
+Round 2で、当初の「Consensus Engine」を
+「Comparison / Evidence Engine」へ縮小した。
+動的信頼度重み付け、自動Round反復、早期のDB必須化を外した。
+
+Round 3 / 3-2では、
+3社の月額枠残量を司令塔が正確に取得する公式手段はUNKNOWNのままとなり、
+「残量を見て予防的に止める」設計を採れないことが明確になった。
+
+Round 4-Bでは、
+自分のRound 4-A案からさらに以下を修正した。
+
+- Gemini回答の完全自動回収を前提にしない。
+- Claude案のL2/L1/L0縮退を採用する。
+- コミット・ハッシュ確認を安全補助として採用する。
+- Phase 0でユーザー操作量を実測し、効果がなければ削る。
+
+[知][設計判断]
+Round 4-Bで掲げた「通常2操作」の目標も修正する。
+Gemini回答の自動回収が未確認である以上、
+Phase 0で2操作を標準目標にするのは現実より楽観的である。
+
+今回の通常時設計目標は**4操作**とする。
+
+------------------------------------------------------------
+C. 撤回した考え
+------------------------------------------------------------
+
+[知][設計判断]
+
+現在は次を採用しない。
+
+1. **賢い統合AIが3社の正解を決める構造**
+   - 統合AI自身が誤読する可能性があり、原則3と相性が悪い。
+
+2. **初期段階から動的なAI信頼度スコアを持つ構造**
+   - ground truthが不足し、疑似精度になる。
+
+3. **合意するまでRoundを自動反復する構造**
+   - 原則9に反する。
+
+4. **月額残量を見て自動で予防停止できることを前提にした構造**
+   - f-4がUNKNOWNのため撤回。
+
+5. **Geminiを含む3社回答がDay 1から完全自動回収できる前提**
+   - 現在確認されているGemini正式参照経路は入力側であり、
+     回答自動回収はUNKNOWN。
+
+6. **標準経路として従量APIへ自動fallbackする構造**
+   - ユーザーの追加費用ゼロ方針と衝突する。
+
+------------------------------------------------------------
+D. 他社から採用した考え
+------------------------------------------------------------
+
+### Claudeから採用
+
+[調][確定事実]
+CLAUDE_R4-A_RAW.mdでは、
+L2自動 / L1半自動 / L0手動の3段階縮退、
+正本コミット・指紋確認、
+Phase 0で時間と操作を測り効果がなければ撤回、
+という案が提示された。
+
+[知][設計判断]
+これらを採用する。
+自分のR4-A案より、
+「できない自動化を無理に自動化したことにしない」
+点が明確だからである。
+
+ただし、Claude案の
+「照合層をすべて決定論コードだけで完結させる」
+という読み方は全面採用しない。
+URL抽出、ハッシュ、状態、明示的な回答コードは機械処理できるが、
+自由文同士が意味的に同じ主張かを完全に決定論で判定できるとは確認できていない。
+
+### Geminiから採用
+
+[調][確定事実]
+GEMINI_R4-A_RAW.mdでは、
+ローカルPC上の単純な入口、
+危険操作を隔離する思想、
+エラー駆動で複雑な残量予測を作らない方向が提示された。
+
+[知][設計判断]
+次を採用する。
+
+- 日本語の1つの入口。
+- 危険な実作業をmainから隔離する。
+- 最初から大規模DBを作らない。
+
+一方、
+OpenAI APIを標準経路に置くこと、
+「約1.5〜3円」をRound 5の確定費用として使うこと、
+APIキー取得をDay 1の必須準備にすることは採用しない。
+
+### 3社別の取捨
+
+#### ChatGPT案
+
+採用:
+- Provider Adapter
+- エラー駆動状態管理
+- subscription-first
+- 自動API fallback禁止
+- 最終判断は人間
+
+簡略化:
+- 状態数をPhase 0で必要な最小限にする。
+- semantic comparisonを初期必須機能にしない。
+
+撤回:
+- Geminiを含めた完全自動回収をDay 1前提にすること。
+- 通常2操作という目標。
+
+条件付き:
+- 自動PR作成はPhase 0終了後、書込権限条件を決めた場合のみ。
+
+#### Claude案
+
+採用:
+- L2/L1/L0
+- コミット・ハッシュ照合
+- RAWを比較より先に保存
+- 実測で効果がなければ縮小・撤回
+
+採用しない:
+- 意味的な一致まで完全に決定論コードで判定できるという前提。
+
+条件付き:
+- PR自動作成はPhase 0後。
+- 指紋は「AIが本当に読んだ証明」ではなく「配布物不一致の検知補助」として使う。
+
+#### Gemini案
+
+採用:
+- 日本語1画面
+- 隔離ブランチ思想
+- エラー停止の単純さ
+
+採用しない:
+- 従量APIを標準経路にすること。
+- Gemini自動回収が確認済みであるかのように扱うこと。
+- JulesをGeminiと別の独立票として自動的に数えること。
+
+条件付き:
+- JulesはGoogle側の実行workerとして利用可能。
+  ただしCouncil seatは別に定義する。
+
+------------------------------------------------------------
+E. 現在も一致していない考え
+------------------------------------------------------------
+
+[知][設計判断]
+
+1. **semantic comparisonをどこまで機械だけで行うか**
+   - Claude案は決定論を強く押す。
+   - 私は、形式・状態・URL・明示回答コードは決定論で扱う一方、
+     自由文の意味的一致は機械確定しない。
+   - Phase 0では意味的一致を無理に自動判定せず、
+     side-by-side表示でよいと考える。
+
+2. **匿名質問方式の改善幅**
+   - ChatGPTは第三者整形を比較的前向きに提案。
+   - Claudeは書式のみ整形、内容整形には慎重。
+   - Geminiは現行方式維持寄り。
+   - これは司令塔Phase 0の実装を止める論点ではないため保留する。
+
+3. **2社だけになったときの正式合意条件**
+   - 原則12は具体的なQuorumを実装仕様へ委ねている。
+   - Round 5-A候補としては下記の暫定仕様を置く。
+
+------------------------------------------------------------
+F. UNKNOWNのまま残ったもの
+------------------------------------------------------------
+
+### F-1 月額利用枠残量のprogrammatic取得
+
+[調][UNKNOWN]
+3社とも、司令塔が個人月額枠の正確な残量を取得する公式手段は未確認。
+
+なぜ:
+Round 3 / 3-2で確認できなかった。
+
+何があれば確定:
+公式API/CLI仕様または実機でdocumentedな取得方法が確認されること。
+
+今回の扱い:
+**安全側に倒して暫定運用。**
+残量予測はしない。明示エラー後に止める。
+
+### F-2 quota境界を長時間agentが跨ぐ瞬間の挙動
+
+[調][UNKNOWN]
+統一的なtransaction semanticsは未確認。
+
+今回の扱い:
+**安全側に倒して暫定運用。**
+途中結果を未完了RAWとして保存し、正式回答に数えない。
+
+### F-3 Jules DELETEのhard-stop性
+
+[調][UNKNOWN]
+DELETE endpointの存在は確認済みだが、
+remote executionやquota消費まで即時停止する保証は未確認。
+
+今回の扱い:
+**Phase 0から除外。**
+危険なJules実行をPhase 0では行わない。
+
+### F-4 Gemini回答の自動回収
+
+[調][UNKNOWN]
+GitHub→Bundle→Drive→Gemini Notebookへの参照経路は確認済みだが、
+回答を司令塔へ自動回収する経路は未確認。
+
+今回の扱い:
+**L1半自動。**
+ユーザーの手動投入・回収を残す。
+
+### F-5 Jules / Claude等へprivate codeを渡す際の現行データ利用条件
+
+[調][UNKNOWN]
+Round 4-Bで、Gemini無料API以外の各経路について
+同一条件での一次資料確認は不足していると3社が指摘した。
+
+今回の扱い:
+**保留。**
+Phase 0ではprivate codeや秘密情報を3社へfan-outしない。
+
+### F-6 個人subscriptionを第三者向けサービスへ中継する範囲
+
+[調][UNKNOWN]
+自分1人の個人利用を超える範囲は未決着。
+
+今回の扱い:
+**除外。**
+Phase 0はユーザー本人のローカル利用だけを対象にする。
+
+============================================================
+2. 設問2：正式運用候補 ― Day 1
+============================================================
+
+------------------------------------------------------------
+2-A. 最初の一回だけ必要な準備
+------------------------------------------------------------
+
+[知][設計判断]
+
+現在のユーザー環境向けに、初回準備を次へ限定する。
+
+1. Windows PCにCouncil Runnerを置く。
+   - 最初は1フォルダでよい。
+   - 大規模DBは使わない。
+
+2. Git / GitHubの既存環境を使える状態にする。
+   - Phase 0では司令塔からgit writeしない。
+   - GitHubは正本参照用。
+
+3. OpenAI側はChatGPT subscriptionで利用する公式Codex経路へログインする。
+   - API key経路を標準にしない。
+
+4. Anthropic側はClaude Pro側の公式CLI/Agent経路へログインする。
+   - `ANTHROPIC_API_KEY` が実行環境に存在する場合は自動実行を拒否する。
+
+5. Geminiは既存の正式Notebook参照経路を利用する。
+   - 回答回収はL1手動。
+
+6. Orchestrator自身には従量APIキーを保存しない。
+   - providerの公式ログイン情報は公式ツール側へ任せる。
+   - repo本文、設定ファイル、ログへ秘密値を書かない。
+
+7. ローカルに次の作業領域だけ作る。
+
+```
+council/
+  cases/
+  config/
+  reports/
+  logs/
+  STOP
+```
+
+STOPは通常は存在しない。
+作成されたら新規dispatchを止める。
+
+------------------------------------------------------------
+実装仕様：Participant / Council seat / Quorum
+------------------------------------------------------------
+
+[知][設計判断]
+
+原則11〜13の申し送りをRound 5-A候補で具体化する。
+
+**Participant**
+実際に仕事をするAI・agent・tool。
+例: Codex, ChatGPT, Claude, Claude Code, Gemini, Jules。
+
+**Council seat**
+独立票として数えるvendor単位。
+Phase 0では次の3席。
+
+- OpenAI seat
+- Anthropic seat
+- Google seat
+
+同一vendor内で複数toolを使っても票を増やさない。
+JulesとGeminiを同時に使ってもGoogle票が2票になるわけではない。
+
+**回答状態**
+- COMPLETE: 正式回答完了
+- ANSWER_UNKNOWN: 正式にUNKNOWNと回答
+- REFUSAL: ポリシー等により回答拒否
+- NONPARTICIPANT: 枠切れ・通信不能等で回答プロセスを完了できない
+- ERROR_UNKNOWN: 原因不明で完了不能
+- USER_DISABLED: ユーザー判断で一時不参加
+
+**Phase 0のQuorum仮仕様**
+[仮の閾値]
+
+- 最低2 Council seatsが正式回答プロセスを完了していること。
+- ANSWER_UNKNOWNとREFUSALは「参加」には数えるが、
+  その争点の合意票には数えない。
+- NONPARTICIPANT / ERROR_UNKNOWN / USER_DISABLEDはそのRoundの母数から外す。
+- 正式合意は、その争点について参加した全席が同じ明示結論で一致し、
+  ANSWER_UNKNOWN / REFUSALがなく、
+  安全警告が1件もない場合だけとする。
+- 3席中1席が不参加でも、残る2席が両方同じ明示結論なら
+  Phase 0上は正式合意候補とする。
+- 1席しか残らない場合はCouncil正式合意にしない。
+
+この閾値は安全側に寄せたPhase 0用であり、
+実測後に変更可能。
+
+------------------------------------------------------------
+2-B. 通常1案件の流れ
+------------------------------------------------------------
+
+[知][設計判断]
+
+① ユーザーが最初に何をするか
+
+日本語で1回、Council Runnerへ依頼を書く。
+
+② 3社へどう届けるか
+
+- OpenAI seat: Codexのsubscription経路へ自動dispatch。
+- Anthropic seat: Claudeのsubscription経路へ自動dispatch。
+- Google seat: Gemini Notebook向けのコピペ文を自動生成し、L1手動で渡す。
+
+全席へ同じ生質問と、同じcase ID、同じ参照コミットを渡す。
+
+③ 回答取得
+
+- OpenAI / Anthropic: stdoutまたは公式tool outputをRAWとして取得。
+- Gemini: ユーザーが回答を1回コピーしRunnerへ戻す。
+- 途中出力はCOMPLETEにしない。
+
+④ 保存場所
+
+まずローカルの
+`cases/<case_id>/raw/<seat>/<attempt>.md`
+へ追記式で保存する。
+
+既存RAWを上書きしない。
+
+⑤ GitHubへ何をいつ記録するか
+
+Phase 0:
+- git writeしない。
+- ローカルRAWとreportだけ。
+
+Phase 0通過後:
+- ユーザーが「記録する」を選んだ案件だけ、
+  専用branchへRAWとreportを保存しPR作成可能。
+- mainへのMergeは人間。
+
+⑥ 3社回答をどう比較するか
+
+機械が行う:
+- case ID一致
+- seat / attempt / status
+- ハッシュ
+- [調]/[知]表示
+- URL抽出
+- YES/NO/UNKNOWN等の明示回答コード
+- 安全警告
+- exact duplicate
+
+機械が行わない:
+- 自由文が意味的に「同じだから合意」と断定すること。
+
+自由文の場合はside-by-sideに並べ、
+意味的合意は「未機械確定」と表示する。
+
+⑦ 3社が一致した場合
+
+Quorum仮仕様を満たし、
+安全警告がなく、
+明示結論が一致した場合、
+
+「Council正式合意候補」と表示する。
+
+ただし最終採用はユーザー。
+
+⑧ 重要な不一致
+
+- どのseatがどの結論かを表示。
+- 根拠URL・UNKNOWN理由を並べる。
+- 自動でRoundを増やさない。
+- ユーザーへ返す。
+
+⑨ 危険なファイル変更
+
+Phase 0では実行しない。
+提案・diff案までに留める。
+
+⑩ PR作成
+
+Phase 0では自動作成しない。
+Phase 0後、許可範囲・禁止範囲・rollback・試用期間を定義した場合のみ条件付き自動。
+
+⑪ Merge
+
+常に人間。
+少なくともPhase 0では自動Mergeなし。
+
+⑫ 追加従量課金への自動移行防止
+
+- RunnerにAPI key fallbackを実装しない。
+- subscription認証失敗時は停止。
+- OpenAI/Anthropicの既知API key環境変数を起動前に検査。
+- 認証方式を確定できない場合は実行しない。
+- 「便利だからAPIへ切替」は禁止。
+- APIを使う場合は別モードとしてユーザー明示許可を必要とする。
+
+⑬ システム全体を止める方法
+
+- UI/CLIの「停止」でローカルdispatchを止める。
+- `STOP` フラグを作れば新規dispatchを禁止。
+- interruptが確認済みのproviderはinterruptを試みる。
+- hard-stopがUNKNOWNのproviderは、
+  「ローカル停止済み / remote停止はUNKNOWN」と明示する。
+- Phase 0はread-onlyなので、remoteが止まり切らなくても破壊的変更はできない。
+
+⑭ 最終判断
+
+1枚の日本語reportでユーザーへ返す。
+
+表示順:
+1. 結論候補
+2. 参加/不参加
+3. 一致/不一致
+4. 安全警告
+5. UNKNOWN
+6. 次に人間が決める1項目
+
+------------------------------------------------------------
+2-C. スマートフォン縮退
+------------------------------------------------------------
+
+[知][設計判断]
+
+PCが使えない場合はL0へ落とす。
+
+継続できる:
+- GitHub mainのRAW確認
+- 各AIチャットへ同じ設問を手動送信
+- 回答を手動で回収
+- 最終判断
+- 既存のGemini Notebook参照
+
+できなくなる:
+- Windows上の自動dispatch
+- ローカル状態機械
+- 自動ログ収集
+- 自動比較report生成
+- ローカルSTOP制御
+
+ユーザーがすること:
+- Runnerが事前に生成したテンプレートがある場合はそれを使う。
+- 無ければGitHub正本の設問をそのまま各社へ送る。
+- スマホ中は「完全自動」を目指さず、記録を失わないことを優先する。
+
+------------------------------------------------------------
+2-D. 判断の境界
+------------------------------------------------------------
+
+[知][設計判断]
+
+AIに考えさせる:
+- 問題への回答
+- 設計提案
+- 根拠説明
+- UNKNOWN理由
+- 安全上の懸念
+
+機械処理:
+- 配布
+- case ID
+- status
+- RAW保存
+- ハッシュ
+- exact差分
+- URL抽出
+- 明示回答コード比較
+- Quorum仮判定
+- retry可否ルール
+- report整形
+
+必ず人間:
+- 危険な書き込み
+- 秘密情報を外部へ送る判断
+- 追加従量課金
+- Merge
+- Quorum不足時の判断
+- 安全警告が1社でも出た場合
+- 重要不一致の最終裁定
+- Councilの最終採用
+
+============================================================
+3. 設問3：Day 2 障害・復旧
+============================================================
+
+共通の表示形式を先に決める。
+
+[知][設計判断]
+エラー時は非プログラマ向けに必ず3行表示する。
+
+```
+何が起きたか:
+現在どこまで完了したか:
+次にすること:
+```
+
+------------------------------------------------------------
+① 1社が応答しない
+------------------------------------------------------------
+
+検知:
+provider processが完了せず、設定した待機上限を超える。
+
+[仮の閾値]
+Phase 0のread-only回答では10分を仮の待機上限とする。
+実測根拠はないため調整対象。
+
+動作:
+- そのattemptをINCOMPLETEとして保存。
+- 自動再試行しない。
+- 残りのseatは続ける。
+- そのseatはNONPARTICIPANT候補。
+- 2席以上が完了すれば比較reportまでは作る。
+- Quorumを満たさなければ人間へ返す。
+
+再開:
+同じcase IDの次attemptから。
+
+------------------------------------------------------------
+② 利用枠と思われるエラー
+------------------------------------------------------------
+
+検知:
+provider自身がusage/quota/reset等を明示している場合のみ
+QUOTA_CONFIRMEDとする。
+
+429だけで月額枠切れと断定しない。
+
+動作:
+- providerを一時停止。
+- 自動API fallback禁止。
+- reset時刻が明示されていれば記録。
+- 自動再試行はしない。
+- 残りseatは続ける。
+
+再開:
+ユーザーが再開を指示する、
+または将来documentedなreset signalを取得できるようになった場合。
+
+------------------------------------------------------------
+③ 原因不明エラー
+------------------------------------------------------------
+
+検知:
+quota・auth・network等へ確定分類できない。
+
+動作:
+- ERROR_UNKNOWN。
+- quotaと断定しない。
+- 自動再試行しない。
+- エラー全文を保存。
+- 残りseatは続ける。
+- 重要案件なら人間へ返す。
+
+再開:
+同じcase IDの次attempt。
+
+------------------------------------------------------------
+④ 回答取得途中で処理が停止
+------------------------------------------------------------
+
+検知:
+出力開始後、正常終了マーカーなし。
+
+動作:
+- partial RAWを別名で保存。
+- COMPLETEに数えない。
+- 合意母数から外す。
+- 残りseatは続ける。
+- 自動再送しない。
+
+再開:
+次attempt。
+partialを上書きしない。
+
+------------------------------------------------------------
+⑤ GitHubへの保存に失敗
+------------------------------------------------------------
+
+Phase 0:
+そもそもGitHub writeしないため該当しない。
+
+Phase 0後:
+- ローカルRAWを保持。
+- `PENDING_GITHUB` と表示。
+- AIへの再質問はしない。
+- GitHub保存だけを後で再試行。
+- RAW生成からやり直さない。
+
+------------------------------------------------------------
+⑥ 同じ処理を二重実行
+------------------------------------------------------------
+
+検知:
+`case_id + seat + attempt` の組で記録する。
+
+動作:
+- 重複RAWを消さない。
+- 同一attemptの二重完了を検出。
+- どちらを正式採用するか自動で書き換えない。
+- 原則は先に正常完了した1件をactiveとし、
+  後発はDUPLICATEとして保存。
+- 内容が違えば人間へ通知。
+
+------------------------------------------------------------
+⑦ PCが途中で落ちる
+------------------------------------------------------------
+
+検知:
+次回起動時に未完了caseが残っている。
+
+動作:
+- ローカル保存済みRAWから復帰。
+- COMPLETE済みseatへ再送しない。
+- remote実行状態を確認できないseatはUNKNOWN_RUNNING。
+- 状態確認できないまま同じ要求を自動再送しない。
+
+再開:
+最後に確定保存されたcheckpointから。
+
+------------------------------------------------------------
+⑧ スマートフォンしか使えなくなる
+------------------------------------------------------------
+
+動作:
+- L0へ移行。
+- PC側自動処理は停止したまま。
+- mainの正本と保存済みcase情報を基準に手動継続。
+- PC復旧後にL2/L1へ戻す。
+- スマホ中に生成したRAWは後から別attemptとして取り込む。
+
+------------------------------------------------------------
+課金事故・暴走対策
+------------------------------------------------------------
+
+[知][設計判断]
+
+- 追加従量課金はfail-closed。
+  認証不明なら実行しない。
+- retry回数を「合意するまで」にしない。
+- Phase 0ではUNKNOWN_ERRORの自動retryは0回。
+- quota confirmedも自動retry 0回。
+- providerが公式Retry-Afterを返す将来実装では、
+  read-onlyかつ同一処理の安全性が確認された場合のみ1回まで候補とする。
+- 1社停止しても残り2社のRAW回収と比較は続ける。
+- ただし正式合意はQuorum仮仕様を満たす場合だけ。
+
+============================================================
+4. 設問4：自動化レベルとユーザー操作量
+============================================================
+
+[知][設計判断]
+
+| 項目 | 分類 | 人間へ戻す条件 |
+|---|---|---|
+| 最初の依頼 | 人間 | 常にユーザーが目的を決める |
+| 3社への配布 | 条件付き自動 | GeminiはL1手動 |
+| 回答回収 | 条件付き自動 | Gemini/取得不能providerは手動 |
+| RAW保存 | 自動 | ローカルappend-only |
+| 回答比較 | 自動 | 意味的一致は確定しない |
+| 不一致検出 | 条件付き自動 | 明示コード・exact差分は自動、意味論は人間 |
+| 再試行 | 人間寄り条件付き | Phase 0は自動retry 0 |
+| Provider一時停止 | 条件付き自動 | QUOTA_CONFIRMEDは自動停止、UNKNOWNは通知 |
+| 危険な書き込み | 人間 | 常に |
+| PR作成 | 条件付き自動 | Phase 0後、権限境界定義済みの場合 |
+| Merge | 人間 | 常に |
+| 利用枠温存判断 | 人間 | 残量取得UNKNOWNのため |
+| 追加課金判断 | 人間 | 常に明示許可 |
+| 最終採用判断 | 人間 | 常に |
+
+------------------------------------------------------------
+ユーザー操作数
+------------------------------------------------------------
+
+以下はすべて**設計目標**であり、実測値ではない。
+
+通常時(read-only Council):
+**4操作**
+1. 依頼
+2. Geminiへ投入
+3. Gemini回答を戻す
+4. 最終判断
+
+1社停止時:
+**5操作以内**
+通常4 + 状態確認/継続判断1。
+
+重要不一致:
+**5操作以内**
+通常4 + 不一致への判断1。
+
+危険な変更:
+**6操作以内**
+通常4 + 危険変更承認1 + Merge/却下1。
+
+Gemini回答自動回収が将来確認できれば、
+通常目標を4→2へ下げる。
+
+============================================================
+5. 設問5：Phase 0
+============================================================
+
+------------------------------------------------------------
+Phase 0で作るもの
+------------------------------------------------------------
+
+[知][設計判断]
+
+1. Windowsで起動できる単一Runner
+   - 日本語の依頼入力
+   - case ID生成
+   - STOP制御
+
+2. Provider Adapter最小版
+   - OpenAI subscription経路
+   - Anthropic subscription経路
+   - Gemini L1手動adapter
+
+3. 起動前課金ガード
+   - API fallbackなし
+   - 認証不明なら止める
+   - 既知の従量API key環境を検査
+
+4. append-only local RAW storage
+   - input
+   - output
+   - partial
+   - error
+   - status
+
+5. 状態機械
+   - COMPLETE
+   - ANSWER_UNKNOWN
+   - REFUSAL
+   - NONPARTICIPANT
+   - ERROR_UNKNOWN
+   - USER_DISABLED
+
+6. 最小比較report
+   - seatごとの結論
+   - 状態
+   - URL
+   - [調]/[知]
+   - safety warning
+   - UNKNOWN
+   - exact差分
+
+7. 測定ログ
+   - ユーザー操作回数
+   - ユーザー拘束時間
+   - AI側エラー回数
+   - 人間確認発生回数
+   - RAW欠損
+   - duplicate
+   - unapproved paid path発生有無
+
+------------------------------------------------------------
+Phase 0では作らないもの
+------------------------------------------------------------
+
+- DB
+- dynamic trust score
+- AIによる自動裁定
+- 自動Round 2/3
+- 自動Merge
+- 本番repoへのwrite
+- deploy
+- Julesの危険なremote実行
+- Gemini回答自動回収（未確認）
+- private code fan-out
+- automatic paid API fallback
+- 複雑なGUI
+- 自動semantic truth判定
+
+------------------------------------------------------------
+最低限記録する測定値
+------------------------------------------------------------
+
+設問指定の4項目を必須にする。
+
+- ユーザー操作回数
+- ユーザー拘束時間
+- AI側エラー回数
+- 人間確認発生回数
+
+追加:
+- RAW欠損件数
+- 重複実行件数
+- UNKNOWN_ERROR件数
+- 追加課金経路への誤侵入件数
+
+------------------------------------------------------------
+判定条件
+------------------------------------------------------------
+
+以下は実測根拠のない**仮の閾値**。
+
+比較可能な5案件を手動運用とPhase 0運用で測る。
+
+### 次段階へ進む
+
+- 追加課金誤発生 0
+- RAW欠損 0
+- 危険な書込み 0
+- ユーザー操作回数の中央値が手動比50%以上減る
+- ユーザー拘束時間の中央値が手動比50%以上減る
+
+### 設計を修正
+
+- 操作/時間削減が20〜49%
+- 同種のERROR_UNKNOWNが2回以上
+- Gemini L1が最大のボトルネックになる
+- reportを見てもユーザーが毎回全RAWを読み直す必要がある
+
+### 機能を削る
+
+ある機能が5案件中、
+2回以上追加の人間確認を発生させ、
+事故防止または時間削減に寄与した証拠がない場合。
+
+### 司令塔を縮小または撤回
+
+- 操作回数・拘束時間の両方が20%未満しか減らない
+- 司令塔導入で手動運用よりRAW欠損が増える
+- ユーザー未承認の従量課金が1件でも発生
+- read-only境界を破る
+- 復旧が手動運用より難しくなる
+
+撤回時も、
+RAW保存・case ID・ハッシュ等の
+「事故防止に実測効果があった最小部品」は個別に残してよい。
+
+============================================================
+6. 設問6：案を壊す・撤回条件
+============================================================
+
+------------------------------------------------------------
+弱点1：Gemini L1手動が残る
+------------------------------------------------------------
+
+何が弱い:
+3社完全自動ではない。
+
+危険:
+ユーザー操作削減が期待ほど出ない。
+
+発生条件:
+Gemini回答自動回収が確認できないまま運用する場合。
+
+Phase 0検証:
+Gemini投入・回収にかかる操作数と拘束時間を別計測。
+
+修正:
+テンプレート、スマホ対応、one-click copy等でL1を軽くする。
+
+撤回:
+Gemini L1のため全体削減が20%未満なら、
+「3社自動司令塔」という機能目標を撤回し、
+記録・比較支援ツールへ縮小する。
+
+------------------------------------------------------------
+弱点2：課金ガードが認証状態へ依存する
+------------------------------------------------------------
+
+何が弱い:
+すべての将来の認証切替を司令塔が知れるとは限らない。
+
+危険:
+月額枠と思って従量課金へ入る。
+
+発生条件:
+provider仕様変更、環境変数、ログイン方式変更。
+
+Phase 0検証:
+API keyを持たない/隔離した環境で起動し、
+認証状態が不明なら停止することを確認。
+
+修正:
+該当Providerの自動経路を停止。
+
+撤回:
+ユーザー未承認課金が1件でも実測されたProviderは、
+自動dispatch対象から外す。
+複数Providerで防げないならsubscription自動化部分を撤回する。
+
+------------------------------------------------------------
+弱点3：停止がremote hard-stopを保証しない
+------------------------------------------------------------
+
+何が弱い:
+Jules等でhard-stop性がUNKNOWN。
+
+危険:
+ユーザーが止めたつもりでもremote作業が続く可能性。
+
+発生条件:
+remote agentを使うとき。
+
+Phase 0検証:
+Phase 0では破壊的remote task自体を実行しない。
+ローカルSTOPが新規dispatchを確実に止めることだけ検証。
+
+修正:
+remote task導入前にprovider別cancel semanticsを実測/確認。
+
+撤回:
+remote停止を保証できず、隔離でも被害範囲を限定できないProviderは
+write系workerから外す。
+
+------------------------------------------------------------
+弱点4：機械比較は意味を完全には理解しない
+------------------------------------------------------------
+
+何が弱い:
+paraphraseや微妙な条件差をexact比較だけでは判定できない。
+
+危険:
+「3社一致」を誤表示する。
+
+発生条件:
+自由文中心の回答。
+
+Phase 0検証:
+機械の一致判定とユーザー判断の差異を記録。
+
+修正:
+回答テンプレートへ明示結論コードを足す。
+必要なら後段に監査可能なsemantic helperを追加するが、
+authoritative truthにはしない。
+
+撤回:
+semantic helperが誤判定を増やすならその機能だけ撤回し、
+side-by-side表示へ戻す。
+
+------------------------------------------------------------
+Round 4-Aの修正・撤回条件の再確認
+------------------------------------------------------------
+
+[調][確定事実]
+R4-AでChatGPTは以下を挙げた。
+
+1. 残量programmatic取得が確認されたら予防routingへ修正。
+2. 月額automation surface条件が変わればProviderを外す。
+3. 認証分離しても意図しない課金が防げなければ自動呼出し停止。
+4. Jules DELETE等の停止証拠が得られれば停止制御を更新。
+5. 自動化がユーザー時間を減らさなければ削る。
+
+現時点:
+- 1: 未成立。UNKNOWN維持。
+- 2: 未成立。
+- 3: 未成立だがPhase 0の重大撤回条件として維持。
+- 4: 未成立。UNKNOWN維持。
+- 5: まだ実測前。最重要撤回条件として維持。
+
+[知][設計判断]
+今回追加する全体撤回証拠:
+
+- 5案件の比較で操作・拘束時間が20%以上減らない。
+- RAW喪失や誤紐付けを手動運用より増やす。
+- ユーザー未承認の追加課金を防げない。
+- read-only境界を守れない。
+- 障害復旧が人間にとって手動運用より難しい。
+
+============================================================
+7. 設問7：実装開始判定
+============================================================
+
+**A. この設計でPhase 0実装開始へ進める。**
+
+理由:
+
+[調][確定事実]
+重大UNKNOWNは残っているが、
+いずれもPhase 0をread-only・subscription-first・エラー駆動・L1縮退
+にすることで安全側に回避できる。
+
+[知][設計判断]
+Phase 0の目的は、
+UNKNOWNをすべて解消してから作ることではなく、
+「最低限の安全構成で、本当にユーザー負担が減るか」を測ることとする。
+
+**最初に実装する具体的な1ステップ:**
+
+`case_id` を発行し、
+ユーザーの日本語依頼・基準コミット・各seatの状態・RAW出力を
+上書きせずローカル保存できる
+**read-only Case Runnerの骨格を1つ作る。**
+
+この段階ではGitHubへ書かない。
+
+============================================================
+8. 設問8：Round 5の収束に向けて
+============================================================
+
+① 他社から反論されても現時点では残す部分
+
+[知][設計判断]
+
+- RAW正本・provenance維持
+- AIを最終裁定者にしない
+- Phase 0 read-only
+- 自動有料fallback禁止
+- 残量UNKNOWNを隠さないエラー駆動
+- L2/L1/L0縮退
+- 人間Merge / 人間最終採用
+
+② 他社案が優れていれば変更する部分
+
+- Quorumの具体値
+- status名
+- 待機時間
+- 仮の閾値
+- semantic comparison方式
+- UI
+- PR自動化の時期
+- Gemini L1の実装方法
+
+③ 他社2社も同じ結論なら共通案へ採用してよい部分
+
+- 追加費用ゼロを既定
+- 公式subscription経路優先
+- API key fallbackなし
+- RAW先行保存
+- Phase 0で操作数と時間を実測
+- 1社落ちても残りのRAW回収は続ける
+- Quorum不足・安全警告・重要不一致は人間へ返す
+- Mergeは自動化しない
+
+④ 最後まで一致しなければユーザー判断へ返す論点
+
+- 2席一致を正式Council合意と呼ぶか
+- semantic helperを導入するか
+- private codeをどのproviderまで送れるか
+- Phase 0後に自動PRを許すか
+- 匿名質問方式を今後どこまで残すか
+
+⑤ 統合案提出へ進むべき状態
+
+[知][設計判断]
+
+3社案を並べたときに、
+
+- Day 1の基本フロー
+- エラー時の停止/縮退
+- 追加課金防止
+- 人間へ戻す境界
+- Phase 0の測定方法
+
+が実質同じになり、
+残る差が
+「状態名」「UI」「仮の数値」「実装順」のような
+Phase 0で測定して決められるものだけになった時点。
+
+その状態なら、
+これ以上Roundを増やすより
+差分を明示した1つの統合案をユーザーへ提出する方がよい。
+
+Round終了・最終採用はユーザーが決める。
+
+============================================================
+END
+============================================================
+===== END RAW =====
+
+===== FILE: CLAUDE_R5-A_RAW.md =====
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
+Source SHA-256: 26a3e482d029fbeea12470f8251680c158e08b3f80b0544da9253a2b1e942f06
+===== BEGIN RAW (verbatim) =====
+============================================================
+CLAUDE_R5-A_OFFICIAL_RAW
+Multi-AI Council / Round 5-A 正式運用候補(独立提出)
+============================================================
+
+VENDOR: Anthropic Claude
+ROUND: 5-A
+MODEL(システム提供情報): claude-opus-5
+  ※セッション設定値。実際に応答したモデルが同一である保証はない。
+    共通原則2により自己申告として扱うこと。
+日付: 2026年9月16日
+
+ROUND5-A_BASE_COMMIT(指定): 0a492405dafa14590232bc1dc297b43291d41d4b
+実際に参照したコミット      : 0a492405dafa14590232bc1dc297b43291d41d4b
+  git cat-file で commit として存在することを確認した。
+  git merge-base --is-ancestor により origin/main の祖先であることを確認した。
+  取得時点の origin/main HEAD は 4bcd897 であり、基準コミットより新しい。
+  本回答の内容は、すべて基準コミット 0a49240 の状態を参照して書いた。
+  指定SHAと取得内容の差異は無い。
+
+【参照したファイル(すべて基準コミット時点)】
+ INDEX.md / ROUND5-A_QUESTIONS_RAW.md / COUNCIL_PRINCIPLES_RAW.md
+ ROUND4-5_PLAN_RAW.md / ROUND4_PRESTART_STATUS_RAW.md
+ ROUND4-A_QUESTIONS_RAW.md / ROUND4-B_QUESTIONS_RAW.md
+ ROUND4-B_ANONYMITY_ANSWER_CHECK_RAW.md
+ CHATGPT_R4-A_RAW.md / CLAUDE_R4-A_RAW.md / GEMINI_R4-A_RAW.md
+ CHATGPT_R4-B_RAW.md / CLAUDE_R4-B_RAW.md / GEMINI_R4-B_RAW.md
+ CHATGPT_R4-B_ANONYMITY_CHECK_RAW.md / GEMINI_R4-B_ANONYMITY_CHECK_RAW.md
+ CLAUDE_R3_RAW.md / CLAUDE_R3-2_RAW.md / CLAUDE_R2_RAW.md(該当箇所)
+ GEMINI_R3_RAW.md(費用記述の出所確認のみ)
+
+【独立性の申告】
+ 他社のRound 5-A回答・branch・Pull Request・diffは一切見ていない。
+ 基準コミット時点の main に他社R5-A RAWは存在しない。
+ 今回、新たな外部調査(Web検索・公式ページ取得)は行っていない。
+
+【用語について】
+ 専門用語には初出時に短い説明を付ける。
+ コピー&ペーストしてもらう文字列は、1単語でもコードブロックで示す。
+
+============================================================
+設問1:考えの変遷・3社案の取捨・UNKNOWN
+============================================================
+
+------------------------------------------------------------
+A. 維持した考え
+------------------------------------------------------------
+
+A-1. 司令塔に「どれが正しいか」を決めさせない。
+     判定は決定論のコード(毎回同じ入力なら必ず同じ結果を出す、
+     AIを使わないプログラム)と人間が行う。
+     Round 1 から現在まで維持。共通原則3と一致。
+
+A-2. 他のAIへ渡すのは常にRAW(原文)。要約を渡すのは人間に対してだけ。
+     Round 2 で原則化(共通原則1)。維持。
+
+A-3. モデル名・料金・利用枠・規約は、AIの自己申告を根拠にしない。
+     Round 2 から維持(共通原則2)。今回も自分の枠情報に適用している。
+
+A-4. UNKNOWN を正式な結論として認める。無理に一致させない。
+     Round 1 から維持(共通原則4)。
+
+A-5. 安全性の警告は多数決にかけない。1社でも出たら人間へ返す。
+     Round 2 で Gemini の指摘を採用して以降、維持(共通原則5)。
+
+A-6. 記録(RAW)の保存を、比較処理より先に動かす。
+     ログが無ければ後から何も検証できない。Round 2 の Implementation Gate
+     から維持。
+
+------------------------------------------------------------
+B. 修正・縮小した考え
+------------------------------------------------------------
+
+B-1. 【大きな修正】司令塔が3社のAPIを直接呼ぶ前提を捨てた。
+     根拠:【確定事実】月額プランの認証は各社の公式ツール経由でしか使えず、
+     APIとして直接呼ぶにはAPIキーが必要で従量課金になる
+     (CLAUDE_R3_RAW.md / Round 3)。
+     Round 4-A で修正済み。今回も維持。
+
+B-2. 【大きな修正】「残量を見て予防的に止まる」設計を捨てた。
+     根拠:【確定事実】残量をプログラムから取得する公式手段は3社とも
+     発見できなかった(CLAUDE_R3-2_RAW.md / Round 3-2、3社一致)。
+     Round 4-A で「エラーを受けて止まる」へ変更。今回も維持。
+
+B-3. 【今回の修正】照合層が「結論の一致」を機械判定できる、という前提を縮小した。
+     指摘元:CHATGPT_R4-B_RAW.md の Claude案への意見
+     「文字列・URL・印の抽出は機械的にできますが、意味的に『同じ主張か』を
+       完全に決定論で判定できるとは現時点で確認できません」
+     この指摘は正しい。私の Round 4-A は、共通原則7の4象限分類
+     (結論一致×根拠一致)を機械が行うと書いていたが、
+     結論が同じ意味かどうかの判定は意味の判断であり、決定論では書けない。
+     【設計判断】機械が比較するのは「各社が構造化して申告した項目」だけにする。
+     結論が同じ意味かどうかは人間が読む。詳細は設問2-Dに書く。
+
+B-4. 【今回の修正】Phase 0 で司令塔がGitHubへ書き込む、という前提を撤回した。
+     根拠:共通原則8は Phase 0 で行わないものとして
+     「ファイルの書き込み(ログ出力先を除く)/シェルの実行/git への書き込み/
+       デプロイ/自動マージ」を明記している(COUNCIL_PRINCIPLES_RAW.md)。
+     私の Round 4-A は、RAW保存とPR作成を司令塔が行う構成だった。
+     これは共通原則8の明文に反していた。自分の案が原則違反だったことを認める。
+     CHATGPT_R4-B_RAW.md が「Phase 0ではgit書込み禁止」としているのは
+     原則の読み方として正しい。
+     【設計判断】Phase 0 の司令塔は、ローカルのログ出力先にのみ書き込む。
+     GitHubへの反映は人間が行う。原則8の変更手続きは今回は起動しない。
+
+B-5. 【今回の修正】指紋(ハッシュ)照合の位置づけを下げた。
+     指摘元:CHATGPT_R4-B_RAW.md
+     「指紋は『AI内部を証明する仕組み』ではなく、配布物・取得物の不一致を
+       検知するための安全補助として採用するのが適切」
+     同意する。私の Round 4-A も弱点4で自己申告性を認めていたが、
+     設計上の位置づけを「検証」と書いていた。
+     【設計判断】指紋は検証ではなく、不一致の検知に用いる。
+     一致しても「正しく読んだ証明」にはならない。不一致は確実な異常検知になる。
+
+B-6. 【今回の縮小】Phase 0 で L2(公式CLIによる自動実行)を作らないことにした。
+     Round 4-A では L2/L1/L0 の3段階を最初から用意する構成だった。
+     【設計判断】Phase 0 は L1(貼り付け支援)だけを作る。理由は設問5に書く。
+
+------------------------------------------------------------
+C. 撤回した考え
+------------------------------------------------------------
+
+C-1. 「Codex には hook(処理の途中に介入する仕組み)が無い」(Round 1)
+     →【確定事実】公式の lifecycle hooks が存在する(Round 3で確認)。
+     根拠が「検索して見つからなかった」という消極的推論だった。撤回済み。
+
+C-2. 「1回のLLM統合パス」で3社回答をまとめる案(Round 1)
+     → 同じ回答内で自分が書いた批判と矛盾していた。Round 2 で撤回済み。
+
+C-3. 「URLが重複したらCONFIDENCEを1段下げる」規則(Round 1)
+     → 3社が同じ公式一次資料に独立して到達した場合を誤って減点する。
+     Round 2 で撤回済み。
+
+C-4. 独自の印 [見] を追加する案(Round 4-A の先行提出)
+     → 共通原則10に無い印を1社の判断で増やすべきではない。撤回済み。
+     現在は「見積もり」と文中に書く方式。
+
+C-5. 【今回の撤回】司令塔が回答を自動回収して自動でPRまで作る構成。
+     B-4 の理由による。Phase 1 以降の候補として保留する。
+
+------------------------------------------------------------
+D. 他社から採用した考え
+------------------------------------------------------------
+
+■ ChatGPT から採用する
+
+ D-1. Provider を状態で管理する(CHATGPT_R4-A_RAW.md / Round 4-A)
+      AVAILABLE / BUSY / QUOTA_OR_LIMIT_ERROR / OTHER_ERROR /
+      DISABLED_BY_USER / UNKNOWN
+      採用理由:私の Round 4-A は「エラー駆動で止まる」としか書いておらず、
+      どのエラーで止めるか、原因不明をどう扱うかを書いていなかった。
+      ChatGPT案の分類は、その欠落をそのまま埋める。自社案より具体的である。
+
+ D-2. DISABLED_BY_USER(ユーザーが自分の判断で温存している状態)を
+      障害ではなく正常な状態として持つ(同上)
+      採用理由:残量が読めない以上、温存は人間の宣言でしか成立しない。
+      私の案にはこの概念が無かった。
+
+ D-3. 原因不明のエラーを利用枠切れと決めつけない(同上、および
+      CHATGPT_R4-B_RAW.md の QUOTA_CONFIRMED / OTHER_CONFIRMED /
+      UNKNOWN_ERROR の3分類)
+      採用理由:私の申し送り(1)「見つからなかったを不在の証明にしない」と
+      同型の誤りを、運用レベルで防げる。
+
+ D-4. Phase 0 では git への書き込みを行わない(CHATGPT_R4-B_RAW.md)
+      採用理由:共通原則8の明文に忠実であり、私の案が原則違反だった。
+      B-4 に記載。
+
+ D-5. 決定論コードでは意味的な一致判定はできない(CHATGPT_R4-B_RAW.md)
+      採用理由:B-3 に記載。私の案の過大見積もりを正す指摘である。
+
+ D-6. 1社だけの回答は Council 正式合意として扱わない(CHATGPT_R4-B_RAW.md)
+      採用理由:複数参加者による相互検証が成立しないため。共通原則12と整合。
+
+■ Gemini から採用する
+
+ D-7. 危険な操作は隔離ブランチ(本体と切り離した作業用の枝)で実行し、
+      結果を破棄する(GEMINI_R4-A_RAW.md / Round 4-A)
+      採用理由:【確定事実】Jules の DELETE は存在するが実行が止まるとは
+      文書化されていない(Round 3)。止まらない前提で安全を確保できる。
+      なお Phase 0 では危険な操作自体を行わないため、Phase 1 以降で使う。
+
+ D-8. 入口を1つにし、出力を日本語レポート1枚に集約する(同上)
+      採用理由:ユーザーが読む量を減らすという目的に直結する。
+      私の案も同じ結論だったが、要件として明記していなかった。
+
+ D-9. 自動再試行を一切行わない(GEMINI_R4-B_RAW.md 匿名質問B③)
+      採用理由:私の Round 4-B は「リセット時刻が判明していれば1回だけ
+      自動再試行する」としていたが、Gemini が挙げた最悪例
+      「無限リトライでアカウント凍結」は、私が想定していなかったリスクである。
+      Phase 0 では自動再試行をゼロにする方が単純かつ安全である。
+      自社案より安全側に倒れているため採用する。
+
+■ 3社それぞれについての取捨
+
+ ChatGPT案
+  ・採用する要素:D-1 / D-2 / D-3 / D-4 / D-5 / D-6、
+    追加従量課金へ自動フォールバックしない優先順位の明示宣言
+  ・条件付きで採用する要素:Provider Adapter(各社固有部分を1か所に
+    閉じ込める作り)。目的には同意するが、Phase 0 では作らない。
+    Provider が実際に2つ動いてから共通部分を抜き出す順序を提案する。
+  ・採用しない要素:Phase 0 段階での Council seat 抽象化。
+    現時点で必要になる具体的な場面が無い。
+
+ Gemini案
+  ・採用する要素:D-7 / D-8 / D-9
+  ・条件付きで採用する要素:PR作成の自動化。Phase 1 以降であれば検討する。
+    Phase 0 では共通原則8により採用しない。
+  ・採用しない要素:初期設定で OpenAI API キーおよび Anthropic Console の
+    キーを取得する手順。
+    【確定事実】ANTHROPIC_API_KEY があるとAPI課金になる(Round 3)。
+    【確定事実】Codex は ChatGPT サインインによるサブスクリプション
+    アクセスが公式に用意されている(Round 3)。
+    なお GEMINI_R4-B_RAW.md で Gemini 自身がこの点の修正を表明しており、
+    費用の数字も [知] であったと申告している。争点としては縮小している。
+
+ Claude案(自社)
+  ・維持:司令塔自身がAIを呼ばない/L0で全機能が成立する/RAW保存を
+    比較より先に動かす/指紋の取得(位置づけは B-5 で縮小)
+  ・簡略化:照合層(B-3)、Phase 0 の段階構成(B-6)
+  ・他社案へ置換:エラー分類(D-1〜D-3)、再試行方針(D-9)
+  ・撤回:Phase 0 での GitHub 書き込みと自動PR作成(C-5)
+
+------------------------------------------------------------
+E. 現在も一致していない考え
+------------------------------------------------------------
+
+ E-1. Phase 0 で司令塔が GitHub へ書き込むか
+      Gemini案:PR作成は自動(GEMINI_R4-B_RAW.md 公開質問2の分類)
+      Claude(現在):Phase 0 では行わない
+      同意しない理由:共通原則8が Phase 0 で「git への書き込み」を
+      行わないと明記している。原則8は変更可能だが、変更するには
+      「何を許すか/許さないものは何か/失敗したときどう戻すか/試用期間」の
+      4点を先に決めることを原則自身が求めている。
+      その4点を決めずに自動PRを入れるのは手続き違反になる。
+      なお ChatGPT は私と同じ立場である。
+
+ E-2. 匿名質問の方式
+      Gemini:現在と同じ方式を続ける(第三者整形は質問の質を壊す)
+      Claude:現在の方式を維持しつつ、ダミー質問を1問混ぜて消去法を無効化する
+      同意しない理由:整形に反対する点では Gemini に同意する。
+      しかし消去法の無効化は質問の中身に手を入れないため、
+      Gemini が懸念する「質問の質の劣化」を起こさない。
+      両立可能な対策を採らない理由が見当たらない。
+      重要度は低い。実装には影響しない。
+
+ E-3. ユーザー操作回数の目標値
+      ChatGPT:通常2回、書き込みを伴う場合3回
+      Gemini:4回
+      Claude:設問4に記載
+      これは対立ではないと考える。3社とも設計目標であり実測ではない。
+      実測すれば決まる。統合時に数字を揃える必要はなく、
+      測定方法を揃える方が重要である。
+
+------------------------------------------------------------
+F. UNKNOWN のまま残ったもの
+------------------------------------------------------------
+
+ F-1. 月額枠の残量をプログラムから取得する手段
+      なぜ確定できないか:3社とも公式の手段を発見できなかった(Round 3-2)。
+      何があれば確定できるか:各社の公式APIリファレンスの網羅的確認、
+      または各社への問い合わせ。
+      今回の扱い:【安全側に倒して暫定運用】
+      取得できないものとして設計する。予防的停止は作らない。
+
+ F-2. Gemini の回答を自動回収する経路
+      なぜ確定できないか:実機確認されているのは
+      Drive → Notebook の読み取り方向のみ(ROUND4_PRESTART_STATUS_RAW.md)。
+      何があれば確定できるか:実機での回収実験。
+      今回の扱い:【安全側に倒して暫定運用】
+      自動回収できない前提で設計する。Phase 0 は全社 L1 なので影響しない。
+
+ F-3. Jules の DELETE が実行を止めるか
+      なぜ確定できないか:公式ドキュメントに記載が無い(Round 3)。
+      何があれば確定できるか:捨てリポジトリでの実験。
+      今回の扱い:【除外】Phase 0 では Jules を使わないため、論点が発生しない。
+
+ F-4. Jules および Claude 経由で送ったプライベートコードのデータ利用条件
+      なぜ確定できないか:私は一次資料を確認していない。
+      Round 3 に Jules に関する二次情報の記載があるが、
+      Jules と Gemini API は別物であると同じRAWに注記がある。
+      何があれば確定できるか:各社のデータ利用規約の原文確認。
+      今回の扱い:【保留】Phase 0 では、ユーザーのプライベートコードを
+      Council に流さない運用にする。流す必要が出た時点で確認する。
+
+ F-5. URL取得が更新前の内容を返す事故の原因層
+      なぜ確定できないか:GitHub/CDN側か中間取得層かを特定できていない
+      (ROUND4_PRESTART_STATUS_RAW.md)。
+      何があれば確定できるか:各層のログ。現実には取得できない可能性が高い。
+      今回の扱い:【安全側に倒して暫定運用】
+      原因は直せないものとして、影響(全社が同じ内容を読んだか)だけを
+      検知する。Phase 0 では URL 取得ではなく git で取得する手順にする。
+
+ F-6. 各社のエラー文言・終了コードの実際の形
+      なぜ確定できないか:私は実際に上限へ到達させた出力を見ていない。
+      何があれば確定できるか:各社で1回ずつ上限に到達したときの
+      画面またはログの採取。
+      今回の扱い:【保留】Phase 0 は人間が画面を見る構成なので、
+      機械が文言を解釈する必要が無い。Phase 1 で L2 を作る前に採取する。
+
+ F-7. Claude 以外の会社の枠の内部構造(チャットとエージェントが別枠か)
+      なぜ確定できないか:私は一次資料を確認していない。
+      CHATGPT_R4-B_RAW.md に ChatGPT 自身の報告があるが、
+      共通原則2により、私は他社の自己申告を確定事実として扱わない。
+      今回の扱い:【保留】Phase 0 では司令塔がどのAIも呼ばないため、
+      この点が設計に影響しない。Phase 1 で実行役を決めるときに必要になる。
+
+============================================================
+設問2:正式運用候補 ― Day 1
+============================================================
+
+第一候補を1つだけ出す。名称は仮に
+
+  「配布と照合だけをやる司令塔(Council Runner)Phase 0 構成」
+
+とする。要点を先に3行で書く。
+
+  ・司令塔はどのAIアカウントにも接続しない。AIを1回も呼ばない。
+  ・司令塔が触るのは、ローカルのファイルと、GitHubの読み取りだけ。
+  ・AIへの投げ込みと回答の取り出しは、ユーザーが画面で行う(L1)。
+
+この構成を選んだ理由は設問5と設問6に書く。
+先に結論だけ述べると、「本当にユーザーの時間が減るか」を確かめるのに
+必要のない危険と手間を、Phase 0 からすべて外したためである。
+
+------------------------------------------------------------
+2-A. 最初の一回だけ必要な準備
+------------------------------------------------------------
+
+【設計判断】ユーザーの初期作業を4つに抑える。
+AIアカウントの設定、APIキーの取得、GitHubの書き込み設定は、いずれも不要。
+
+ 準備1. Git for Windows を入れる
+   用途:GitHubから正本を読むためだけに使う。書き込みには使わない。
+   ユーザー作業:インストーラを実行し、既定のまま進める。
+
+ 準備2. Python を入れる(3.10以降)
+   用途:司令塔本体を動かす。
+   ユーザー作業:インストーラを実行する。
+   「Add Python to PATH」(パスを通す)のチェックだけ入れる。
+
+ 準備3. 作業フォルダを1つ作る
+   例:`C:\council`
+   この下に司令塔と記録がすべて入る。他の場所には何も書かない。
+
+ 準備4. 正本を1回だけ取得する
+   次の1行をコマンドプロンプトに貼り付けて実行する。
+
+```
+git clone https://github.com/kamiyusense/multi-ai-council-raw-records.git C:\council\repo
+```
+
+ 秘密情報の保存場所:
+   Phase 0 では秘密情報を一切保存しない。
+   APIキー、トークン、パスワードを置く場所を作らない。
+   置く場所が無いことが、そのまま漏洩と誤課金の防止になる。
+
+ 【設計判断】GitHubのアカウント設定・書き込み権限の設定は準備に含めない。
+ Phase 0 は読み取りしか行わないため、公開リポジトリであれば認証が要らない。
+
+------------------------------------------------------------
+2-B. 通常1案件の流れ
+------------------------------------------------------------
+
+① ユーザーが最初に何をするか
+
+  作業フォルダで次を実行し、聞きたいことを日本語で1行入力する。
+
+```
+python council.py
+```
+
+  司令塔は最初に `git fetch` を行い、正本の最新状態を取得する。
+  取得できなければ、そこで止まる(理由は設問3の⑤に書く)。
+
+② ChatGPT・Claude・Gemini へどう依頼を届けるか
+
+  【設計判断】Phase 0 では司令塔が各社へ接続しない。
+  司令塔は「貼り付け用のテキスト」を3社ぶん作り、画面に出す。
+  ユーザーはそれを各社のチャット画面に貼る。
+
+  貼り付け用テキストには、次を必ず含める。
+
+   ・基準コミットのSHA(全社が同じ状態を読むため)
+   ・読むべきファイル名と、そのSHA-256(先頭16桁)
+   ・今回だけの確認値(nonce。毎回変わるでたらめな文字列)
+   ・ユーザーの質問
+   ・回答の書式(下記③)
+
+  Gemini については、Notebook経由の参照が正式経路として
+  実機確認されている(ROUND4_PRESTART_STATUS_RAW.md)。
+  したがって Gemini 用のテキストだけは、ファイル本文の参照方法が異なる。
+  この差は司令塔が自動で切り替える。
+
+③ 各社の回答をどう取得するか
+
+  ユーザーが各社の画面から回答をコピーし、司令塔の画面に貼る。
+  1社ずつ、順不同で構わない。
+
+  【設計判断】回答の冒頭に、次の固定書式を必ず書かせる。
+  ここが後の機械処理の全てを支える。
+
+```
+BASE_COMMIT: <読んだコミットのSHA>
+FILES_READ: <ファイル名> <SHA-256先頭16桁> (複数行可)
+NONCE: <設問に書かれていた確認値をそのまま>
+CLAIM: <結論を1文で>
+GROUNDS: <根拠のURLまたはRAWファイル名> (複数行可)
+MARK: <CLAIMごとに [調] または [知]>
+UNKNOWN: <あれば書く。無ければ NONE>
+SAFETY_WARNING: <YES または NO>
+```
+
+  この書式の下に、通常の日本語の回答を自由に書いてよい。
+  機械が読むのは上の固定部分だけで、下の本文は人間が読む。
+
+④ 回答をどこへ保存するか
+
+  ローカルの `C:\council\runs\<実行ID>\` に、社名ごとのファイルとして保存する。
+  保存はユーザーが貼った直後に行う。比較処理より先に保存する。
+  共通原則8が認めている「ログ出力先」への書き込みに限定する。
+
+⑤ GitHub へ何を、いつ記録するか
+
+  【設計判断】Phase 0 では司令塔は GitHub へ書き込まない。
+  共通原則8の明文による(B-4)。
+
+  代わりに司令塔は、実行の最後に
+  「GitHubに上げるならこの手順」という案内を日本語で出し、
+  上げるべきファイルの一覧を表示する。
+  実際に上げるかどうか、いつ上げるかはユーザーが決める。
+  これまでと同じく、branch と Pull Request を経由し、
+  merge はユーザーが行う。
+
+⑥ 3社回答をどう比較するか
+
+  機械が行うのは、次の5つだけである。いずれも意味の判断を含まない。
+
+   比較1. BASE_COMMIT が3社で一致しているか(文字列の一致)
+   比較2. FILES_READ のハッシュが3社で一致しているか(文字列の一致)
+   比較3. NONCE が設問に出したものと一致しているか(文字列の一致)
+   比較4. GROUNDS に挙がったURL・ファイル名の重なり具合(集合の計算)
+   比較5. SAFETY_WARNING に YES が1件でもあるか(有無の確認)
+
+  【設計判断】CLAIM(結論)が同じ意味かどうかは、機械が判定しない。
+  3社の CLAIM を並べて表示するだけにする。
+  共通原則7の4象限分類のうち、根拠の一致は機械が扱えるが、
+  結論の一致は人間が読む。ChatGPT の指摘(D-5)を採用した結果である。
+
+⑦ 3社が一致した場合どうするか
+
+  レポートに「根拠の重なりが大きく、安全警告なし」と表示する。
+  ただし機械は「合意した」とは書かない。
+  結論が同じ意味かどうかを人間が確認し、人間が採用を決める。
+  共通原則3による。
+
+⑧ 重要な不一致がある場合どうするか
+
+  レポートの先頭に、不一致の箇所だけを抜き出して並べる。
+  ・根拠が重ならない項目
+  ・片方が [調]、他方が [知] になっている項目
+  ・UNKNOWN が分かれている項目
+  この3種類を優先して上に出す。人間が読む順番を機械が決める。
+  決めるのは順番だけで、どちらが正しいかは決めない。
+
+⑨ 危険なファイル変更をどう扱うか
+
+  【設計判断】Phase 0 では危険なファイル変更を扱わない。
+  司令塔はユーザーの開発対象リポジトリに一切触れない。
+  触れる対象は、Council の記録用リポジトリの読み取りと、
+  `C:\council\runs\` 以下への書き込みだけである。
+  したがって Phase 0 に「危険な書き込み」は存在しない。
+
+  Phase 1 以降で扱う場合は、Gemini案の隔離ブランチ方式(D-7)を採る。
+
+⑩ PR作成をどう扱うか
+
+  Phase 0 では司令塔は行わない。ユーザーが行う。
+  司令塔は、必要なファイル一覧と手順の案内を日本語で出すところまで。
+
+⑪ Merge をどう扱うか
+
+  必ず人間が行う。Phase 0 でも Phase 1 以降でも変えない。
+  共通原則8の「自動マージを行わない」に対応する。
+
+⑫ 追加従量課金への自動移行をどう防止するか
+
+  【設計判断】防止の方法は「経路を作らないこと」である。
+
+   ・司令塔はどのAIプロバイダにも接続しない。認証情報を持たない。
+   ・APIキーを読む処理をコードに書かない。設定で有効化もできない。
+   ・したがって従量課金へ移行する経路が物理的に存在しない。
+
+  加えて、起動時に環境変数を検査し、`ANTHROPIC_API_KEY` など
+  課金に関わる変数が設定されていたら、警告を表示する。
+  【確定事実】この変数があると Claude Code / Agent SDK は
+  サブスクリプションではなくAPI課金で認証する(Round 3)。
+  Phase 0 の司令塔自身はこの変数を使わないが、
+  ユーザーが別の場面で事故を起こすのを防ぐため、表示だけは行う。
+
+⑬ 止めたい時にシステム全体を止める方法
+
+  司令塔は、ユーザーの入力を待っている時間以外はほとんど動かない。
+  止める手段は3つあり、いずれも確実である。
+
+   ・画面で Ctrl+C を押す
+   ・ウィンドウを閉じる
+   ・貼り付けをやめる(AIへ何も渡らない)
+
+  途中で止めても、その時点までに保存された回答は残る。
+  再開は設問3の⑦に書く。
+
+⑭ 最終的にどこでユーザーへ判断を返すか
+
+  1枚の日本語Markdownレポートを表示し、そこで終わる。
+  レポートの最後に、次の3つだけを書く。
+
+   ・今回の結果(機械が確認できた範囲)
+   ・人間の確認が必要な箇所(あれば)
+   ・次にできること(GitHubへ上げる、もう1回聞く、終わる)
+
+------------------------------------------------------------
+2-C. スマートフォン縮退
+------------------------------------------------------------
+
+ 継続できること
+  ・3社への質問と回答の取得(各社のアプリ/ブラウザで従来どおり)
+  ・GitHub の Web 画面での閲覧と、ファイル追加・PR作成
+  ・回答を GitHub に直接貼り付けて保存すること
+
+ できなくなること
+  ・司令塔の実行(Windows上のプログラムのため)
+  ・貼り付け用テキストの自動生成
+  ・指紋の自動照合
+  ・レポートの自動生成
+
+ ユーザーがすればよいこと
+  【設計判断】司令塔は毎回、実行の最後に
+  「スマホ用の手順カード」を1枚テキストで出力し、runs フォルダに残す。
+  中身は、基準コミットのSHA、読むべきファイル名、確認値、
+  回答書式のひな形である。
+  ユーザーはこのテキストを自分に送っておけば、PCが無くても
+  同じ条件で3社に聞ける。指紋の確認は後でPCで行う。
+
+  つまりスマホ時は L0(完全手動)へ落ちるが、
+  「全社が同じ状態を読んだか」という記録だけは残せる。
+
+------------------------------------------------------------
+2-D. 判断の境界
+------------------------------------------------------------
+
+ AIに考えさせる処理
+  ・ユーザーの質問への回答そのもの(3社が各自で行う)
+  ・回答内での主張・根拠の提示、UNKNOWN の判断、安全性の指摘
+  ※司令塔の内部では、AIを1回も使わない。
+
+ ルールどおり機械的に処理する部分
+  ・基準コミットの取得と指紋の計算
+  ・貼り付け用テキストの生成(ひな形への差し込み)
+  ・回答の保存と命名
+  ・固定書式部分の抽出
+  ・BASE_COMMIT / FILES_READ / NONCE の一致確認
+  ・GROUNDS の重なりの計算
+  ・SAFETY_WARNING の有無の確認
+  ・レポートの並べ替え(不一致を上に出す)
+
+ 必ず人間へ返す部分
+  ・結論が同じ意味かどうかの判断
+  ・不一致が出たときの採否
+  ・安全性の警告が出たときの判断
+  ・GitHub への反映と Merge
+  ・利用枠の温存判断
+  ・追加課金に関する一切の判断
+  ・最終採用判断
+
+============================================================
+設問3:正式運用候補 ― Day 2 障害・復旧
+============================================================
+
+前提として、Phase 0 の司令塔はAIに接続しないため、
+①〜④の検知は「機械が検知する」のではなく
+「ユーザーが画面で見たことを司令塔に伝える」形になる。
+これは手抜きではなく、意図した設計である。理由を先に書く。
+
+ 【確定事実】残量をプログラムから取得する手段は3社とも UNKNOWN。
+ 【確定事実】各社のエラー文言を私は確認していない(F-6)。
+ この2つが揃っている状態では、機械によるエラー分類は
+ 「確認していない文言を推測で判定する」ことになる。
+ それは共通原則2に反する。
+ 一方、人間は画面に出た文言とリセット時刻をそのまま読める。
+ つまり Phase 0 では、人間が最も正確な検知器である。
+
+司令塔は各社の状態を次のどれかで記録する(ChatGPT案 D-1 を採用)。
+
+```
+AVAILABLE / DONE / NO_RESPONSE / QUOTA_CONFIRMED /
+OTHER_CONFIRMED / UNKNOWN_ERROR / DISABLED_BY_USER
+```
+
+ユーザーは、回答を貼る代わりに、この状態を1つ選ぶだけでよい。
+
+------------------------------------------------------------
+① 1社が応答しない
+------------------------------------------------------------
+ 検知:ユーザーが画面を見て `NO_RESPONSE` を選ぶ。
+ 自動再試行:しない(D-9)。
+ 停止:その社だけ。他社の処理は続ける。
+ 残りで続けるか:続ける。2社ぶんのレポートを作る。
+ 人間へ返すか:返す。レポートに「1社不参加。定足数の判断が必要」と表示する。
+ 再開地点:その社の回答を貼るところから。実行IDは同じものを使う。
+
+------------------------------------------------------------
+② 利用枠と思われるエラーが出る
+------------------------------------------------------------
+ 検知:ユーザーが画面のエラー文言を司令塔に貼る。
+      文言にリセット時刻または上限到達の明示があれば `QUOTA_CONFIRMED`。
+      無ければ `UNKNOWN_ERROR` にする。ここを混ぜない。
+ 自動再試行:しない。
+ 停止:その社だけ `QUOTA_CONFIRMED` として停止。
+ 残りで続けるか:続ける。
+ 人間へ返すか:返す。
+ 再開地点:リセット時刻の後、ユーザーが再開を指示したとき。
+ 表示:「◯◯は利用枠の上限に達しています。◯時◯分以降に再開できます。
+       追加購入は不要です。何もしなければ課金は発生しません。」
+ 【確定事実】利用クレジット(超過分の従量課金)はオプトイン制で、
+ 有効化しなければ上限で止まる(Round 3)。この一文を毎回表示する。
+
+------------------------------------------------------------
+③ 原因不明のエラーが出る
+------------------------------------------------------------
+ 検知:ユーザーが `UNKNOWN_ERROR` を選び、文言を貼る。
+ 自動再試行:しない。
+ 停止:その社だけ。
+ 残りで続けるか:続ける。
+ 人間へ返すか:返す。
+ 表示:「◯◯でエラーが出ましたが、原因は分かりません。
+       利用枠切れとは限りません。」
+ 【設計判断】原因不明を利用枠切れとして表示しない。
+ 誤って「枠切れ」と伝えると、ユーザーが不要な追加購入や
+ 上位プランを検討してしまう。これは私が Round 4-B で
+ 「最悪の失敗例」として挙げたものである。
+
+------------------------------------------------------------
+④ 回答取得途中で処理が停止する
+------------------------------------------------------------
+ 検知:実行IDのフォルダに、社ごとのファイルが揃っていない状態として残る。
+ 自動再試行:しない。
+ 停止:すでに停止している。
+ 残りで続けるか:次回起動時に「未完了の実行があります」と表示し、
+      続きから行うか、新しく始めるかをユーザーが選ぶ。
+ 再開地点:保存済みの社はそのまま使い、未保存の社だけ貼り直す。
+ 【設計判断】回答は貼られた瞬間に保存する。比較より先に保存する。
+ これにより、途中停止で失われるのは「まだ貼っていない回答」だけになる。
+
+------------------------------------------------------------
+⑤ GitHub への保存に失敗する
+------------------------------------------------------------
+ Phase 0 では司令塔は GitHub へ書き込まないため、
+ 「保存の失敗」は発生しない。発生し得るのは読み取りの失敗である。
+
+ 読み取りに失敗した場合:
+ 検知:`git fetch` が失敗する、または基準コミットが取得できない。
+ 自動再試行:1回だけ行う(読み取りのみで、枠も課金も消費しないため)。
+ 停止:2回目も失敗したら、そこで止まる。
+ 【設計判断】古い取得済みの内容で代用しない。
+ 代用すると、2026-09-14 に実際に起きた「更新前の内容を読む」事故を
+ 司令塔が自分で再現することになる。
+ 表示:「正本を取得できませんでした。ネットワークを確認してください。
+       手元に古い写しがありますが、これを使うと全社が同じ状態を
+       読んだか確認できなくなるため、使いません。」
+
+------------------------------------------------------------
+⑥ 同じ処理を二重実行してしまう
+------------------------------------------------------------
+ 検知:実行のたびに、基準コミットSHAと質問文のハッシュを記録する。
+      同じ組み合わせが既に存在すれば、起動時に知らせる。
+ 自動再試行:該当しない。
+ 停止:しない。ユーザーに選ばせる。
+ 表示:「同じ質問を同じ正本で実行した記録があります(実行ID:◯◯)。
+       前回の続きを開きますか。新しく始めますか。」
+ 【設計判断】二重実行を禁止しない。禁止すると、
+ やり直したいときに手が止まる。知らせるだけにする。
+
+------------------------------------------------------------
+⑦ PCが途中で落ちる
+------------------------------------------------------------
+ 検知:次回起動時に、完了印の無い実行フォルダを見つける。
+ 再開地点:④と同じ。保存済みの回答はすべて残っている。
+ 【設計判断】司令塔はメモリ上に状態を持たない。
+ 進行状況は毎回ファイルに書く。データベースは使わない。
+ ファイルだけなら、壊れても中身を人間が読める。
+
+------------------------------------------------------------
+⑧ スマートフォンしか使えなくなる
+------------------------------------------------------------
+ 2-C のとおり。手順カードを使って L0 で継続する。
+ PCに戻った時点で、スマホで得た回答を貼れば、指紋照合から再開できる。
+
+------------------------------------------------------------
+■ 残量が取れない状態での、課金事故・暴走の防止(処理手順として)
+------------------------------------------------------------
+
+ 課金事故の防止
+  手順1. 司令塔は認証情報を一切持たない(2-B ⑫)。
+  手順2. 起動時に環境変数を検査し、課金に関わる変数があれば警告を表示。
+  手順3. 従量課金に関する判断は、司令塔の出力に選択肢として出さない。
+         「続けるにはクレジットを購入」のような案内を司令塔が出さない。
+  手順4. 枠のエラーを表示するときは必ず
+         「何もしなければ課金は発生しません」を併記する。
+
+ 無限再試行・暴走の防止
+  手順1. 自動再試行を実装しない(D-9)。ループを書かない。
+  手順2. 司令塔は待ち状態に入らない。ユーザーの入力が無ければ終了する。
+  手順3. 1回の実行で司令塔が行う外部通信は `git fetch` の最大2回だけ。
+         上限を定数としてコードに書く。
+
+ 利用枠エラーと断定できないエラーの扱い
+  手順1. リセット時刻または上限到達の明示がある場合のみ `QUOTA_CONFIRMED`。
+  手順2. それ以外は `UNKNOWN_ERROR`。表示でも区別する。
+  手順3. `UNKNOWN_ERROR` を集計に「枠切れ」として数えない。
+
+ 残り2社でどこまで続けるか
+  手順1. 保存と比較とレポート生成までは行う。
+  手順2. レポートに「参加2社/不参加1社(理由)」を明記する。
+  手順3. 「Council 正式合意」とは書かない。
+         【確定事実】共通原則12は定足数を求め、具体的な値は
+         実装仕様に委ねている。Phase 0 では定足数を決めない。
+         【設計判断】Phase 0 の出力はすべて「人間が読む材料」であり、
+         正式合意の判定を機械が行わない。よって定足数を決めなくても動く。
+  手順4. 1社のみの場合も同じだが、レポートに
+         「相互検証が成立していません」と明記する(D-6)。
+
+------------------------------------------------------------
+■ プログラミング知識のないユーザーへの表示
+------------------------------------------------------------
+
+ 【設計判断】エラー時の表示は、必ず次の3項目をこの順で出す。
+ 英語のエラー文はそのまま出さず、下に折りたたんで置く。
+
+```
+■ 何が起きたか
+  Geminiの回答がまだ取得できていません。
+
+■ どこまで終わっているか
+  ChatGPT  取得済み
+  Claude   取得済み
+  Gemini   未取得
+  ここまでの内容は C:\council\runs\20260916-001\ に保存済みです。
+  この実行を閉じても消えません。
+
+■ 次に何をすればよいか
+  1. Geminiの画面をもう一度開く
+  2. 回答が出ていれば、それをコピーしてここに貼る
+  3. エラーが出ていれば、その文言をそのままここに貼る
+  4. 今日はここで終わりにする場合は、そのまま閉じてください
+```
+
+============================================================
+設問4:自動化レベルとユーザー操作量
+============================================================
+
+ 最初の依頼         : 人間
+ 3社への配布        : 条件付き自動
+   → 司令塔が貼り付け用テキストを自動生成する。貼る操作は人間。
+     Phase 1 で L2(公式CLIによる自動実行)を作った社のみ「自動」に変わる。
+     移行の条件は、その社のエラー文言を実測で採取済みであること(F-6)。
+ 回答回収           : 人間
+   → Phase 0 では自動化しない。F-2 が UNKNOWN であり、
+     Gemini だけ自動化できない構成を作ると、社ごとに手順が分かれて
+     ユーザーが覚えることが増える。全社同じ手順にする方が負担が軽い。
+ RAW保存            : 自動
+ 回答比較           : 自動
+   → ただし比較するのは固定書式の項目のみ(2-B ⑥)。
+ 不一致検出         : 自動
+   → 検出と並べ替えまで。採否は人間。
+ 再試行             : 人間
+   → 自動再試行は実装しない(D-9)。
+ Provider一時停止   : 条件付き自動
+   → ユーザーが状態を選んだ時点で、その社を今回の実行から外す。
+     自動で判定はしない。人間へ戻す条件:常に人間が入力する。
+ 危険な書き込み     : 人間
+   → Phase 0 では発生しない(2-B ⑨)。
+ PR作成             : 人間
+ Merge              : 人間
+ 利用枠温存判断     : 人間
+   → `DISABLED_BY_USER` をユーザーが宣言する(D-2)。
+ 追加課金判断       : 人間
+   → 司令塔は選択肢を提示しない。
+ 最終採用判断       : 人間
+
+------------------------------------------------------------
+■ ユーザー操作回数の目標
+------------------------------------------------------------
+
+ 以下はすべて【設計目標】であり、実測値ではない。
+ 現行運用の操作回数も測定していないため、削減率は書かない。
+
+ 通常時(3社とも正常に回答):9回
+   1. 司令塔を起動し質問を入力          1
+   2. 貼り付け用テキストを3社へ貼る      3
+   3. 3社の回答を司令塔へ貼る            3
+   4. レポートを読む                    1
+   5. 終了するか続けるかを選ぶ           1
+
+ 1社停止時:8回
+   上記のうち、その社への貼り付けと回答貼りが無くなり(−2)、
+   状態を選ぶ操作が1回増える(+1)。
+
+ 重要な不一致発生時:10回
+   通常時に、不一致箇所を読んで判断する操作が1回加わる。
+
+ 危険な変更で人間確認が必要な場合:Phase 0 では発生しない。
+   Phase 1 以降で発生した場合、承認操作が1回加わる想定。
+
+ 【正直に書く】この9回という目標は、他社の目標(ChatGPT 2〜3回、
+ Gemini 4回)より多い。理由は、Phase 0 で回答の自動回収を作らないためである。
+ 私は、まず現行運用の回数を測り、9回がそれより少ないことを
+ 確認してから自動回収に進むべきだと考える。
+ 現行が何回かを誰も測っていない以上、2回という目標が
+ 達成可能かどうかも現在は UNKNOWN である。
+
+============================================================
+設問5:Phase 0 ― 最初に実際に作るもの
+============================================================
+
+------------------------------------------------------------
+■ Phase 0 で作るもの
+------------------------------------------------------------
+
+ 1つのPythonファイル `council.py` と、1つのひな形ファイルだけ。
+ 担当者が作る機能は次の8つである。
+
+ (1) 起動と質問入力
+     ・日本語1行を受け取る
+     ・実行IDを作る(日付+連番)
+     ・`C:\council\runs\<実行ID>\` を作る
+
+ (2) 正本の取得と指紋の計算
+     ・`git fetch` と `git rev-parse` で基準コミットSHAを得る
+     ・対象ファイルのSHA-256(先頭16桁)を計算する
+     ・取得に失敗したら停止する(古い写しで代用しない)
+
+ (3) 貼り付け用テキストの生成
+     ・ひな形に、質問・SHA・ファイル一覧と指紋・確認値・回答書式を差し込む
+     ・3社ぶん出力する(Gemini用は参照方法の説明だけ差し替える)
+     ・ファイルにも保存する(スマホ用手順カードを兼ねる)
+
+ (4) 回答の受け取りと保存
+     ・社名を選び、回答本文を貼る
+     ・貼った直後にファイルへ保存する(比較より先)
+     ・回答の代わりに状態(NO_RESPONSE 等)を選ぶこともできる
+
+ (5) 固定書式の抽出
+     ・BASE_COMMIT / FILES_READ / NONCE / CLAIM / GROUNDS /
+       MARK / UNKNOWN / SAFETY_WARNING を取り出す
+     ・書式が壊れていたら、壊れていると表示する(推測で補完しない)
+
+ (6) 機械的な照合
+     ・SHA・指紋・確認値の一致確認(文字列比較)
+     ・GROUNDS の重なりの計算(集合演算)
+     ・SAFETY_WARNING の有無
+
+ (7) 日本語レポートの生成
+     ・1枚のMarkdown
+     ・不一致を上に、一致を下に並べる
+     ・CLAIM は3社ぶん並べるだけで、一致判定はしない
+
+ (8) 測定値の記録
+     ・下記「最低限記録する測定値」を毎回自動で記録する
+
+------------------------------------------------------------
+■ Phase 0 ではまだ作らないもの(将来候補)
+------------------------------------------------------------
+
+ ・公式CLIによる自動実行(L2)          → Phase 1 候補
+ ・回答の自動回収                      → F-2 の確認後
+ ・GitHubへの自動保存・PR作成          → 共通原則8の変更手続きを経た後
+ ・Provider Adapter(共通の器)         → Provider が2つ動いてから
+ ・エラー文言の自動分類                 → F-6 の実測後
+ ・定足数の自動判定                     → Phase 0 では判定自体を行わない
+ ・データベース、Web画面、常駐プロセス   → 作らない
+ ・危険な書き込み、隔離ブランチ実行       → Phase 1 以降
+ ・自動再試行                           → 作らない方針(D-9)
+
+------------------------------------------------------------
+■ 最低限記録する測定値
+------------------------------------------------------------
+
+ 毎回の実行で、次を自動または半自動で記録する。
+
+ 1. ユーザー操作回数
+    司令塔への入力回数を機械が数える。
+    各社の画面での貼り付け回数は、司令塔が
+    「貼り付け用テキストを出した回数」で代用して数える。
+
+ 2. ユーザー拘束時間
+    起動から終了までの経過時間を機械が測る。
+    加えて、終了時に「実際に自分が操作していた時間はおよそ何分か」を
+    1回だけ聞き、記録する。待ち時間と操作時間を分けるためである。
+
+ 3. AI側エラー回数
+    QUOTA_CONFIRMED / OTHER_CONFIRMED / UNKNOWN_ERROR /
+    NO_RESPONSE の件数を、種類別に数える。合算しない。
+
+ 4. 人間確認発生回数
+    レポートが「人間の確認が必要」と表示した回数。
+
+ 5. 指紋不一致の検出回数(私が1つ追加する)
+    BASE_COMMIT または FILES_READ が3社で食い違った回数。
+    これは操作削減とは別に、事故検知の効果を測るための値である。
+
+ 【重要】Phase 0 の最初の1回は、司令塔を使わずに行う。
+ 現行運用のまま1案件をこなし、上記1〜4を手で記録する。
+ これが比較の基準値になる。費用はゼロ、追加の作業は
+ 「数えながらやる」だけである。
+ 基準値が無ければ、後のどの判定条件も成立しない。
+
+------------------------------------------------------------
+■ 判定条件
+------------------------------------------------------------
+
+ 以下の数値はすべて【仮の閾値】である。実測根拠は無い。
+ 基準値(司令塔を使わない1案件)を100として比較する。
+
+ 次段階へ進む
+   ・操作回数が基準値より30%以上減少している
+   ・かつ、操作していた時間が基準値より減少している
+   ・かつ、司令塔が原因の新しい手戻りが発生していない
+
+ 設計を修正する
+   ・操作回数の減少が0〜30%にとどまる
+   ・または、人間確認の発生が1案件あたり3回を超える
+
+ 機能を削る
+   ・司令塔を使った方が操作回数が増えた
+   ・または、レポートを読む時間が、手で比べるより長くなった
+
+ 司令塔自体を縮小または撤回する
+   ・2案件連続で、操作回数と操作時間のどちらも減らない
+   ・この場合、便利にするための機能はすべて撤回する
+   ・ただし、指紋不一致の検出が1件以上あった場合に限り、
+     「記録を守る道具」としての部分(指紋の計算と保存)だけを
+     残すかどうかをユーザーに判断してもらう
+     ※この分け方は CHATGPT_R4-B_RAW.md の
+       「利便性機能としての司令塔」と「記録保全・正本検証ツール」を
+       分離する考え方を採用したものである
+
+============================================================
+設問6:自分の案を壊す・撤回条件
+============================================================
+
+------------------------------------------------------------
+弱点1:貼り付け作業が減らず、むしろ手順が増える可能性
+------------------------------------------------------------
+ 何が弱いか:Phase 0 は回答の自動回収を作らないため、
+   ユーザーの貼り付け回数は現行とほぼ同じになる。
+   そこに「司令塔を起動する」「回答を司令塔にも貼る」が加わる。
+ なぜ危険か:目的が「ユーザーの時間を減らすこと」なので、
+   増えたら目的そのものを達成できていない。
+ どの条件で問題になるか:質問が短く、3社の回答も短い案件のとき。
+   手で比べた方が速い。
+ Phase 0 でどう検証するか:設問5の測定値1と2を基準値と比べる。
+ 何が起きたら修正するか:減少が30%未満なら、
+   貼り付けの自動化(L2)を先に作る順序へ変更する。
+ 何が起きたら撤回するか:2案件連続で減らなければ、
+   便利機能としては撤回する(設問5の判定条件)。
+
+------------------------------------------------------------
+弱点2:回答の固定書式を、AI側が守らない可能性
+------------------------------------------------------------
+ 何が弱いか:Phase 0 の機械処理は、3社が固定書式を正しく書くことに
+   全面的に依存している。書式が崩れれば、比較が一切できない。
+ なぜ危険か:【確定事実】AIの自己申告は根拠にならない(共通原則2)。
+   書式も自己申告である。特に指紋の行は、AIが実際に読んでいなくても
+   書けてしまう。私自身、Round 4-A で自分の指紋を書いたが、
+   それは「私がそう書いた」以上のものではない。
+ どの条件で問題になるか:回答が長いとき、途中でチャットが切れたとき、
+   AIが書式を要約してしまうとき。
+ Phase 0 でどう検証するか:書式の抽出に失敗した回数を数える。
+   3社別に数える(社ごとに守りやすさが違う可能性があるため)。
+ 何が起きたら修正するか:抽出失敗が3回に1回を超えたら、
+   書式をさらに短くする。最低限 BASE_COMMIT と NONCE だけにする。
+ 何が起きたら撤回するか:書式を最小にしても守られないなら、
+   固定書式による機械照合を撤回し、人間が目で確認する方式に戻す。
+
+------------------------------------------------------------
+弱点3:司令塔が「安心の錯覚」を生む可能性
+------------------------------------------------------------
+ 何が弱いか:指紋が一致すると、ユーザーは「3社とも同じ正本を
+   正しく読んだ」と受け取る可能性が高い。
+   しかし一致が意味するのは「3社が同じ文字列を書いた」ことだけである。
+ なぜ危険か:検知の道具が、逆に検証をやめさせる方向に働く。
+   これは道具が無い状態より悪い場合がある。
+ どの条件で問題になるか:運用が長く続き、指紋が毎回一致して、
+   確認が形骸化したとき。
+ Phase 0 でどう検証するか:意図的に、1回だけ古いコミットを
+   指定した実行を行い、3社の回答から不一致が検出されるかを試す。
+   これは費用ゼロで、1案件ぶんの枠しか使わない。
+ 何が起きたら修正するか:この試験で不一致を検出できなければ、
+   レポートの表現を変え、「一致=正しい」と読めない文言にする。
+ 何が起きたら撤回するか:検出も表現の改善もできない場合、
+   指紋の表示をやめ、記録としてファイルに残すだけにする。
+
+------------------------------------------------------------
+弱点4(追加):ユーザーが1人で判断を抱え込む構成になっている
+------------------------------------------------------------
+ 何が弱いか:Phase 0 は機械が何も決めないため、
+   判断がすべてユーザーに集まる。レポートを読む負担は残る。
+ なぜ危険か:ユーザーの時間が非常に少ないという前提と衝突しうる。
+ どの条件で問題になるか:3社の回答が長く、不一致が多いとき。
+ Phase 0 でどう検証するか:測定値4(人間確認の発生回数)と、
+   レポートを読んでいた時間を記録する。
+ 何が起きたら修正するか:1案件あたり人間確認が3回を超えたら、
+   レポートに載せる項目を減らす。
+ 何が起きたら撤回するか:レポートを読む時間が、
+   3社の回答を直接読む時間より長くなったら、レポート生成を撤回する。
+
+------------------------------------------------------------
+■ Round 4-A で宣言した修正・撤回条件の確認
+------------------------------------------------------------
+
+ 条件1(残量のプログラム取得が一次資料で確認されたら予防的停止へ変更)
+  → 満たされていない。F-1 は UNKNOWN のまま。現在も維持する。
+
+ 条件2(Gemini の回答自動回収が実機確認されたら L1 前提を外す)
+  → 満たされていない。F-2 は UNKNOWN のまま。現在も維持する。
+
+ 条件3(OpenAI 側でチャットとエージェントが別枠だと一次資料で確認され、
+       Anthropic 側で同等の分離が確認されない場合、実行役を Codex へ譲る)
+  → 部分的に情報が出たが、満たされていない。
+    CHATGPT_R4-B_RAW.md に「通常Chat は Work/Codex usage view とは別と
+    Round 3 で確認していた」という記述があるが、これは他社の自己申告であり、
+    共通原則2により私は確定事実として扱わない。URLと引用文言も添えられていない。
+    【変更】条件そのものは維持するが、発動時期を変更する。
+    Phase 0 では司令塔がどのAIも呼ばないため、実行役という概念が存在しない。
+    したがってこの条件は Phase 1 で L2 を作るときに判定する。
+
+ 条件4(指紋・確認値の申告が検証として機能しないと示されたら撤去)
+  → 完全には満たされていないが、一部満たされた。
+    CHATGPT_R4-B_RAW.md が「指紋はAI内部を証明する仕組みではない」と
+    指摘し、私はこれを受け入れた(B-5)。
+    【変更】撤去はしない。役割を「検証」から「不一致の検知」へ縮小する。
+    完全な撤去条件は、弱点3の試験で不一致を検出できなかった場合とする。
+
+ 条件5(Phase 0 を1ラウンド回して操作回数と所要時間が減らなければ撤回)
+  → 満たされていない。まだ実測していない。現在も維持する。
+    今回、設問5の判定条件として具体化した。
+
+ ■ 今回の正式運用候補全体を撤回させ得る証拠
+
+  次のいずれかが出た場合、この案は全体として成立しない。
+
+  (a) 現行運用の実測値を取った結果、1案件あたりの操作が
+      もともと十分に少なく(例:5回以下)、改善の余地がほとんど無いと分かった場合。
+      この場合、司令塔を作る前提が消える。
+  (b) 3社が固定書式をどうしても守れず、機械処理の入力が成立しない場合。
+  (c) Phase 0 の運用中に、司令塔が原因で記録が失われた場合。
+      記録を守るために作る道具が記録を壊すなら、存在理由が消える。
+
+============================================================
+設問7:実装開始判定
+============================================================
+
+ 選択:B(条件付きで進める)
+
+ 理由:
+  設計自体は、確定事実と矛盾しておらず、UNKNOWN を前提にしていない。
+  危険な部分(認証、自動実行、GitHubへの書き込み、自動再試行)は
+  すべて Phase 0 から外してあるため、実装して失敗しても失うものが小さい。
+  したがって C(実装すべきでない)には当たらない。
+
+  一方で A(そのまま進める)にもしない。理由は1つだけである。
+  現行運用の操作回数と所要時間を、誰も測っていない。
+  測る前に作れば、「減ったかどうか」を判定できない。
+  私は Round 4-A で「減らなければ撤回する」と宣言しており、
+  基準値が無ければその宣言が実行できない。
+
+ 開始前に必要な条件:
+  条件1. 次の1案件を、司令塔を使わずに行い、
+        操作回数・操作時間・エラー回数・人間確認回数を手で記録する。
+        追加費用ゼロ、追加作業は数えることだけ。
+  条件2. Phase 0 の司令塔が、AIアカウントに接続せず、
+        GitHub へも書き込まないことを、ユーザーが了解していること。
+        (できることが少ない代わりに、事故の種類も少ない構成であるため)
+
+ 最初に実装する具体的な1ステップ:
+
+  「基準コミットのSHAと対象ファイルの指紋を計算し、
+    3社ぶんの貼り付け用テキストをファイルに出力するところまで」
+
+  を作る。回答の受け取りも比較もレポートも、まだ作らない。
+  この1ステップだけで、
+  「3社が同じ正本を読む」という条件を毎回そろえられるようになり、
+  かつスマホ用の手順カードも同時に手に入る。
+  失敗しても捨てるのはテキスト生成だけである。
+
+============================================================
+設問8:Round 5 の収束に向けて
+============================================================
+
+ ① 反論されても残すべきだと考える部分
+
+  ・司令塔の内部でAIを使わないこと(共通原則3の実装上の担保)
+  ・RAW の保存を比較より先に行うこと
+  ・自動再試行を実装しないこと
+  ・Phase 0 で認証情報を一切持たないこと
+    (追加従量課金への自動移行を、経路を作らないことで防ぐ)
+  ・「減らなければ撤回する」を、測定方法と閾値付きで先に決めておくこと
+
+ ② 他社案の方が優れていると示されれば変更する用意がある部分
+
+  ・Phase 0 で回答の自動回収を作らない判断
+    (L2 を先に作った方が早く価値が出る、と示されれば順序を変える)
+  ・操作回数の目標値9回
+  ・固定書式の項目数(もっと少なくできるなら減らす)
+  ・レポートの構成
+  ・Phase 0 を1ファイルのPythonにする実装方針
+
+ ③ 他社2社も同じ結論なら、そのまま共通案へ採用してよい部分
+
+  ・Provider の状態分類(ChatGPT案 D-1 をそのまま使う)
+  ・原因不明のエラーを利用枠切れと断定しないこと
+  ・危険な書き込み・Merge・最終採用判断を人間に残すこと
+  ・隔離ブランチ方式(Phase 1 以降)
+  ・入口1つ、出力は日本語レポート1枚
+  ・Phase 0 では GitHub へ書き込まないこと(私と ChatGPT は一致)
+
+ ④ 最後まで一致しなければユーザー判断へ返すべき論点
+
+  ・Phase 0 で GitHub へ書き込むかどうか(E-1)
+    これは共通原則8の解釈に関わるため、AI同士では決められない。
+    原則を変えるかどうかはユーザーの判断である。
+  ・Phase 0 の範囲をどこまで狭めるか
+    (私の案が3社の中で最も狭い可能性がある。狭すぎるかどうかは
+     ユーザーが「どれくらい待てるか」で決まる)
+  ・操作回数の目標値をどこに置くか
+
+ ⑤ どの状態になれば統合案の提出へ進むべきか
+
+  次の3つがすべて満たされたときだと考える。
+
+  (a) Phase 0 で「最初に作る1ステップ」が3社で一致していること
+  (b) 残っている対立が、実装の順序か数値目標だけになっていること
+      (設計思想の対立が残っていないこと)
+  (c) 新しく出てきた論点が、既存のUNKNOWNの言い換えになっていること
+
+  現時点の私の見立てでは、(b)はほぼ満たされている。
+  Round 4-B の時点で、3社とも
+  「機械が交通整理し、AIが考え、人間が決める」「エラー駆動」
+  「追加課金へ自動で逃げない」「L2/L1/L0の縮退」で一致した。
+  残る差は、Phase 0 の範囲と順序である。
+
+  したがって Round 5-B は必要だが、Round 5-C は
+  「Phase 0 の範囲について3社の結論が割れた場合」に限るべきだと考える。
+  割れなければ、統合案の提出へ進んでよい。
+
+  なお、この判断はユーザーが行う。私の意見は材料である。
+
+============================================================
+Round 5-B へは進まない。
+============================================================
+END
+============================================================
+===== END RAW =====
+
+===== FILE: GEMINI_R5-A_RAW.md =====
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
+Source SHA-256: 7a348cd22192cb68c546eb0c5323394707f7a4ff80a0bc4e34bfd2dcab11c0cb
+===== BEGIN RAW (verbatim) =====
+ROUND5-A_BASE_COMMIT: `0a492405dafa14590232bc1dc297b43291d41d4b`  
+Repository: `kamiyusense/multi-ai-council-raw-records`  
+VENDOR: Google Gemini  
+ROUND: 5-A  
+
+---
+
+## 設問1
+### A. 維持した考え
+- **追加費用ゼロ・月額サブスクリプション枠の優先活用**: ユーザーの予算制約（追加従量課金ゼロの基本方針）を最優先とし、各社の月額プランに含まれる公式自動化手段を標準経路とすること。
+- **Windowsローカル環境での完結**: ユーザーの自宅にあるWindows実機を活かし、外部サーバーや複雑なクラウドインフラを要求せず、ローカルで完結する決定論的Orchestrator（交通整理役）を中心とすること。
+- **日本語1画面UIおよび1枚のMarkdownレポート集約**: 非プログラマであるユーザーの負担を最小化するため、日常の操作は日本語1行の入力とし、結果は一致点・相違点・根拠URLを整理した1枚のMarkdownレポートに集約すること。
+- **隔離ブランチによる安全策の維持**: Julesの停止機能（DELETE）による実行停止・課金停止が未確定（UNKNOWN）であるため、破壊的・危険な変更は隔離ブランチ上で実行し、結果を破棄できる体制を維持すること。
+- **共通原則の厳守**: AI自身に正解を裁定させず機械的な整理に徹すること（原則3）、安全性の警告は1社からでも出れば多数決で無視せず人間に返すこと（原則5）、Phase 0はRead-onlyから開始すること（原則8）。
+
+### B. 修正・縮小した考え
+- **利用枠管理の「予防的停止」から「エラー駆動停止」への修正**: 各社の月額枠残量をプログラムから事前取得するAPIが3社ともUNKNOWNである確定事実に基づき、事前に残量を読んで止まる設計を放棄し、上限エラー（拒否）を受けて後続処理を直ちに安全停止するフェイルセーフ設計へ修正。
+- **Gemini回答回収の全自動前提からL1（手動貼り付け支援）縮退への修正**: 実機で確認されたGemini経路はGitHub→Notebookの参照方向のみであり、回答の自動回収Capabilityは未確定（UNKNOWN）であるため、完全自動を前提とせず、クリップボード支援を介した手動回収（L1）を許容する設計へ修正。
+- **旧世代単価に基づくコスト試算の修正**: Round 3で旧世代モデル（GPT-4o / Claude 3.5 Sonnet / Gemini 1.5 Pro）の単価から試算した「約1.5〜3円/回」を撤回し、現行世代（GPT-5.6 Sol / Opus 5 / Gemini 3.1 Pro）の正規比較値に基づく試算へ改訂。
+
+### C. 撤回した考え
+- **「Codexモデルは2023年に廃止されたため外部操作できない」という主張の撤回**: 旧Codexモデルの廃止と現行のCodex製品（CLI/SDK/App Server）を混同していた事実誤認を認め、現行Codexが外部から公式にプログラム制御可能であることを受け入れ撤回。
+- **「OpenAI APIには処理途中の承認（approval）フックがない」という主張の撤回**: Codex公式のlifecycle hooksおよびApp Serverの `turn/interrupt` が確認されたため、監視・中断・承認機構が存在することを認めて撤回。
+- **「Julesの一般公開REST API仕様書は存在しない」という主張の撤回**: `jules.google/docs/api/reference/sessions` にDELETEを含むエンドポイント仕様が公開されている事実を確認し、従前の不在主張を撤回。
+- **「Google OneとCloud課金は完全分離しているため事故は起こらない」という断定の撤回**: Gemini API Prepay等において約10分の課金遅延によるnegative balance発生リスクが公式に記載されている事実を踏まえ、絶対安全という過度な断定を撤回。
+- **「OpenAI APIキー取得を初期設定に含める」設計の撤回**: CodexにはChatGPT subscription accessが存在するため、追加費用ゼロを望むユーザーに対して従量課金APIキーの取得を必須とする設計を撤回。
+
+### D. 他社から採用した考え
+- **Claude案より採用**:
+  - 取得事故防止のための「正本コミットSHAおよびファイル指紋（SHA-256）照合」。
+  - 「L2（自動）→ L1（手貼り支援）→ L0（完全手動）」の3段階縮退モデル（L0で全機能が成立する保証）。
+  - 司令塔（Orchestrator）自身はLLMを一切呼ばない決定論的コード制約（枠消費ゼロ保証）。
+  - Phase 0でユーザー操作回数と所要時間を実測し、減らなければ司令塔を撤回する反証条件。
+- **ChatGPT案より採用**:
+  - Providerの状態機械管理（`AVAILABLE`, `BUSY`, `QUOTA_OR_LIMIT_ERROR`, `OTHER_ERROR`, `DISABLED_BY_USER`, `UNKNOWN`）。
+  - 原因不明のエラーを安易に利用枠切れと決めつけない厳密なエラー分類。
+  - ユーザーによる温存判断を第一級の状態（`DISABLED_BY_USER`）として扱うこと。
+  - 従量課金APIへの自動フォールバックの禁止（fail-closed原則）。
+
+### E. 現在も一致していない考え
+- **1社停止時における定足数（Quorum）の具体的扱い**: 1社が枠切れ等で不参加となった際、残り2社でCouncilの正式合意を成立させてよいか、それとも人間へ判断を返すか。Claudeは定足数未達として人間に返す方針に傾いており、ChatGPT/Geminiは実装仕様で2社合意を許容する余地を残している。
+- **正本指紋（ハッシュ）照合の実効性と原則2の抵触**: AIが回答冒頭にハッシュ値を自己申告する方式について、自己申告そのものが原則2に抵触する弱点があることへの対策（設問ごとの一意確認値の埋め込み等）が完全には決着していない。
+- **決定論コードによる一致判定の網羅度**: 主張と根拠の4象限分類を、LLMを使わずに決定論コードのみでどこまで意味的に分類可能か（Claudeは決定論を重視、ChatGPTは実装難度の留保を提示）。
+
+### F. UNKNOWNのまま残ったもの
+#### ChatGPT
+採用する要素: Provider状態機械（`AVAILABLE` / `BUSY` / `QUOTA_OR_LIMIT_ERROR` / `OTHER_ERROR` / `DISABLED_BY_USER` / `UNKNOWN`）、エラー分類の厳格化、従量課金自動フォールバック禁止。
+採用する要素: （Claude）指紋照合（コミットSHA・ハッシュ照合）、L2/L1/L0の縮退モデル、司令塔決定論化（LLM呼び出し禁止）、Phase 0実測撤回条件。
+採用する要素: （Gemini自社）日本語1行入力、PCローカル完結、Markdownレポート1枚集約、隔離ブランチでの実行破棄。
+採用しない要素: （ChatGPT）Phase 0における過度なAdapter抽象化フレームワークの事前構築（まずは2社が動く具象実装から始める）。
+採用しない要素: （Claude）意味論的一致判定まで決定論コードで完全自動化する過度の期待（Phase 0では構造化差分抽出にとどめる）。
+採用しない要素: （Gemini自社）OpenAI API従量課金キーを前提とする初期設定、およびGemini回答の完全自動回収前提。
+条件付きで採用する要素: （ChatGPT）Codex App Serverによる高度なイベント監視（Phase 0では軽量なCLI exec呼び出しから開始）。
+条件付きで採用する要素: （Claude）設問への一意確認値（Nonce）埋め込み（ユーザーの手間が増えない範囲で導入）。
+条件付きで採用する要素: （Gemini自社）Jules REST API連携（DELETEの即時停止が未確定のため、Phase 0ではread-onlyまたは隔離ブランチに限定）。
+自社案で維持する要素: 日本語1画面UI、ローカルPC実行、Markdownレポート1枚出力、隔離ブランチ安全措置。
+自社案で簡略化する要素: 複雑な状態データベースの導入を避け、ファイルシステムとインメモリで状態管理を行う。
+自社案で他社案へ置換する要素: OpenAI連携をAPI課金前提からChatGPTサブスク枠経由へ置換、全自動前提をL2/L1/L0縮退へ置換、エラー処理を状態機械へ置換。
+自社案で撤回する要素: APIキー取得を前提とする初期設定手順、旧世代モデルに基づくコスト試算。
+何が分からないか: 各社月額included枠の残量をプログラムから正確に取得する公式API（f-4）、Jules DELETEのhard-cancel（即時実行停止・クォータ停止）性、Gemini回答の外部自動回収経路、長時間タスクが枠境界を跨いだ際の厳密なトランザクション挙動、個人サブスクリプションを外部プログラムから利用する際の網羅的規約条項。
+なぜ確定できなかったか: 各社公式ドキュメントに明記がなく、公開された残量取得APIが存在せず、Julesの中断実験やGemini自動回収の実機テストが行われていないため。
+何があれば確定できるか: 各社公式ドキュメントの改定・API公開、捨てリポジトリを用いたJules DELETE実験、Gemini自動回収スクリプトの実機検証。
+今回の扱い:
+- 月額残量取得API: 「除外」（事前取得を前提とせず、エラー駆動型停止を採用）。
+- Jules hard-cancel: 「安全側に倒して暫定運用」（停止を過信せず、隔離ブランチと人間承認を併用）。
+- Gemini回答自動回収: 「安全側に倒して暫定運用」（L1手動貼り付け支援として縮退運用）。
+- 境界挙動・規約詳細: 「保留」（Phase 0の個人・短時間・read-only検証では支障がないため保留）。
+
+---
+
+## 設問2
+### 2-A. 最初の一回だけ必要な準備
+- **必要なソフト**:
+  - Windows PC実機。
+  - Python 3.10以上（決定論的Orchestrator実行環境）。
+  - Git for Windows。
+  - 各社公式CLIツール（OpenAI Codex CLI、Anthropic Claude Code CLI）。
+- **ログイン・認証**:
+  - OpenAI: ターミナルで `codex login` を実行し、「ChatGPTでサインイン」（subscription access）を選択してブラウザで認証。
+  - Anthropic: ターミナルで `claude` を初回起動し、Claude ProアカウントでOAuthログインを完了。
+  - Google: ブラウザで Google AI Pro にログインし、JulesのSettings画面からJules APIキーを発行。
+- **GitHub準備**:
+  - 作業用GitHubリポジトリの作成または特定。
+  - Windows上に `git clone` でローカルリポジトリを準備。
+  - GitHub Personal Access Token（PAT、repo権限）またはSSH鍵の設定。
+  - GitHub側で `main` ブランチを保護設定（Protected branch）とし、直接pushを禁止。
+- **設定**:
+  - Orchestratorの設定ファイル（`config.json`）に対象リポジトリのローカルパスを設定。
+  - 設定ファイル内で `zero_extra_cost = true` を指定。
+- **秘密情報の保存場所**:
+  - Jules APIキーやGitHubトークンは、ローカルの `.env` ファイル（Git管理外として `.gitignore` に明記）またはWindows Credential Managerに保存。
+  - OpenAIおよびAnthropicの従量課金APIキーは一切保存・設定しない。
+  - 起動前に環境変数 `ANTHROPIC_API_KEY` 等が存在しないことを確認するチェック機構を設ける。
+
+### 2-B. 通常1案件の流れ
+### 2-C. スマートフォン縮退
+### 2-D. 判断の境界
+① ユーザーが最初に何をするか: ローカルPCでOrchestratorを起動し、表示された日本語入力欄に案件の指示・設問を1行〜数行で入力してEnterを押す。  
+② ChatGPT・Claude・Geminiへどう依頼を届けるか:
+  - ChatGPT: `codex exec` をバックグラウンド実行し、ChatGPTサブスク認証で非対話送信。
+  - Claude: `claude -p` をバックグラウンド実行し、Claude Proサブスク認証で非対話送信。
+  - Gemini: クリップボードに整形済みプロンプトを自動コピーし、画面上に「Geminiに貼り付けてください」と日本語案内を表示（L1支援）。  
+③ 各社の回答をどう取得するか:
+  - ChatGPT/Claude: 各CLIプロセスの標準出力（stdout）をOrchestratorが直接キャプチャ。
+  - Gemini: ユーザーがGeminiの画面から回答を1回コピーし、Orchestratorの入力受付欄に貼り付けてEnter（回収支援）。  
+④ 回答をどこへ保存するか: ローカルリポジトリ内の作業ディレクトリ（例: `records/round_X/`）に、`CHATGPT_RAW.md`, `CLAUDE_RAW.md`, `GEMINI_RAW.md` として即座にファイル保存。  
+⑤ GitHubへ何を、いつ記録するか: 3社の回答ファイルが保存された直後、Orchestratorが自動で日付ブランチ（例: `council/round_X`）を作成し、RAWファイル群と更新した `INDEX.md` をコミットしてGitHubへPushし、PRを作成する（mainへは直接記録しない）。  
+⑥ 3社回答をどう比較するか: 決定論的スクリプトが各RAWから読んだコミットSHA/指紋、引用URL、[調]/[知]の印、見出し構造を抽出し、機械的に差分比較テーブルを生成する（AIによる要約や解釈は挟まない）。  
+⑦ 3社が一致した場合どうするか: レポート上に「結論一致＋根拠一致（確定可能）」と表示し、統合差分のプレビューを提示してユーザーへMerge判断を仰ぐ。  
+⑧ 重要な不一致がある場合どうするか: 不一致となった項目、各社の主張内容、引用URLの対比表をレポート上でハイライト表示し、ユーザーが判断すべき争点として提示する。  
+⑨ 危険なファイル変更をどう扱うか: Phase 0では原則としてファイル変更はread-only。コード変更が必要な場合でも必ず隔離ブランチに限定し、mainへの適用はユーザーの明示的承認を必須とする。  
+⑩ PR作成をどう扱うか: 隔離ブランチからmainへのPull Request作成は自動で行う。  
+⑪ Mergeをどう扱うか: 自動Mergeは一切行わない。GitHub上のPR画面またはローカルツール上の確認ボタンにより、ユーザー本人が手動でMergeを実行する。  
+⑫ 追加従量課金への自動移行をどう防止するか: Orchestrator起動時に環境変数 `ANTHROPIC_API_KEY` 等を検査し、存在した場合は起動を拒否する。また各CLI呼び出し時にAPIキーを使用しないフラグを固定し、エラー発生時に有償APIへフォールバックする経路自体を実装しない。  
+⑬ 止めたい時にシステム全体を止める方法: Orchestratorのコンソールで `Ctrl+C` を入力するか、GUI画面の「緊急停止」ボタンを押すことで、実行中のすべての子プロセス（CLI）を即座にkillして停止する。  
+⑭ 最終的にどこでユーザーへ判断を返すか: 日本語で生成された1枚のMarkdownレポート（要約・差分・保留点・推奨アクション）をローカルブラウザまたはエディタで自動表示し、最終判断をユーザーに委ねる。  
+継続できること: GitHub Mobileやブラウザを通じたMarkdownレポートの閲覧、差分確認、PRのMerge/Close判断、各社Webチャットでの単独調査の継続。  
+できなくなること: ローカルCLI（Codex/Claude）の自動並列実行、ローカルスクリプトによる自動RAW保存、自動差分照合。  
+ユーザーが行うこと: L0（完全手動運用）に切り替え。スマホからGitHub上の正本を参照し、各社チャット画面へ手動で設問を貼り付け、得られた回答をGitHubのWeb編集画面から直接コミットするか、PC復旧時まで一次保留とする。  
+AIに考えさせる処理: ユーザーの設問に対する技術的分析、事実確認、コードの比較検討、論理的推論。  
+機械的に処理する部分: 正本ハッシュ照合、RAWファイルの保存と命名、URLや[調]/[知]印の機械的一致判定、クォータエラー検知と停止、Gitブランチ・PR作成。  
+必ず人間へ返す部分: 最終的な採用判断、PRのmainへのMerge、安全性の警告発生時の対応、定足数未達時の続行判断、追加課金の可否。  
+
+---
+
+## 設問3
+### ① 1社が応答しない
+検知: プロセス実行タイムアウト（設計目標: 5分）または通信タイムアウトの検知。  
+自動再試行: 30秒の待機後に1回のみ自動再試行。  
+停止: 2回連続でタイムアウトした場合は当該Providerを `TIMEOUT_STOP` として一時停止。  
+残りのAIだけで続けるか: 正常完了した残り2社の回答を保存し、暫定レポートを作成して処理を続行。  
+人間へ返すか: 定足数未達または暫定状態として、レポート上で人間に確認を求める。  
+再開地点: 応答しなかった当該社の設問投入ステップから再開。  
+### ② 利用枠と思われるエラーが出る
+検知: CLIまたはAPIの応答から「usage limit reached」「quota exceeded」等の明示的なクォータエラー文字列、またはリセット時刻表示を検知。  
+自動再試行: 自動再試行は一切しない（枠の無駄消費や無限ループを防ぐ）。  
+停止: 当該Providerを直ちに `QUOTA_OR_LIMIT_ERROR` として停止。  
+残りのAIだけで続けるか: 残り2社の回答を保存・比較し、当該社を「不参加（利用枠切れ）」としてRAWに記録して処理を続行。  
+人間へ返すか: 「利用枠到達」の旨とリセット時刻を人間に通知し、待機するか2社結果で判断するかを仰ぐ。  
+再開地点: リセット時刻経過後、ユーザーが再開を指示した時点で当該社の設問投入から再開。  
+### ③ 原因不明のエラーが出る
+検知: HTTP 500系エラー、未定義の終了コード、パース不能な異常出力の検知。  
+自動再試行: 最小の軽いリクエストで1回のみ再現性を確認（一時的障害の切り分け）。  
+停止: 再現した場合は `UNKNOWN_ERROR` として停止（利用枠切れと断定しない）。  
+残りのAIだけで続けるか: 安全性に関わる可能性があるため、全体処理を一次保留。  
+人間へ返すか: エラーログの詳細を提示し、直ちに人間に判断を返す。  
+再開地点: エラーが発生した当該AIの投入ステップ。  
+### ④ 回答取得途中で処理が停止する
+検知: CLIプロセスが異常終了（非ゼロ終了）し、出力が途中で途切れていることを検知。  
+自動再試行: 自動再試行はしない。  
+停止: 不完全な出力を破棄または `.partial` として隔離保存し、プロセスを停止。  
+残りのAIだけで続けるか: 正常終了した他社分は保持し、欠落社を未完了として扱う。  
+人間へ返すか: 回答が途中で停止した事実を人間に通知。  
+再開地点: 当該セッションのコンテキストを保持した再開（Claudeなら同一セッションで「続けて」投入、Codexならthread resume）。  
+### ⑤ GitHubへの保存に失敗する
+検知: `git push` または `git commit` コマンドの非ゼロ終了コード、認証エラー、ネットワーク切断の検知。  
+自動再試行: 指数バックオフ（10秒、30秒、60秒）を挟んで最大3回まで自動再試行。  
+停止: 3回失敗した時点でGit同期処理を停止。  
+残りのAIだけで続けるか: ローカルPC上にはRAWファイルが保存されているため、差分照合とレポート生成はローカルでそのまま続行。  
+人間へ返すか: 「ローカル保存成功、GitHub同期失敗」としてエラー内容を人間に通知。  
+再開地点: ネットワーク回復後、ローカルコミットの `git push` リトライから再開。  
+### ⑥ 同じ処理を二重実行してしまう
+検知: タスク開始前のロックファイル（`task.lock`）の存在、または重複セッションIDの検知。  
+自動再試行: なし。  
+停止: 後から起動した重複プロセスを即座に安全終了。  
+残りのAIだけで続けるか: 先行して実行中のプロセスをそのまま継続。  
+人間へ返すか: 二重実行を防止した旨を通知（通常は人間介入不要）。  
+再開地点: 先行プロセスの現在位置。  
+### ⑦ PCが途中で落ちる
+検知: 次回復旧起動時に、未解除の `task.lock` および未完了ステータスファイルを検知。  
+自動再試行: 自動実行はしない。  
+停止: 起動時に前回の異常終了を検知して待機状態とする。  
+残りのAIだけで続けるか: 人間の指示を待つ。  
+人間へ返すか: 「前回の処理が途中で中断されました」と通知し、復旧メニュー（途中から再開／破棄して再実行）を提示。  
+再開地点: ローカルに保存済みのRAWファイルを確認し、未完了のAIの呼び出しステップから再開。  
+### ⑧ スマートフォンしか使えなくなる
+検知: PCのOrchestratorが利用不能（ユーザーの自己申告・判断）。  
+自動再試行: なし。  
+停止: PC側の自動処理は停止。  
+残りのAIだけで続けるか: L0縮退運用として、GitHub Webおよびスマホ各社アプリを用いた手動運用で継続可能。  
+人間へ返すか: すべて人間の手動操作。  
+再開地点: GitHub上の最新コミットを確認し、手動で設問を貼り付けるステップから再開。  
+課金事故の防止: APIキーの完全排除、起動時における環境変数 `ANTHROPIC_API_KEY` 等の存在検査、`zero_extra_cost = true` による有償APIフォールバック経路の完全遮断。  
+無限再試行・暴走の防止: 自動再試行回数は最大1回（Git同期のみ最大3回）にハードコードで制限し、指数バックオフを適用。ループ防止ガードにより同一エラーでの連続呼び出しを遮断。  
+利用枠と断定できないエラーの扱い: 原因が確定できないエラーは安易に「利用枠切れ」と決めつけず `UNKNOWN_ERROR` として分類・記録し、ユーザーに不要な課金や上位プラン検討を誘発させない。  
+残り2社で継続できる範囲: 正常完了した2社分の回答保存、差分抽出、レポート生成までは実施。ただし定足数未達の可能性があるためCouncil正式合意とはせず暫定扱いとし、人間に判断を委ねる。  
+非専門家向け表示: HTTPコードやスタックトレースをそのまま見せず、「◯◯（AI名）の応答がありません」「◯◯の利用枠上限に達しました（次回リセット: ◯時）」「原因不明のエラーが発生しました」と平易な日本語で現在状況と推奨アクションを表示。  
+
+---
+
+## 設問4
+最初の依頼 : 人間（ユーザーが目的と設問を入力）  
+3社への配布 : 条件付き自動（Codex/Claudeは自動実行、Geminiはクリップボード支援経由の手動貼り付け）  
+回答回収 : 条件付き自動（Codex/Claudeは標準出力から自動取得、Geminiは1回の手動貼り付け回収）  
+RAW保存 : 自動（取得した回答テキストを決定論的にファイル保存・命名）  
+回答比較 : 自動（正本指紋、URL、[調]/[知]印、構造化差分の抽出を決定論的コードで実行）  
+不一致検出 : 自動（結論および根拠の不一致を機械的にフラグ付け）  
+再試行 : 条件付き自動（一時的通信エラーでリセット時刻等が明示されている場合のみ1回自動、それ以外は人間判断）  
+Provider一時停止 : 自動（quota到達エラーまたは連続エラーを検知した時点で機械的に停止）  
+危険な書き込み : 人間（ファイル削除・破壊的操作は自動実行せず、必ず人間の明示的承認を要求）  
+PR作成 : 条件付き自動（隔離ブランチからmainへのPull Request作成は自動、mainへの直接pushは禁止）  
+Merge : 人間（PRの最終確認とmainへのMerge実行は人間が実施）  
+利用枠温存判断 : 人間（事前残量取得がUNKNOWNのため、Providerの温存宣言は人間が実施）  
+追加課金判断 : 人間（自動課金移行は禁止、追加費用をかけるかの判断は人間のみ）  
+最終採用判断 : 人間（共通原則3に基づき、最終的な結論・設計の採用は人間が実施）  
+### 通常時
+操作回数の設計目標: 4回（①日本語指示の入力、②Geminiへの貼り付け・回収、③レポート確認、④PR Merge判断）  
+### 1社停止時
+操作回数の設計目標: 3回（①日本語指示の入力、②レポート確認（1社停止・暫定結果）、③次へ進むか待機の判断）  
+### 重要な不一致発生時
+操作回数の設計目標: 4〜5回（通常4回 ＋ 不一致の解消方針の選択・決定1回）  
+### 危険な変更で人間確認が必要な場合
+操作回数の設計目標: 5回（通常4回 ＋ 危険操作実行前の承認クリック1回）  
+
+---
+
+## 設問5
+### Phase 0で作るもの
+- Windowsローカルで動作する最小限のPython製Orchestratorスクリプト群。
+- `codex exec` および `claude -p` の非対話呼び出しラッパー（サブスク認証状態の確認機構付き）。
+- Gemini向けクリップボード支援機能（プロンプトをクリップボードに格納し、手貼り回収を受け付ける最小CLI）。
+- RAWファイル自動保存・命名スクリプト（`records/round_X/` への保存）。
+- 正本コミットSHA・ファイルハッシュ（SHA-256）照合スクリプト。
+- 引用URLおよび[調]/[知]印の機械的抽出・差分比較Markdownレポート生成スクリプト。
+- Gitブランチ作成・コミット・PR作成の自動化スクリプト。
+
+### Phase 0ではまだ作らないもの
+- 汎用的なProvider Adapter抽象化フレームワークやプラグイン機構（Phase 0では具象コードで記述）。
+- Web UI / GUIフロントエンド（シンプルなコンソール画面とMarkdownビューアで十分）。
+- 外部データベース（SQLite/PostgreSQL等、ファイルシステムとインメモリで代用）。
+- AIによる要約や意味論的な結論合意判定エンジン（決定論的差分抽出にとどめる）。
+- 従量課金APIへの自動フォールバック機構（作らない）。
+- mainブランチへの自動Merge機能（作らない）。
+
+### 最低限記録する測定値
+### 判定条件
+ユーザー操作回数: 1案件あたりのクリック・コピペ・確認等の総操作回数（設計目標: 通常時4回）。  
+ユーザー拘束時間: ユーザーが画面に向かって操作を行っている実時間（設計目標: 通常時3〜5分以内）。  
+AI側エラー回数: タイムアウト、quotaエラー、異常終了、パースエラーの発生件数。  
+人間確認発生回数: 不一致、定足数未達、安全警告、原因不明エラー等でユーザー判断を求めた件数。  
+次段階へ進む条件: ユーザー操作回数が目標（4〜5回以内）に収まり、拘束時間が手動運用の半分以下に短縮され、意図しない課金0円、記録事故0件を達成した場合。  
+設計を修正する条件: 操作回数が目標を上回る（6〜8回）が手動運用よりは改善している場合、またはGemini手動回収の手間が想定以上に大きい場合。  
+機能を削る条件: 指紋照合や差分抽出の誤判定が多く、手動確認の手間をかえって増やしている場合（複雑な抽出ロジックを削り、単純な行差分提示へ縮退）。  
+司令塔を縮小または撤回する条件: ユーザー操作回数や拘束時間が手動運用と比べて有意に減少しない場合、または意図しない従量課金が発生した場合は司令塔を縮小・撤回する。  
+
+---
+
+## 設問6
+### 弱点1
+何が弱いのか: Geminiの回答自動回収が未確認であり、L1（手動貼り付け・回収支援）が残る点。  
+なぜ危険なのか: ユーザーが伝書鳩作業から完全に解放されず、「全自動」の期待に対して操作ストレスが残る。  
+問題になる条件: ラウンドが連続して発生し、長文の往復が頻繁に求められる場合。  
+Phase 0での検証方法: Phase 0を実際に複数ラウンド回し、Geminiのコピペ作業にかかる実測時間と操作負担を計測。  
+修正条件: Geminiの外部自動回収経路（CLIや連携スクリプト）が実機確認された場合、L2（自動）へ昇格。  
+撤回条件: 手動コピペの負担により、全体の操作時間削減目標が達成できない場合、Geminiの常時参加を外すか司令塔自体を撤回。  
+### 弱点2
+何が弱いのか: 月額利用枠の残量をプログラムから事前取得できず、「エラー駆動停止」に頼る点。  
+なぜ危険なのか: 枠が切れる直前に予防的ルーティングができず、長時間タスクの途中でエラー停止してコンテキストや待ち時間が無駄になるリスクがある。  
+問題になる条件: 5時間枠や週間枠の上限付近で重い分析タスクを実行した場合。  
+Phase 0での検証方法: 意図的に枠上限付近でタスクを実行し、エラー停止時の状態遷移とコンテキスト保持が正しく動作するか検証。  
+修正条件: 各社から月額枠残量を取得する公式APIが提供された場合、予防的ルーティングへ修正。  
+撤回条件: 途中停止によって未完了タスクの復旧が困難となり、手動でのやり直し負担が手動運用を上回る場合。  
+### 弱点3
+何が弱いのか: 正本指紋（ハッシュ）の照合が、各AIによる自己申告に依存している点。  
+なぜ危険なのか: 共通原則2（自己申告を根拠にしない）の懸念が残り、キャッシュ汚染等で古い正本を読んだAIが最新のハッシュを出力した場合に検出できない。  
+問題になる条件: 同期遅延やURLキャッシュトラブルが発生している環境で、AIが過去の文脈を引きずって回答した場合。  
+Phase 0での検証方法: 意図的に古い正本コミットを読ませるテストを行い、指紋照合が不一致を検知できるか実証。  
+修正条件: 設問内に毎回一意の確認値（Nonce）を埋め込み、その計算結果で検証する方式を導入して強化。  
+撤回条件: 指紋照合が配布・同期事故の検知として全く機能しないと実証された場合、指紋照合層を撤回し手動確認へ戻す。  
+Round 4-A条件で既に満たされたもの: 「Claude Agent SDKが月額枠から外れ有償API請求へ強制移行する」という懸念は、変更pauseの公式確認により回避された。  
+現在も維持する条件: 「Claude Agent SDKのサブスク利用が改定され有償化された場合」「Jules隔離ブランチ操作が不可逆な影響を与える場合」。  
+変更する条件: 「Phase 0を回してユーザー操作回数と拘束時間が減らない場合」を正式な撤回条件として追加。  
+正式運用候補全体を撤回させる証拠: Phase 0の実測において手動運用と比べて操作回数・拘束時間が有意に減少しないという実測データ、または意図しない従量課金が発生したという事実。  
+
+---
+
+## 設問7
+判定: B. 条件付きで進める。開始前に必要な条件を示す。  
+理由: 基本設計（ローカル決定論Orchestrator、サブスク優先、L2/L1/L0縮退、エラー駆動状態管理）は3社間で高度に収束しておりPhase 0の実装に進める完成度にあるが、安全性を担保するため、実装着手前に環境変数から従量課金APIキーを完全に排除し、各CLIのサブスク認証状態を確認するという必須条件をクリアする必要があるため。  
+最初に実装する具体的な1ステップ: Windowsローカル環境において、環境変数 `ANTHROPIC_API_KEY` 等が存在しない状態で `codex exec` および `claude -p` を最小引数で実行し、追加課金なしのサブスクリプション枠内で安全に標準出力を取得できるかを検証する最小スクリプト（`test_runner.py`）を1つ作成・実行すること。  
+
+---
+
+## 設問8
+### ① 反論されても残すべき重要部分
+- 司令塔（Orchestrator）自身はLLMを呼ばず、決定論的コードで動作すること（ユーザーの利用枠を一切消費せず、まとめ役AIの誤読混入を防ぐため）。
+- 追加費用ゼロ運用の徹底（従量課金APIへの自動フォールバック経路を一切実装しないfail-closed設計）。
+- 危険操作の隔離ブランチ実行および破棄の原則。
+
+### ② 他社案が優れていれば変更する部分
+- Providerの状態機械におけるエラー分類コードや遷移ロジックの詳細（ChatGPT案の定義が優れていれば全面的に準拠）。
+- 取得事故防止のための具体的な指紋照合・確認値埋め込み手法（Claude案の設計が優れていれば全面的に準拠）。
+
+### ③ 他社2社も同じなら共通案へ採用する部分
+- L2（自動）→ L1（手貼り支援）→ L0（手動）の3段階縮退モデル。
+- 出力を1枚の日本語Markdownレポートに集約するユーザーインターフェース。
+- 月額枠残量取得がUNKNOWNであることによる「エラー駆動停止」設計。
+- Phase 0で操作削減が実測できなければ撤回するという反証条件。
+
+### ④ 最後まで不一致ならユーザーへ返す論点
+- 1社が枠切れ・不参加となった際の定足数（Quorum）の扱い（残り2社で正式合意を成立させるか、人間判断へ戻すか）。
+- プライベートコードを扱うタスクにおいて、各社ツールの機密性・データ利用条件の許容範囲（Gemini無料枠の除外、Jules/Claudeの利用条件の評価）。
+
+### ⑤ 統合案提出へ進む収束条件
+ChatGPT・Claude・GeminiのRound 5-A出揃い時点で、基本骨格（ローカル決定論Orchestrator、サブスク優先、エラー駆動、L2/L1/L0縮退、人間最終判断）に実質的な対立がなく、残る差異が実装パラメータや閾値の調整にとどまる場合、追加の対立ラウンド（Round 5-B/5-C）を重ねることなく、3社合意の「Phase 0 統合実装仕様案」を最終成果物としてユーザーへ提出すべきである。
+===== END RAW =====
+
 ===== FILE: ROUND3_QUESTIONS_RAW.md =====
-Source commit SHA: 071f5832f3b40a87ecc8728bf71b726cfe807e8f
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
 Source SHA-256: 216c0c81bd8f7a9e7fd4d8e09bc1d8b4e69bf6a7c15e2e8378f6785870b59181
 ===== BEGIN RAW (verbatim) =====
 MULTI-AI COUNCIL : ROUND 3
@@ -8329,7 +11007,7 @@ END
 ===== END RAW =====
 
 ===== FILE: ROUND3-2_QUESTIONS_RAW.md =====
-Source commit SHA: 071f5832f3b40a87ecc8728bf71b726cfe807e8f
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
 Source SHA-256: c359068ae45adf5f08265e530eba331c1dd69ff8b95cc413f4ad1732eeb88e58
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -8403,7 +11081,7 @@ MULTI-AI COUNCIL : ROUND 3-2
 ===== END RAW =====
 
 ===== FILE: COUNCIL_PRINCIPLES_RAW.md =====
-Source commit SHA: 071f5832f3b40a87ecc8728bf71b726cfe807e8f
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
 Source SHA-256: 40877d5342b44c43ddb0e06e04120deec2cefcaf662746f1844dc853f080ac6f
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -8776,7 +11454,7 @@ END
 ===== END RAW =====
 
 ===== FILE: COUNCIL_PRINCIPLES_11-13_DISCUSSION_RAW.md =====
-Source commit SHA: 071f5832f3b40a87ecc8728bf71b726cfe807e8f
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
 Source SHA-256: 36a0ff9a6c15230551644ccbe66872acbce1c06e521cab4f7e66d26811ebda6c
 ===== BEGIN RAW (verbatim) =====
 # COUNCIL PRINCIPLES 11–13 DISCUSSION RAW
@@ -9696,7 +12374,7 @@ END
 ===== END RAW =====
 
 ===== FILE: ROUND4-5_PLAN_RAW.md =====
-Source commit SHA: 071f5832f3b40a87ecc8728bf71b726cfe807e8f
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
 Source SHA-256: e591041c777aa8bbc3f8cc3190c8848cb85be04c4a220c53cf8ac91ae2abef1d
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -9901,7 +12579,7 @@ END
 ===== END RAW =====
 
 ===== FILE: ROUND4_PRESTART_STATUS_RAW.md =====
-Source commit SHA: 071f5832f3b40a87ecc8728bf71b726cfe807e8f
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
 Source SHA-256: 5639dfd18936a552f565e6efb9a37ebb7aa776766c75d06b87cb02bb7bae05d1
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -9984,7 +12662,7 @@ END
 ===== END RAW =====
 
 ===== FILE: ROUND4-A_QUESTIONS_RAW.md =====
-Source commit SHA: 071f5832f3b40a87ecc8728bf71b726cfe807e8f
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
 Source SHA-256: 810668a02d3cad66d7fed4f725f04bc3278198535f48132375ad1fed970802f4
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -10194,7 +12872,7 @@ END
 ===== END RAW =====
 
 ===== FILE: ROUND4-B_QUESTIONS_RAW.md =====
-Source commit SHA: 071f5832f3b40a87ecc8728bf71b726cfe807e8f
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
 Source SHA-256: ff0942b5394ce614bef5ea73e3d891d0bcce50edbe28b0b0a5f131c0e23cdd21
 ===== BEGIN RAW (verbatim) =====
 # Multi-AI Council Round 4-B 設問
@@ -10464,7 +13142,7 @@ Round 5には自動で進まないでください。
 ===== END RAW =====
 
 ===== FILE: ROUND4-B_ANONYMITY_ANSWER_CHECK_RAW.md =====
-Source commit SHA: 071f5832f3b40a87ecc8728bf71b726cfe807e8f
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
 Source SHA-256: acca2051328954b2a5cb793709333abd0ba9de2bcd6bcfb01e2a8d9eeb55706e
 ===== BEGIN RAW (verbatim) =====
 # Multi-AI Council Round 4-B
@@ -10591,7 +13269,7 @@ Round 5にはまだ進まないでください。
 ===== END RAW =====
 
 ===== FILE: ROUND5-A_QUESTIONS_RAW.md =====
-Source commit SHA: 071f5832f3b40a87ecc8728bf71b726cfe807e8f
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
 Source SHA-256: 9de229186b0accf9ec4e71fd726688aa93de66a1e896e918ff3cf23ff21a9d87
 ===== BEGIN RAW (verbatim) =====
 # Multi-AI Council Round 5-A
@@ -11428,8 +14106,596 @@ GitHubへ書き込みできない場合:
 自分のRound 5-A回答を書き換えることは禁止します。
 ===== END RAW =====
 
+===== FILE: ROUND5-B_QUESTIONS_RAW.md =====
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
+Source SHA-256: fd1549969c3c9f8f06f56bb859d75b5e394ceedee88a711b1afd29359a239928
+===== BEGIN RAW (verbatim) =====
+# Multi-AI Council Round 5-B
+# AI開発司令塔 統合・収束確認
+
+Round 5-Bを開始します。
+
+
+============================================================
+【Round 5-B の目的】
+============================================================
+
+Round 5-Bの目的は、
+Round 5-Aで提出されたChatGPT・Claude・Geminiの3案を比較し、
+
+新しい大きな構想を増やすことではなく、
+
+・すでに一致している部分を固定する
+・実装開始前に残っている差分を最小限に整理する
+・Phase 0をどの順番・どの権限境界で始めるかを1つにまとめる
+・Round 5を終了して統合仕様へ進める状態か確認する
+
+ことです。
+
+Round 5-Aで既に出た案を土台にしてください。
+
+今回、
+
+「自社案を守ること」
+「他社案に勝つこと」
+
+は目的ではありません。
+
+3社の案を可能な限り1つへまとめ、
+ユーザーが実際にPhase 0へ進める状態にすることを優先してください。
+
+
+============================================================
+【1. 参照する正本】
+============================================================
+
+Repository:
+kamiyusense/multi-ai-council-raw-records
+
+現在のGitHub mainを正本として確認してください。
+
+Round 5-Bでは、少なくとも次を参照してください。
+
+・ROUND5-B_QUESTIONS_RAW.md
+・COUNCIL_PRINCIPLES_RAW.md
+・CHATGPT_R5-A_RAW.md
+・CLAUDE_R5-A_RAW.md
+・GEMINI_R5-A_RAW.md
+
+必要な場合は、
+Round 5-Aの内容を理解するために
+
+・ROUND5-A_QUESTIONS_RAW.md
+
+を参照して構いません。
+
+ただし今回の比較・統合は、
+Round 5-Aの3社回答を中心に行ってください。
+
+今回、新しい外部調査は行わないでください。
+
+Round 5-Aの3社回答と、
+本設問で参照を許可されたGitHub正本だけをもとに
+比較・統合してください。
+
+確認できない事実は推測せず、
+UNKNOWNとしてください。
+
+
+
+============================================================
+【Round 5-B 共通基準コミット】
+============================================================
+
+3社が同一のGitHub状態を参照するため、
+Round 5-Bでは全社共通の基準コミットを使用します。
+
+ROUND5-B_BASE_COMMIT は、
+Round 5-B開始時にユーザーまたは記録担当から指定します。
+
+各社は、
+指定された ROUND5-B_BASE_COMMIT の状態を
+共通の参照地点としてください。
+
+回答冒頭に、
+実際に参照した ROUND5-B_BASE_COMMIT を記録してください。
+
+指定されたSHAと異なる状態を取得した場合は、
+そのまま回答を続けず、
+差異を明示してください。
+
+自社用Round 5-B branchを作成する場合も、
+原則として指定された
+ROUND5-B_BASE_COMMITを起点としてください。
+
+
+============================================================
+【2. Round 5-B の進め方】
+============================================================
+
+Round 5-Bでは、
+3社のRound 5-A回答を相互に確認して構いません。
+
+ただし、
+他社の案を批判すること自体を目的にせず、
+
+・一致しているところ
+・実質同じところ
+・本当に違うところ
+
+を区別してください。
+
+新しい案を追加する場合は、
+Round 5-Aのどの未解決点を解消するために必要なのかを明示してください。
+
+単なる機能追加や、
+将来あると便利という理由だけで
+Phase 0を大きくしないでください。
+
+
+
+設問2に記載している
+ChatGPT・Claude・Geminiの優先順位の説明は、
+Round 5-A回答を読みやすくするための要約です。
+
+正確な内容は、
+各社のRound 5-A RAWを正本としてください。
+
+設問内の要約とRound 5-A RAWが食い違う場合は、
+Round 5-A RAWを優先してください。
+
+
+
+============================================================
+【Round 5-B の独立性】
+============================================================
+
+Round 5-Bでは、
+Round 5-AのChatGPT・Claude・Geminiの回答を
+相互に確認して構いません。
+
+ただし、
+自分のRound 5-B回答を提出・固定するまでは、
+他社のRound 5-B回答を見ないでください。
+
+禁止:
+
+・他社のRound 5-B RAWを見る
+・他社のRound 5-B branchを見る
+・他社のRound 5-B Pull Request本文やdiffを見る
+・他社のRound 5-B回答をユーザーから聞く
+・他社がRound 5-Bで何を書くかを推測して回答を合わせる
+
+自分のRound 5-B提出後も、
+3社すべての提出が完了するまでは、
+他社のRound 5-B回答を確認せず、
+自分の回答を書き換えないでください。
+
+
+============================================================
+【3. 情報区分】
+============================================================
+
+COUNCIL_PRINCIPLES_RAW.md の
+現在の共通原則に従ってください。
+
+Round 5-Aと同様に、
+次を混同しないでください。
+
+
+【確定事実】
+
+既存RAWで確認できる事実。
+
+
+【設計判断】
+
+3社案を比較したうえで
+今回採用する判断。
+
+
+【設計目標】
+
+まだ実測していない目標値。
+
+
+【仮の閾値】
+
+Phase 0で試すための一時的な基準。
+
+
+【UNKNOWN】
+
+現在の資料では確認できないこと。
+
+
+自社・他社を問わず、
+不要・危険・複雑すぎる案は
+採用しなくて構いません。
+
+他社案の方が優れている場合は、
+そのまま採用してください。
+
+
+============================================================
+【設問1：一致点と本当の対立点を整理する】
+============================================================
+
+ChatGPT・Claude・Geminiの
+Round 5-A回答を比較し、
+
+内容を次の3分類に整理してください。
+
+
+A. 3社とも実質的に一致している部分
+
+表現や細部が違っていても、
+同じ設計思想・同じ安全方針を採っているもの。
+
+
+B. 表現や実装順は違うが、
+同じ方向を向いている部分
+
+3社で完全一致ではないが、
+両立可能であり、
+
+順番や細部を調整すれば
+1案にまとめられるもの。
+
+
+C. 本当に結論が違う部分
+
+同時には採用できず、
+
+・どちらかを選ぶ
+・条件分岐する
+・ユーザー判断へ返す
+
+必要があるもの。
+
+
+最後に、
+
+「これ以上Roundで再議論しなくてよい共通部分」
+
+を箇条書きで明示してください。
+
+新しい論点を増やすのではなく、
+Round 5-Aに既に存在する内容から整理してください。
+
+
+============================================================
+【設問2：Phase 0を始める順番を1本に統合する】
+============================================================
+
+Round 5-Aでは、
+Phase 0開始前後の優先順位に
+主に次の差がありました。
+
+
+・ChatGPT
+
+read-only Case Runnerの骨格を作り始める。
+
+
+・Claude
+
+まず現行手動運用の
+操作回数・拘束時間・エラー回数・人間確認回数等を測る。
+
+
+・Gemini
+
+まずsubscription認証状態と、
+従量課金APIキー経路が存在しないことを確認する。
+
+
+これらは必ずしも排他的ではありません。
+
+3つを可能な限り両立させ、
+
+実際にユーザーと実装担当が進める
+「1本の順番」
+
+にしてください。
+
+
+最低限、次を示してください。
+
+1. 最初に確認すること
+
+2. コードを書く前に必要なこと
+
+3. 最初に作るもの
+
+4. 最初に行うテスト
+
+5. どの地点を「Phase 0開始」とみなすか
+
+
+さらに各作業を、
+
+・実装開始前に必須
+・実装と並行してよい
+・Phase 0開始後でもよい
+
+の3分類にしてください。
+
+
+複数案を並べて
+ユーザーへ選択を丸投げせず、
+
+第一候補となる順番を1つ提示してください。
+
+
+============================================================
+【設問3：Phase 0の権限境界を確定する】
+============================================================
+
+Phase 0で何を自動化してよいかを、
+次の3分類で整理してください。
+
+
+A.
+Phase 0で自動実行してよい
+
+
+B.
+人間の明示承認がある場合のみ実行してよい
+
+
+C.
+Phase 0ではまだ実行しない
+
+
+少なくとも次の項目を分類してください。
+
+・ローカル作業領域へのファイル保存
+・RAW保存
+・hash計算
+・比較レポート生成
+・AIアカウントへの接続
+・subscription経路でのAI実行
+・自動再試行
+・原因不明エラー後の再試行
+・GitHub read
+・GitHub branch作成
+・Git commit
+・Git push
+・Pull Request作成
+・Merge
+・API key利用
+・追加従量課金へのfallback
+・秘密情報の保存
+・既存ファイルの上書き
+・削除操作
+
+
+3社で意見が割れている項目だけ、
+理由を簡潔に示してください。
+
+特に、
+
+・COUNCIL_PRINCIPLES_RAW.md のPhase 0 read-only原則
+・追加従量課金なし
+・人間最終判断
+
+との整合を確認してください。
+
+
+
+============================================================
+【Phase 0 read-only とログ出力例外】
+============================================================
+
+設問3では、
+
+・AI回答RAW
+・入力記録
+・stdout / stderr
+・hash
+・実行状態
+・比較に必要な証拠
+
+等を専用ローカル作業領域へ保存することが、
+
+COUNCIL_PRINCIPLES_RAW.md 原則8の
+「ログ出力先として許容される書き込み」
+
+に含まれると考えるかを明示してください。
+
+ログ出力例外に含める場合は、
+どこまでをログとして許容するかも示してください。
+
+少なくとも、
+
+・既存ファイルの上書き
+・Gitへの書き込み
+・外部サービスへの送信
+・設定変更
+・秘密情報の保存
+・削除操作
+
+まで自動的にログ例外へ含めないでください。
+
+原則8と矛盾すると判断した場合は、
+勝手に原則を変更せず、
+その差分を明示してください。
+
+
+============================================================
+【設問4：Round 5を終了して統合仕様へ進めるか】
+============================================================
+
+設問1〜3を踏まえ、
+
+必ず次のどれか1つを選んでください。
+
+
+A.
+
+3社の設計思想は十分に収束している。
+
+残る差は、
+
+・実装順
+・数値
+・名称
+・Phase 0で実測して決められる細部
+
+だけである。
+
+Round 5-Cを行わず、
+Phase 0統合仕様の作成へ進める。
+
+
+B.
+
+ほぼ収束しているが、
+
+統合仕様を作る前に
+ユーザー判断が必要な論点が残っている。
+
+その論点だけを列挙する。
+
+
+C.
+
+Phase 0の安全性または基本設計に関する
+重大な対立が残っているため、
+
+Round 5-Cが必要である。
+
+
+理由を示してください。
+
+
+最後に、
+統合仕様へ引き継ぐ内容として
+次の4点を短くまとめてください。
+
+
+① 必ず残すもの
+
+② 妥協・変更してよいもの
+
+③ 人間が決めるもの
+
+④ Phase 0で最初に実装する1ステップ
+
+
+============================================================
+【回答条件】
+============================================================
+
+Round 5-Aの3社回答を確認したうえで
+回答してください。
+
+今回、新しい外部調査は行わないでください。
+
+Round 5-Aの3社回答と、
+本設問で参照を許可されたGitHub正本だけをもとに
+比較・統合してください。
+
+確認できない事実は
+UNKNOWNとしてください。
+
+過去の自社案を守ることを
+優先しないでください。
+
+他社案を採用しても
+ペナルティはありません。
+
+不要な繰り返しを避け、
+今回の4設問に直接答えてください。
+
+長さを増やすこと自体は
+評価しません。
+
+今回の目的は、
+新しい案を増やすことではなく、
+
+Round 5-Aの3案を
+1つへまとめることです。
+
+Round 5-Cへ
+自動的に進まないでください。
+
+Round 5を終了するか、
+追加ラウンドを行うか、
+統合仕様を採用するかの最終判断は
+
+ユーザーが行います。
+
+
+============================================================
+【提出方法】
+============================================================
+
+回答はRAWとして保存してください。
+
+
+ファイル名:
+
+
+ChatGPT:
+
+CHATGPT_R5-B_RAW.md
+
+
+Claude:
+
+CLAUDE_R5-B_RAW.md
+
+
+Gemini:
+
+GEMINI_R5-B_RAW.md
+
+
+3社すべてのRound 5-B回答が揃うまで、
+
+他社のRound 5-B回答を見て
+自分の回答を書き換えないでください。
+
+
+GitHubへ書き込み可能な場合:
+
+・mainへ直接pushしない
+・自社専用branchを作る
+・自社R5-B RAW 1ファイルだけ追加する
+・INDEX.mdは変更しない
+・Mergeしない
+
+
+GitHubへ書き込みできない場合:
+
+・できたふりをしない
+・書き込み不可と明記する
+・R5-B RAW本文をそのまま提出する
+
+
+3社すべてのRound 5-B提出完了後:
+
+1. 各社の提出時点のRAWを固定する
+
+2. 提出後に他社回答を見て
+   書き換えていないことを確認する
+
+3. 3社RAWをmainへ反映する
+
+4. その後、必要なら
+   INDEX.mdへまとめて追記する
+
+5. Round 5-BのA / B / C判定を比較する
+
+
+他社回答を確認した後に、
+自分のRound 5-B回答を書き換えることは禁止します。
+===== END RAW =====
+
 ===== FILE: GEMINI_FEATURE_VERIFICATION_RAW.md =====
-Source commit SHA: 071f5832f3b40a87ecc8728bf71b726cfe807e8f
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
 Source SHA-256: cdc4132aa1df881ce38e07ecf033ad8ec4be1ad22955ef06bc05e000e041706c
 ===== BEGIN RAW (verbatim) =====
 # GEMINI_FEATURE_VERIFICATION_RAW
@@ -11594,7 +14860,7 @@ END
 ===== END RAW =====
 
 ===== FILE: HANDOVER_CHECKLIST_RAW.md =====
-Source commit SHA: 071f5832f3b40a87ecc8728bf71b726cfe807e8f
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
 Source SHA-256: 010701a62fec974556d280d8708817ba1f9f385b1d4b81ebc220e05eba30f2a0
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -11777,7 +15043,7 @@ END
 ===== END RAW =====
 
 ===== FILE: CHATGPT_HANDOVER_RAW.md =====
-Source commit SHA: 071f5832f3b40a87ecc8728bf71b726cfe807e8f
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
 Source SHA-256: 00a659d7f30b37d88b476b0137a47224e0945bb160775a91463494524bfcc6c8
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -11923,7 +15189,7 @@ END
 ===== END RAW =====
 
 ===== FILE: CLAUDE_HANDOVER_RAW.md =====
-Source commit SHA: 071f5832f3b40a87ecc8728bf71b726cfe807e8f
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
 Source SHA-256: 6ad3fd8639306a85e5d2e26f9df736cc00f1c872001a0b6d7fa73d2de7a76ad3
 ===== BEGIN RAW (verbatim) =====
 ============================================================
@@ -12212,7 +15478,7 @@ END
 ===== END RAW =====
 
 ===== FILE: GEMINI_HANDOVER_RAW.md =====
-Source commit SHA: 071f5832f3b40a87ecc8728bf71b726cfe807e8f
+Source commit SHA: e1090b6d8033954941995785201267390e7518a0
 Source SHA-256: 71026ea4f6efa516b5a70aa75269ebfae229e004fd64307a74768820c9ef0bab
 ===== BEGIN RAW (verbatim) =====
 ### GEMINI 引き継ぎ表紙
