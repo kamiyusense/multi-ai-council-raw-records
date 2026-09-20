@@ -44,6 +44,14 @@
 - CLAUDE_R5-A_RAW.md
 - GEMINI_R5-A_RAW.md
 
+## Round 5-B
+- CHATGPT_R5-B_RAW.md
+- CLAUDE_R5-B_RAW.md
+- GEMINI_R5-B_RAW.md
+
+## Round 5-B 最終統合
+- R5-B_FINAL_INTEGRATION_V2.md
+
 ## 設問・進行表
 - ROUND3_QUESTIONS_RAW.md
 - ROUND3-2_QUESTIONS_RAW.md
