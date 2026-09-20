@@ -63,10 +63,10 @@ class LiveAppServerTransport(Transport):
         )
 
     def start(self):
-        self.client = self._build_client_factory()
-
         if not self.config.get("live_execution_permitted", False):
             raise Exception("Live execution is STRICTLY PROHIBITED in this POC.")
+
+        self.client = self._build_client_factory()
 
         # In actual usage, client.start() manages the process lifecycle
         if self.client and hasattr(self.client, 'start'):
@@ -74,19 +74,20 @@ class LiveAppServerTransport(Transport):
 
         self.is_initialized = True
 
-    def _handle_turn_completed_simulation(self, turn_id):
-        # Simulation of receiving a notification for backend correlation
-        with self._lock:
-            self._turn_completed_buffer[turn_id] = {
-                 "method": "turn/completed",
-                 "params": {"turn": {"id": turn_id, "status": "completed"}}
-            }
-            if turn_id in self._turn_completed_events:
-                 self._turn_completed_events[turn_id].set()
-            else:
-                 evt = threading.Event()
-                 evt.set()
-                 self._turn_completed_events[turn_id] = evt
+
+    def handle_notification(self, payload):
+        method = payload.get("method")
+        if method == "turn/completed":
+            turn_id = payload.get("params", {}).get("turn", {}).get("id")
+            if turn_id:
+                with self._lock:
+                    self._turn_completed_buffer[turn_id] = payload
+                    if turn_id in self._turn_completed_events:
+                        self._turn_completed_events[turn_id].set()
+                    else:
+                        evt = threading.Event()
+                        evt.set()
+                        self._turn_completed_events[turn_id] = evt
 
     def send(self, payload):
         self.live_transport_executed = True
@@ -107,9 +108,9 @@ class LiveAppServerTransport(Transport):
 
         # DELIVERED 判定ロジック (Backend Correlation check on live path)
         if method == "turn/start":
-             turn_id = response.get("result", {}).get("turn", {}).get("id", "mock_turn_123")
-
-             self._handle_turn_completed_simulation(turn_id)
+             turn_id = response.get("result", {}).get("turn", {}).get("id")
+             if not turn_id:
+                 raise Exception("POST_SEND_AMBIGUITY: No turn.id in turn/start response")
 
              with self._lock:
                   if turn_id not in self._turn_completed_events:
@@ -118,32 +119,41 @@ class LiveAppServerTransport(Transport):
 
              success = evt.wait(timeout=self._rpc_timeout)
              if not success:
-                  raise TransportTimeoutError("Timeout waiting for turn/completed notification")
+                  raise Exception("POST_SEND_AMBIGUITY: Timeout waiting for turn/completed notification")
 
              completed_msg = self._turn_completed_buffer.get(turn_id, {})
              if completed_msg.get("params", {}).get("turn", {}).get("status") != "completed":
-                  raise Exception("turn status != completed")
+                  raise Exception("POST_SEND_AMBIGUITY: turn status != completed")
 
              thread_id = params.get("threadId")
+             client_msg_id = params.get("clientUserMessageId")
 
-             read_res = self.client.send_request("thread/read", {"threadId": thread_id})
-             if "result" not in read_res: read_res = {"result": {"thread": {"id": thread_id}}}
+             try:
+                 read_res = self.client.send_request("thread/read", {"threadId": thread_id})
+             except Exception as e:
+                 raise Exception(f"POST_SEND_AMBIGUITY: thread/read failed: {str(e)}")
+
+             if "result" not in read_res:
+                 raise Exception("POST_SEND_AMBIGUITY: missing thread/read result")
 
              read_thread_id = Parsers.parse_thread_read(read_res)
              if not read_thread_id:
-                  raise Exception("thread/read failed correlation")
+                  raise Exception("POST_SEND_AMBIGUITY: thread/read failed correlation or malformed")
 
-             list_res = self.client.send_request("thread/turns/list", {"itemsView": "full", "threadId": thread_id})
-             client_msg_id = params.get("clientUserMessageId")
+             try:
+                 list_res = self.client.send_request("thread/turns/list", {"itemsView": "full", "threadId": thread_id})
+             except Exception as e:
+                 raise Exception(f"POST_SEND_AMBIGUITY: thread/turns/list failed: {str(e)}")
+
              if "result" not in list_res:
-                 list_res = {"result": {"turns": [{"id": turn_id, "messages": [{"author": {"role": "user"}, "clientId": client_msg_id}]}]}}
+                 raise Exception("POST_SEND_AMBIGUITY: missing thread/turns/list result")
 
              list_turn_id = Parsers.parse_thread_turns_list(list_res)
              if list_turn_id != turn_id:
-                  raise Exception("thread/turns/list failed correlation")
+                  raise Exception("POST_SEND_AMBIGUITY: thread/turns/list failed correlation or malformed")
 
              if not Parsers.correlate_backend(completed_msg, read_res, list_res, client_msg_id):
-                  raise Exception("clientUserMessageId correlation failed")
+                  raise Exception("POST_SEND_AMBIGUITY: clientUserMessageId correlation failed")
 
         return response
 

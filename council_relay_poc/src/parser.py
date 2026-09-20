@@ -8,13 +8,13 @@ class Parsers:
 
     @staticmethod
     def parse_thread_read(payload):
-        if payload.get("method") == "thread/read" and "result" in payload:
+        if "result" in payload:
             return payload["result"].get("thread", {}).get("id")
         return None
 
     @staticmethod
     def parse_thread_turns_list(payload):
-        if payload.get("method") == "thread/turns/list" and "result" in payload:
+        if "result" in payload:
              turns = payload["result"].get("turns", [])
              if turns:
                  return turns[-1].get("id")
