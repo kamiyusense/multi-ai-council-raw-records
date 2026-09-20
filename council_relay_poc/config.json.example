@@ -1,0 +1,11 @@
+{
+  "live_enabled": false,
+  "runner_expected_path": "/app/council_relay_poc/runner.py",
+  "runner_expected_sha256": "1b1f1fddbe9fa336851f821bccca9cc3e58ab9d039f5cb54d338b35750cbe15e",
+  "artifact_version": "v1.2",
+  "target_allowlist": [
+    "thread_123",
+    "thread_456"
+  ],
+  "db_path": "ledger.db"
+}

@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+ledger.db
+
+test-results.txt
+dry-run-result.txt
+prepare-live-result.txt
+test_payload.json
+file_list.txt
+*.zip
