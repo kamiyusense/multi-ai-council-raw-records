@@ -84,7 +84,7 @@ class Runner:
              cur.execute("SELECT state FROM requests WHERE task_id = ? AND seq = ? AND target_thread = ?", (task_id, seq, target_thread))
              row = cur.fetchone()
              if row:
-                 state = row['state']
+                 state = row[0]
                  if state in ['UNKNOWN', 'SENT', 'RESERVED']:
                      return "BLOCKED", "AUTO_RETRY_PROHIBITED"
         except Exception:
@@ -164,6 +164,12 @@ class Runner:
             if self.config.get("mock_backend_readback_fail", False):
                  self.ledger.update_state(req_id, "UNKNOWN", error_code="READBACK_FAIL")
                  return "UNKNOWN", "READBACK_FAIL"
+            self.ledger.update_state(req_id, "SIMULATED_DELIVERED", receipt=json.dumps(res))
+            return "SIMULATED_DELIVERED", "SUCCESS"
+
+        elif self.transport_mode == "dry-run":
+            self.ledger.update_state(req_id, "DRY_RUN_COMPLETED", receipt=json.dumps(res))
+            return "DRY_RUN_COMPLETED", "SUCCESS"
 
         self.ledger.update_state(req_id, "COMPLETED")
         self.ledger.update_state(req_id, "DELIVERED", receipt=json.dumps(res))

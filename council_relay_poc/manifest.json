@@ -1,8 +1,6 @@
 {
-  "project": "Council Relay POC",
-  "version": "1.2.5",
-  "author": "Jules",
-  "description": "Council Relay POC single canonical runner (v1.2.5 - Official CodexClient adapter strict implementation)",
-  "zip_file_count": 1,
-  "hashed_file_count": 21
+  "version": "1.2.7",
+  "generated_at": "2026-09-20T19:00:00Z",
+  "name": "Council Relay POC",
+  "description": "Static Final Cleanup for POC 1.2"
 }
