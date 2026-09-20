@@ -1,2 +1,0 @@
-Checked OpenAI Codex commit: 5c5308fc9a9ee789049d646ef11e5400384b9c6f
-TurnStartParams includes fields such as `model`, `effort`, `approvalPolicy`, `approvalsReviewer`, etc. These will be strictly guarded against overrides.

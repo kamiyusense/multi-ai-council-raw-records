@@ -1,8 +1,8 @@
 {
-  "version": "v1.2.2",
-  "name": "Council Relay POC v1.2.2 - Jules Rebuild Fixed",
-  "static_capability": true,
-  "live_capability": "lazy_initialized_but_blocked",
-  "live_enabled_default": false,
-  "file_count": 22
+  "project": "Council Relay POC",
+  "version": "1.2.5",
+  "author": "Jules",
+  "description": "Council Relay POC single canonical runner (v1.2.5 - Official CodexClient adapter strict implementation)",
+  "zip_file_count": 1,
+  "hashed_file_count": 21
 }

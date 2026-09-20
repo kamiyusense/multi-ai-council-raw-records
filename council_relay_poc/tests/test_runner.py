@@ -91,7 +91,7 @@ def test_approval_request_fail_closed(tmp_path):
         "live_enabled": False,
         "runner_expected_path": actual_runner_path,
         "runner_expected_sha256": actual_hash,
-        "artifact_version": "v1.2.2",
+        "artifact_version": "v1.2.3",
         "target_allowlist": ["thread_123"],
         "db_path": str(db_path)
     }
@@ -102,7 +102,6 @@ def test_approval_request_fail_closed(tmp_path):
     status, detail = r.execute(payload, "task1", 1, "thread_123")
     assert status == "BLOCKED"
     assert detail == "APPROVAL_FAIL_CLOSED"
-    # Doesn't auto accept/deny
 
 def test_duplicate(tmp_path):
     config_path = tmp_path / "config.json"
@@ -116,7 +115,7 @@ def test_duplicate(tmp_path):
         "live_enabled": False,
         "runner_expected_path": actual_runner_path,
         "runner_expected_sha256": actual_hash,
-        "artifact_version": "v1.2.2",
+        "artifact_version": "v1.2.3",
         "target_allowlist": ["thread_123"],
         "db_path": str(db_path)
     }
@@ -142,7 +141,7 @@ def test_message_conflict(tmp_path):
         "live_enabled": False,
         "runner_expected_path": actual_runner_path,
         "runner_expected_sha256": actual_hash,
-        "artifact_version": "v1.2.2",
+        "artifact_version": "v1.2.3",
         "target_allowlist": ["thread_123"],
         "db_path": str(db_path)
     }
@@ -166,7 +165,7 @@ def test_runner_path_mismatch(tmp_path):
         "live_enabled": False,
         "runner_expected_path": "/fake/path/runner.py",
         "runner_expected_sha256": "fakehash",
-        "artifact_version": "v1.2.2",
+        "artifact_version": "v1.2.3",
         "target_allowlist": ["thread_123"],
         "db_path": str(db_path)
     }
@@ -188,7 +187,7 @@ def test_runner_hash_mismatch(tmp_path):
         "live_enabled": False,
         "runner_expected_path": actual_runner_path,
         "runner_expected_sha256": "wronghash",
-        "artifact_version": "v1.2.2",
+        "artifact_version": "v1.2.3",
         "target_allowlist": ["thread_123"],
         "db_path": str(db_path)
     }
@@ -211,7 +210,7 @@ def test_live_enabled_false_live_block(tmp_path):
         "live_enabled": False,
         "runner_expected_path": actual_runner_path,
         "runner_expected_sha256": actual_hash,
-        "artifact_version": "v1.2.2",
+        "artifact_version": "v1.2.3",
         "target_allowlist": ["thread_123"],
         "db_path": str(db_path)
     }
@@ -234,7 +233,7 @@ def test_allowlist_block(tmp_path):
         "live_enabled": True,
         "runner_expected_path": actual_runner_path,
         "runner_expected_sha256": actual_hash,
-        "artifact_version": "v1.2.2",
+        "artifact_version": "v1.2.3",
         "target_allowlist": ["thread_abc"],
         "db_path": str(db_path)
     }
@@ -257,7 +256,7 @@ def test_metadata_mismatch_block(tmp_path):
         "live_enabled": True,
         "runner_expected_path": actual_runner_path,
         "runner_expected_sha256": actual_hash,
-        "artifact_version": "v1.2.2",
+        "artifact_version": "v1.2.3",
         "target_allowlist": ["thread_123"],
         "metadata_pass": False,
         "db_path": str(db_path)
@@ -281,7 +280,7 @@ def test_busy_block(tmp_path):
         "live_enabled": True,
         "runner_expected_path": actual_runner_path,
         "runner_expected_sha256": actual_hash,
-        "artifact_version": "v1.2.2",
+        "artifact_version": "v1.2.3",
         "target_allowlist": ["thread_123"],
         "busy": True,
         "db_path": str(db_path)
@@ -305,7 +304,7 @@ def test_pre_send_failure_blocked(tmp_path):
         "live_enabled": False,
         "runner_expected_path": actual_runner_path,
         "runner_expected_sha256": actual_hash,
-        "artifact_version": "v1.2.2",
+        "artifact_version": "v1.2.3",
         "target_allowlist": ["thread_123"],
         "preflight_fail": True,
         "db_path": str(db_path)
@@ -329,7 +328,7 @@ def test_crash_after_accepted_unknown(tmp_path):
         "live_enabled": False,
         "runner_expected_path": actual_runner_path,
         "runner_expected_sha256": actual_hash,
-        "artifact_version": "v1.2.2",
+        "artifact_version": "v1.2.3",
         "target_allowlist": ["thread_123"],
         "crash_after_send": True,
         "db_path": str(db_path)
@@ -353,7 +352,7 @@ def test_completed_readback_fail_unknown(tmp_path):
         "live_enabled": False,
         "runner_expected_path": actual_runner_path,
         "runner_expected_sha256": actual_hash,
-        "artifact_version": "v1.2.2",
+        "artifact_version": "v1.2.3",
         "target_allowlist": ["thread_123"],
         "mock_backend_readback_fail": True,
         "db_path": str(db_path)
@@ -394,9 +393,8 @@ def test_monotonic_state(tmp_path):
     assert ledger.update_state(req_id, "UNKNOWN") is False # terminal state
 
 def test_lazy_loading(tmp_path):
-    # Ensure openai isn't already loaded by chance
-    if "openai" in sys.modules:
-        del sys.modules["openai"]
+    if "openai_codex" in sys.modules:
+        del sys.modules["openai_codex"]
 
     config_path = tmp_path / "config.json"
     db_path = tmp_path / "ledger.db"
@@ -409,7 +407,7 @@ def test_lazy_loading(tmp_path):
         "live_enabled": False,
         "runner_expected_path": actual_runner_path,
         "runner_expected_sha256": actual_hash,
-        "artifact_version": "v1.2.2",
+        "artifact_version": "v1.2.3",
         "target_allowlist": ["thread_123"],
         "db_path": str(db_path)
     }
@@ -421,19 +419,19 @@ def test_lazy_loading(tmp_path):
     r = Runner(str(config_path), "dry-run")
     r.execute(payload, "task_dry", 1, "thread_123")
     assert not isinstance(getattr(r, 'transport', None), LiveAppServerTransport)
-    assert "openai" not in sys.modules
+    assert "openai_codex" not in sys.modules
 
     # Mock
     r = Runner(str(config_path), "mock")
     r.execute(payload, "task_mock", 1, "thread_123")
     assert not isinstance(getattr(r, 'transport', None), LiveAppServerTransport)
-    assert "openai" not in sys.modules
+    assert "openai_codex" not in sys.modules
 
     # Prepare Live
     r = Runner(str(config_path), "prepare-live")
     r.execute(payload, "task_prep", 1, "thread_123")
     assert not isinstance(getattr(r, 'transport', None), LiveAppServerTransport)
-    assert "openai" not in sys.modules
+    assert "openai_codex" not in sys.modules
 
 def test_no_auto_retry(tmp_path):
     config_path = tmp_path / "config.json"
@@ -447,7 +445,7 @@ def test_no_auto_retry(tmp_path):
         "live_enabled": False,
         "runner_expected_path": actual_runner_path,
         "runner_expected_sha256": actual_hash,
-        "artifact_version": "v1.2.2",
+        "artifact_version": "v1.2.3",
         "target_allowlist": ["thread_123"],
         "crash_after_send": True,
         "db_path": str(db_path)
@@ -468,10 +466,8 @@ def test_concurrent_reservation(tmp_path):
     ledger1 = Ledger(str(db_path))
     ledger2 = Ledger(str(db_path))
 
-    # Simulate concurrency by locking manually
     ledger1.conn.execute('BEGIN EXCLUSIVE')
 
-    # Second should fail immediately due to timeout / lock
     ok, res = ledger2.record_reservation("task1", 1, "thread_123", "turn/start", "hash", "msg1")
     assert not ok
     assert res == "DATABASE_LOCKED"
@@ -490,7 +486,7 @@ def test_runner_provenance_logged(tmp_path):
         "live_enabled": False,
         "runner_expected_path": actual_runner_path,
         "runner_expected_sha256": actual_hash,
-        "artifact_version": "v1.2.2",
+        "artifact_version": "v1.2.3",
         "target_allowlist": ["thread_123"],
         "db_path": str(db_path)
     }
@@ -500,7 +496,6 @@ def test_runner_provenance_logged(tmp_path):
     r = Runner(str(config_path), "mock")
     r.execute(payload, "task1", 1, "thread_123")
 
-    # Check db manually
     import sqlite3
     conn = sqlite3.connect(str(db_path))
     conn.row_factory = sqlite3.Row
@@ -508,5 +503,31 @@ def test_runner_provenance_logged(tmp_path):
 
     assert row["runner_path"] == actual_runner_path
     assert row["runner_sha256"] == actual_hash
-    assert row["artifact_version"] == "v1.2.2"
+    assert row["artifact_version"] == "v1.2.3"
     assert row["cwd"] is not None
+
+def test_live_execution_default_and_blocks(tmp_path):
+    config_path = tmp_path / "config.json"
+    db_path = tmp_path / "ledger.db"
+
+    import runner
+    actual_runner_path = os.path.abspath(runner.__file__)
+    actual_hash = get_hash(actual_runner_path)
+
+    # Do not provide live_enabled or live_execution_permitted in config -> defaults to false
+    config = {
+        "runner_expected_path": actual_runner_path,
+        "runner_expected_sha256": actual_hash,
+        "artifact_version": "v1.2.4",
+        "target_allowlist": ["thread_123"],
+        "db_path": str(db_path)
+    }
+    config_path.write_text(json.dumps(config))
+
+    payload = {"method": "turn/start", "params": {"threadId": "123", "input": []}}
+
+    r = Runner(str(config_path), "live")
+    status, detail = r.execute(payload, "task_live", 1, "thread_123")
+
+    assert status == "BLOCKED"
+    assert detail == "LIVE_DISABLED"
